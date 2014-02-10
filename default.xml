@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remote  name="aosp"
+  <remote name="aosp"
           fetch="../../../mirror/aosp" />
+
+  <!-- ssh://git@192.168.1.235/nexell/linux -->
+  <remote name="nexell_linux"
+          fetch="../../linux" />
+
   <default revision="refs/tags/android-4.4.2_r1"
            remote="aosp"
            sync-j="4" />
@@ -427,5 +432,10 @@
   <project path="tools/motodev" name="platform/tools/motodev" groups="notdefault,motodev" />
   <project path="tools/studio/cloud" name="platform/tools/studio/cloud" groups="notdefault,tools" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
+
+  <!-- nexell_linux: prototype, u-boot, kernel -->
+  <project path="prototype" name="prototype/pyrope" groups="device" remote="nexell_linux" revision="master" />
+  <project path="u-boot" name="u-boot/u-boot-2013.x" groups="device" remote="nexell_linux" revision="master" />
+  <project path="kernel" name="kernel/kernel-3.4.x" groups="device" remote="nexell_linux" revision="master" />
 
 </manifest>
