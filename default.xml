@@ -441,6 +441,8 @@
   <project path="prototype" name="prototype/pyrope" groups="device" remote="nexell_linux" revision="master" />
   <project path="u-boot" name="u-boot/u-boot-2013.x" groups="device" remote="nexell_linux" revision="master" />
   <project path="kernel" name="kernel/kernel-3.4.x" groups="device" remote="nexell_linux" revision="master" />
+  <project path="nexell_linux/library" name="library" groups="device" remote="nexell_linux" revision="master" />
+  <project path="nexell_linux/modules" name="modules" groups="device" remote="nexell_linux" revision="master" />
 
   <!-- AOSP fix for Nexell -->
   <project path="external/wpa_supplicant_8" name="platform/external/wpa_supplicant_8" groups="pdk" remote="nexell" revision="kitkat-mr1-dev" />
