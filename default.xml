@@ -447,7 +447,7 @@
   <project path="linux/kernel/kernel-3.4.x" name="kernel/kernel-3.4.x" groups="device" remote="nexell_linux" revision="master" />
   <project path="linux/pyrope" name="pyrope" groups="device" remote="nexell_linux" revision="master" />
 
-  <<project path="nexell_linux/library" name="library" groups="device" remote="nexell_linux" revision="master" />
+  <project path="nexell_linux/library" name="library" groups="device" remote="nexell_linux" revision="master" />
   <project path="nexell_linux/modules" name="modules" groups="device" remote="nexell_linux" revision="master" />
 
   <!-- AOSP fix for Nexell -->
