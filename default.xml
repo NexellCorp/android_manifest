@@ -464,5 +464,6 @@
   <project path="vendor/google/gapps" name="vendor/google/gapps" groups="pdk" remote="nexell" revision="kitkat-mr1-pyrope-dev" />
 
   <project path="device/nexell/secret" name="device/nexell/secret" groups="device" remote="nexell" revision="kitkat-mr1-pyrope-dev" />
+  <project path="device/nexell/NBOX" name="device/nexell/NBOX" groups="device" remote="nexell" revision="kitkat-mr1-pyrope-dev" />
 
 </manifest>
