@@ -462,6 +462,5 @@
   <project path="hardware/realtek" name="platform/hardware/realtek" groups="pdk" remote="nexell" revision="kitkat-mr1-pyrope" />
   <project path="vendor/google/gapps" name="vendor/google/gapps" groups="pdk" remote="nexell" revision="kitkat-mr1-pyrope" />
   <project path="device/nexell/secret" name="device/nexell/secret" groups="device" remote="nexell" revision="kitkat-mr1-pyrope" />
-  <project path="device/nexell/" name="device/nexell/secret" groups="device" remote="nexell" revision="kitkat-mr1-pyrope" />
 
 </manifest>
