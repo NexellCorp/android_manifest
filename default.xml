@@ -456,7 +456,7 @@
   <!-- New projects for Nexell -->
   <project path="device/nexell/lynx" name="device/nexell/lynx" groups="device" remote="nexell" revision="kitkat-mr1-pyrope" />
   <project path="device/nexell/pyxis" name="device/nexell/pyxis" groups="device" remote="nexell" revision="kitkat-mr1-pyrope" />
- <project path="device/nexell/smartbox" name="device/nexell/smartbox" groups="device" remote="nexell" revisi    on="kitkat-mr1-pyrope" />
+ <project path="device/nexell/smartbox" name="device/nexell/smartbox" groups="device" remote="nexell" revision="kitkat-mr1-pyrope" />
    <project path="device/nexell/tools" name="device/nexell/tools" groups="device" remote="nexell" revision="kitkat-mr1-pyrope" />
   <project path="hardware/nexell/pyrope" name="platform/hardware/nexell/pyrope" groups="pdk" remote="nexell" revision="kitkat-mr1-pyrope" />
   <project path="hardware/realtek" name="platform/hardware/realtek" groups="pdk" remote="nexell" revision="kitkat-mr1-pyrope" />
