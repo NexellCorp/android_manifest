@@ -448,6 +448,7 @@
   <project path="external/wpa_supplicant_8" name="platform/external/wpa_supplicant_8" groups="pdk" remote="nexell" revision="kitkat-mr1-pyrope-dev" />
   <project path="external/exfat" name="platform/external/exfat" groups="pdk" remote="nexell" revision="kitkat-mr1-pyrope-dev" />
   <project path="external/ntfs-3g" name="platform/external/ntfs-3g" groups="pdk" remote="nexell" revision="kitkat-mr1-pyrope-dev" />
+  <project path="external/fuse" name="platform/external/fuse" groups="pdk" remote="nexell" revision="kitkat-mr1-pyrope-dev" />
   <project path="hardware/libhardware" name="platform/hardware/libhardware" groups="pdk" remote="nexell" revision="kitkat-mr1-pyrope-dev" />
   <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" groups="pdk" remote="nexell" revision="kitkat-mr1-pyrope-dev" />
   <project path="frameworks/av" name="platform/frameworks/av" groups="pdk" remote="nexell" revision="kitkat-mr1-pyrope-dev" />
