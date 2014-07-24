@@ -424,7 +424,7 @@
   <project path="system/media" name="platform/system/media" groups="pdk" />
   <project path="system/netd" name="platform/system/netd" groups="pdk" />
   <project path="system/security" name="platform/system/security" groups="pdk" />
-  <project path="system/vold" name="platform/system/vold" groups="pdk" />
+  <!--<project path="system/vold" name="platform/system/vold" groups="pdk" />-->
   <project path="tools/adt/eclipse" name="platform/tools/adt/eclipse" groups="notdefault,tools" />
   <project path="tools/adt/idea" name="platform/tools/adt/idea" groups="notdefault,tools" />
   <project path="tools/base" name="platform/tools/base" groups="notdefault,tools" />
@@ -459,6 +459,7 @@
   <project path="packages/apps/Camera2" name="platform/packages/apps/Camera2"  remote="nexell" revision="kitkat-mr1-pyrope-dev" />
   <project path="packages/apps/OTAUpdateCenter" name="platform/packages/apps/OTAUpdateCenter"  remote="nexell" revision="kitkat-mr1-pyrope-dev" />
   <project path="packages/apps/Mira4U" name="platform/packages/apps/Mira4U"  remote="nexell" revision="kitkat-mr1-pyrope-dev" />
+  <project path="system/vold" name="platform/system/vold" remote="nexell" revision="kitkat-mr1-pyrope-dev" />
 
   <!-- New projects for Nexell -->
   <project path="device/nexell/lynx" name="device/nexell/lynx" groups="device" remote="nexell" revision="kitkat-mr1-pyrope-dev" />
