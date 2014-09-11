@@ -476,5 +476,6 @@
   <project path="device/nexell/NBOX" name="device/nexell/NBOX" groups="device" remote="nexell" revision="kitkat-mr1-pyrope-dev" />
   <project path="device/nexell/drone" name="device/nexell/drone" groups="device" remote="nexell" revision="kitkat-mr1-pyrope-dev" />
   <project path="device/nexell/kar" name="device/nexell/kar" groups="device" remote="nexell" revision="kitkat-mr1-pyrope-dev" />
+  <project path="device/nexell/vtk" name="device/nexell/vtk" groups="device" remote="nexell" revision="kitkat-mr1-pyrope-dev" />
 
 </manifest>
