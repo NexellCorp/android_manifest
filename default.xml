@@ -438,45 +438,45 @@
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
 
   <!-- nexell_linux: prototype, u-boot, kernel -->
-  <project path="linux/prototype/pyrope" name="prototype/pyrope" groups="device" remote="nexell_linux" revision="linux-pyrope-dev" />
-  <project path="linux/bootloader/u-boot-2013.x" name="u-boot/u-boot-2013.x" groups="device" remote="nexell_linux" revision="linux-pyrope-dev" />
-  <project path="linux/kernel/kernel-3.4.x" name="kernel/kernel-3.4.x" groups="device" remote="nexell_linux" revision="linux-pyrope-dev" />
-  <project path="linux/kernel/kernel-3.4.39" name="kernel/kernel-3.4.39" groups="device" remote="nexell_linux" revision="linux-pyrope-dev" />
-  <project path="linux/pyrope" name="pyrope" groups="device" remote="nexell_linux" revision="linux-pyrope-dev" />
+  <project path="linux/prototype/pyrope" name="prototype/pyrope" groups="device" remote="nexell_linux" revision="linux-dev" />
+  <project path="linux/bootloader/u-boot-2013.x" name="u-boot/u-boot-2013.x" groups="device" remote="nexell_linux" revision="linux-dev" />
+  <project path="linux/kernel/kernel-3.4.x" name="kernel/kernel-3.4.x" groups="device" remote="nexell_linux" revision="linux-dev" />
+  <project path="linux/kernel/kernel-3.4.39" name="kernel/kernel-3.4.39" groups="device" remote="nexell_linux" revision="linux-dev" />
+  <project path="linux/platform/pyrope" name="pyrope" groups="device" remote="nexell_linux" revision="linux-dev" />
 
   <!-- AOSP fix for Nexell -->
-  <project path="external/wpa_supplicant_8" name="platform/external/wpa_supplicant_8" groups="pdk" remote="nexell" revision="kitkat-mr1-pyrope-dev" />
-  <project path="external/exfat" name="platform/external/exfat" groups="pdk" remote="nexell" revision="kitkat-mr1-pyrope-dev" />
-  <project path="external/ntfs-3g" name="platform/external/ntfs-3g" groups="pdk" remote="nexell" revision="kitkat-mr1-pyrope-dev" />
-  <project path="external/fuse" name="platform/external/fuse" groups="pdk" remote="nexell" revision="kitkat-mr1-pyrope-dev" />
-  <project path="hardware/libhardware" name="platform/hardware/libhardware" groups="pdk" remote="nexell" revision="kitkat-mr1-pyrope-dev" />
-  <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" groups="pdk" remote="nexell" revision="kitkat-mr1-pyrope-dev" />
-  <project path="frameworks/av" name="platform/frameworks/av" groups="pdk" remote="nexell" revision="kitkat-mr1-pyrope-dev" />
-  <project path="frameworks/native" name="platform/frameworks/native" groups="pdk" remote="nexell" revision="kitkat-mr1-pyrope-dev" />
-  <project path="frameworks/base" name="platform/frameworks/base" remote="nexell" revision="kitkat-mr1-pyrope-dev" />
-  <project path="system/core" name="platform/system/core" groups="pdk" remote="nexell" revision="kitkat-mr1-pyrope-dev" />
-  <project path="packages/apps/Settings" name="platform/packages/apps/Settings" remote="nexell" revision="kitkat-mr1-pyrope-dev" />
-  <project path="packages/apps/Camera2" name="platform/packages/apps/Camera2"  remote="nexell" revision="kitkat-mr1-pyrope-dev" />
-  <project path="packages/apps/OTAUpdateCenter" name="platform/packages/apps/OTAUpdateCenter"  remote="nexell" revision="kitkat-mr1-pyrope-dev" />
-  <project path="packages/apps/Mira4U" name="platform/packages/apps/Mira4U"  remote="nexell" revision="kitkat-mr1-pyrope-dev" />
-  <project path="system/vold" name="platform/system/vold" remote="nexell" revision="kitkat-mr1-pyrope-dev" />
+  <project path="external/wpa_supplicant_8" name="platform/external/wpa_supplicant_8" groups="pdk" remote="nexell" revision="kitkat-dev" />
+  <project path="external/exfat" name="platform/external/exfat" groups="pdk" remote="nexell" revision="kitkat-dev" />
+  <project path="external/ntfs-3g" name="platform/external/ntfs-3g" groups="pdk" remote="nexell" revision="kitkat-dev" />
+  <project path="external/fuse" name="platform/external/fuse" groups="pdk" remote="nexell" revision="kitkat-dev" />
+  <project path="hardware/libhardware" name="platform/hardware/libhardware" groups="pdk" remote="nexell" revision="kitkat-dev" />
+  <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" groups="pdk" remote="nexell" revision="kitkat-dev" />
+  <project path="frameworks/av" name="platform/frameworks/av" groups="pdk" remote="nexell" revision="kitkat-dev" />
+  <project path="frameworks/native" name="platform/frameworks/native" groups="pdk" remote="nexell" revision="kitkat-dev" />
+  <project path="frameworks/base" name="platform/frameworks/base" remote="nexell" revision="kitkat-dev" />
+  <project path="system/core" name="platform/system/core" groups="pdk" remote="nexell" revision="kitkat-dev" />
+  <project path="packages/apps/Settings" name="platform/packages/apps/Settings" remote="nexell" revision="kitkat-dev" />
+  <project path="packages/apps/Camera2" name="platform/packages/apps/Camera2"  remote="nexell" revision="kitkat-dev" />
+  <project path="packages/apps/OTAUpdateCenter" name="platform/packages/apps/OTAUpdateCenter"  remote="nexell" revision="kitkat-dev" />
+  <project path="packages/apps/Mira4U" name="platform/packages/apps/Mira4U"  remote="nexell" revision="kitkat-dev" />
+  <project path="system/vold" name="platform/system/vold" remote="nexell" revision="kitkat-dev" />
 
   <!-- New projects for Nexell -->
-  <project path="device/nexell/lynx" name="device/nexell/lynx" groups="device" remote="nexell" revision="kitkat-mr1-pyrope-dev" />
-  <project path="device/nexell/pyxis" name="device/nexell/pyxis" groups="device" remote="nexell" revision="kitkat-mr1-pyrope-dev" />
-  <project path="device/nexell/smartbox" name="device/nexell/smartbox" groups="device" remote="nexell" revision="kitkat-mr1-pyrope-dev" />
-  <project path="device/nexell/w7" name="device/nexell/w7" groups="device" remote="nexell" revision="kitkat-mr1-pyrope-dev" />
-  <project path="device/nexell/tools" name="device/nexell/tools" groups="device" remote="nexell" revision="kitkat-mr1-pyrope-dev" />
-  <project path="hardware/nexell/pyrope" name="platform/hardware/nexell/pyrope" groups="pdk" remote="nexell" revision="kitkat-mr1-pyrope-dev" />
-  <project path="hardware/realtek" name="platform/hardware/realtek" groups="pdk" remote="nexell" revision="kitkat-mr1-pyrope-dev" />
-  <project path="hardware/espressif" name="platform/hardware/espressif" groups="pdk" remote="nexell" revision="kitkat-mr1-pyrope-dev" />
-  <project path="vendor/google/gapps" name="vendor/google/gapps" groups="pdk" remote="nexell" revision="kitkat-mr1-pyrope-dev" />
+  <project path="device/nexell/lynx" name="device/nexell/lynx" groups="device" remote="nexell" revision="kitkat-dev" />
+  <project path="device/nexell/pyxis" name="device/nexell/pyxis" groups="device" remote="nexell" revision="kitkat-dev" />
+  <project path="device/nexell/smartbox" name="device/nexell/smartbox" groups="device" remote="nexell" revision="kitkat-dev" />
+  <project path="device/nexell/w7" name="device/nexell/w7" groups="device" remote="nexell" revision="kitkat-dev" />
+  <project path="device/nexell/tools" name="device/nexell/tools" groups="device" remote="nexell" revision="kitkat-dev" />
+  <project path="hardware/nexell/pyrope" name="platform/hardware/nexell/pyrope" groups="pdk" remote="nexell" revision="kitkat-dev" />
+  <project path="hardware/realtek" name="platform/hardware/realtek" groups="pdk" remote="nexell" revision="kitkat-dev" />
+  <project path="hardware/espressif" name="platform/hardware/espressif" groups="pdk" remote="nexell" revision="kitkat-dev" />
+  <project path="vendor/google/gapps" name="vendor/google/gapps" groups="pdk" remote="nexell" revision="kitkat-dev" />
 
-  <project path="device/nexell/secret" name="device/nexell/secret" groups="device" remote="nexell" revision="kitkat-mr1-pyrope-dev" />
-  <project path="device/nexell/NBOX" name="device/nexell/NBOX" groups="device" remote="nexell" revision="kitkat-mr1-pyrope-dev" />
-  <project path="device/nexell/drone" name="device/nexell/drone" groups="device" remote="nexell" revision="kitkat-mr1-pyrope-dev" />
-  <project path="device/nexell/drone2nd" name="device/nexell/drone2nd" groups="device" remote="nexell" revision="kitkat-mr1-pyrope-dev" />
-  <project path="device/nexell/kar" name="device/nexell/kar" groups="device" remote="nexell" revision="kitkat-mr1-pyrope-dev" />
-  <project path="device/nexell/vtk" name="device/nexell/vtk" groups="device" remote="nexell" revision="kitkat-mr1-pyrope-dev" />
+  <project path="device/nexell/secret" name="device/nexell/secret" groups="device" remote="nexell" revision="kitkat-dev" />
+  <project path="device/nexell/NBOX" name="device/nexell/NBOX" groups="device" remote="nexell" revision="kitkat-dev" />
+  <project path="device/nexell/drone" name="device/nexell/drone" groups="device" remote="nexell" revision="kitkat-dev" />
+  <project path="device/nexell/drone2nd" name="device/nexell/drone2nd" groups="device" remote="nexell" revision="kitkat-dev" />
+  <project path="device/nexell/kar" name="device/nexell/kar" groups="device" remote="nexell" revision="kitkat-dev" />
+  <project path="device/nexell/vtk" name="device/nexell/vtk" groups="device" remote="nexell" revision="kitkat-dev" />
 
 </manifest>
