@@ -445,7 +445,7 @@
   <project path="linux/kernel/kernel-3.4.39" name="kernel/kernel-3.4.39" groups="device" remote="nexell_linux" revision="linux-dev" />
   <project path="linux/platform/s5p4418" name="pyrope" groups="device" remote="nexell_linux" revision="linux-dev" />
   <project path="linux/platform/s5p6818" name="nxp5430" groups="device" remote="nexell_linux" revision="linux-dev" />
-  <project path="linux/platform/s5p6818" name="platform/common" groups="device" remote="nexell_linux" revision="linux-dev" />
+  <project path="linux/platform/common" name="platform/common" groups="device" remote="nexell_linux" revision="linux-dev" />
 
   <!-- AOSP fix for Nexell -->
   <project path="external/wpa_supplicant_8" name="platform/external/wpa_supplicant_8" groups="pdk" remote="nexell" revision="kitkat-dev" />
