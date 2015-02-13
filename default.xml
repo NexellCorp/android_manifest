@@ -550,5 +550,5 @@
   <project path="device/nexell/drone2_s5p4418" name="device/nexell/drone2_s5p4418" groups="device" remote="nexell_lollipop" revision="lollipop-dev" />
   <project path="device/nexell/drone_s5p6818" name="device/nexell/drone_s5p6818" groups="device" remote="nexell_lollipop" revision="lollipop-dev" />
 	<project path="device/nexell/svt_s5p6818" name="device/nexell/svt_s5p6818" groups="device" remote="nexell_lollipop" revision="lollipop-dev" />
-  <project path="device/nexell/dronel_s5p6818" name="device/nexell/dronel_s5p6818" groups="device" remote="nexell_lollipop" revision="lollipop-dev" />
+  <project path="device/nexell/dronel-s5p6818" name="device/nexell/dronel_s5p6818" groups="device" remote="nexell_lollipop" revision="lollipop-dev" />
 </manifest>
