@@ -491,5 +491,6 @@
   <project path="device/nexell/KingCobra" name="device/nexell/KingCobra" groups="device" remote="nexell" revision="kitkat-dev" />
   <project path="device/nexell/MIT4GT" name="device/nexell/MIT4GT" groups="device" remote="nexell" revision="kitkat-dev" />
   <project path="device/nexell/LEVO" name="device/nexell/LEVO" groups="device" remote="nexell" revision="kitkat-dev" />
+  <project path="device/nexell/dronel-s5p6818" name="device/nexell/dronel-s5p6818" groups="device" remote="nexell" revision="kitkat-dev" />
 
 </manifest>
