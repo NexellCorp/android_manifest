@@ -487,7 +487,6 @@
   <project path="device/nexell/svt" name="device/nexell/svt" groups="device" remote="nexell" revision="kitkat-dev" />
   <!--<project path="device/nexell/kar" name="device/nexell/kar" groups="device" remote="nexell" revision="kitkat-dev" />-->
   <!--<project path="device/nexell/vtk" name="device/nexell/vtk" groups="device" remote="nexell" revision="kitkat-dev" />-->
-  <project path="device/nexell/dronel" name="device/nexell/dronel" groups="device" remote="nexell" revision="kitkat-dev" />
   <project path="device/nexell/drone2l" name="device/nexell/drone2l" groups="device" remote="nexell" revision="kitkat-dev" />
   <project path="device/nexell/KingCobra" name="device/nexell/KingCobra" groups="device" remote="nexell" revision="kitkat-dev" />
   <project path="device/nexell/MIT4GT" name="device/nexell/MIT4GT" groups="device" remote="nexell" revision="kitkat-dev" />
