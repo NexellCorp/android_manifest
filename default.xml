@@ -504,7 +504,7 @@
   <project path="system/media" name="platform/system/media" groups="pdk" />
   <project path="system/netd" name="platform/system/netd" groups="pdk" />
   <project path="system/security" name="platform/system/security" groups="pdk" />
-  <project path="system/vold" name="platform/system/vold" groups="pdk" />
+  <!--<project path="system/vold" name="platform/system/vold" groups="pdk" />-->
   <project path="tools/adt/eclipse" name="platform/tools/adt/eclipse" groups="notdefault,tools" />
   <project path="tools/adt/idea" name="platform/tools/adt/idea" groups="notdefault,tools" />
   <project path="tools/base" name="platform/tools/base" groups="notdefault,tools" />
@@ -537,6 +537,7 @@
   <project path="frameworks/native" name="platform/frameworks/native" groups="pdk" remote="nexell_lollipop" revision="lollipop-dev" />
   <project path="frameworks/base" name="platform/frameworks/base" remote="nexell_lollipop" revision="lollipop-dev" />
   <project path="packages/apps/Camera2" name="platform/apps/Camera2"  remote="nexell_lollipop" revision="lollipop-dev" />
+  <project path="system/vold" name="platform/system/vold" remote="nexell_lollipop" revision="lollipop-dev" />
 
   <!-- New projects for Nexell -->
   <project path="device/nexell/tools-lollipop" name="device/nexell/tools" groups="device" remote="nexell_aosp" revision="aosp-nexell-tools" />
