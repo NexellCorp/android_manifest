@@ -480,17 +480,17 @@
   <!--<project path="device/nexell/w7" name="device/nexell/w7" groups="device" remote="nexell" revision="kitkat-4418-release" />-->
   <!--<project path="device/nexell/secret" name="device/nexell/secret" groups="device" remote="nexell" revision="kitkat-4418-release" />-->
   <!--<project path="device/nexell/NBOX" name="device/nexell/NBOX" groups="device" remote="nexell" revision="kitkat-4418-release" />-->
-  <project path="device/nexell/drone" name="device/nexell/drone" groups="device" remote="nexell" revision="kitkat-4418-release" />
+ <!--<project path="device/nexell/drone" name="device/nexell/drone" groups="device" remote="nexell" revision="kitkat-4418-release" />-->
   <project path="device/nexell/lepus" name="device/nexell/lepus" groups="device" remote="nexell" revision="kitkat-4418-release" />
   <project path="device/nexell/drone2_s5p4418" name="device/nexell/drone2_s5p4418" groups="device" remote="nexell" revision="kitkat-4418-release" />
   <project path="device/nexell/drone_s5p6818" name="device/nexell/drone_s5p6818" groups="device" remote="nexell" revision="kitkat-4418-release" />
   <project path="device/nexell/svt" name="device/nexell/svt" groups="device" remote="nexell" revision="kitkat-4418-release" />
   <!--<project path="device/nexell/kar" name="device/nexell/kar" groups="device" remote="nexell" revision="kitkat-4418-release" />-->
   <!--<project path="device/nexell/vtk" name="device/nexell/vtk" groups="device" remote="nexell" revision="kitkat-4418-release" />-->
-  <project path="device/nexell/drone2l" name="device/nexell/drone2l" groups="device" remote="nexell" revision="kitkat-4418-release" />
-  <project path="device/nexell/KingCobra" name="device/nexell/KingCobra" groups="device" remote="nexell" revision="kitkat-4418-release" />
-  <project path="device/nexell/MIT4GT" name="device/nexell/MIT4GT" groups="device" remote="nexell" revision="kitkat-4418-release" />
-  <project path="device/nexell/LEVO" name="device/nexell/LEVO" groups="device" remote="nexell" revision="kitkat-4418-release" />
+  <!--<project path="device/nexell/drone2l" name="device/nexell/drone2l" groups="device" remote="nexell" revision="kitkat-4418-release" />-->
+  <!--<project path="device/nexell/KingCobra" name="device/nexell/KingCobra" groups="device" remote="nexell" revision="kitkat-4418-release" />-->
+  <!--<project path="device/nexell/MIT4GT" name="device/nexell/MIT4GT" groups="device" remote="nexell" revision="kitkat-4418-release" />-->
+  <!--<project path="device/nexell/LEVO" name="device/nexell/LEVO" groups="device" remote="nexell" revision="kitkat-4418-release" />-->
   <project path="device/nexell/dronel-s5p6818" name="device/nexell/dronel-s5p6818" groups="device" remote="nexell" revision="kitkat-4418-release" />
   <project path="device/nexell/dronel_s5p4418" name="device/nexell/dronel_s5p4418" groups="device" remote="nexell" revision="kitkat-4418-release" />
 
