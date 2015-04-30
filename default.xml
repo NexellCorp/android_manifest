@@ -248,7 +248,7 @@
   <project path="external/zlib" name="platform/external/zlib" groups="pdk" />
   <project path="external/zxing" name="platform/external/zxing" />
   <!--<project path="frameworks/av" name="platform/frameworks/av" groups="pdk" />-->
-  <!--<project path="frameworks/base" name="platform/frameworks/base" />-->
+  <project path="frameworks/base" name="platform/frameworks/base" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" />
@@ -438,60 +438,60 @@
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
 
   <!-- nexell_linux: prototype, u-boot, kernel -->
- <project path="linux/prototype/s5p4418" name="prototype/pyrope" groups="device" remote="nexell_linux" revision="linux-dev" />
-  <project path="linux/prototype/s5p6818" name="prototype/nxp5430" groups="device" remote="nexell_linux" revision="linux-dev" />
-  <project path="linux/bootloader/u-boot-2014.07" name="u-boot/u-boot-2014.07" groups="device" remote="nexell_linux" revision="linux-dev" />
-  <project path="linux/bootloader/2ndboot/s5p4418" name="2ndboot/s5p4418" groups="device" remote="nexell_linux" revision="linux-dev" />
-  <project path="linux/bootloader/2ndboot/s5p6818" name="2ndboot/s5p6818" groups="device" remote="nexell_linux" revision="linux-dev" />
-  <!--<project path="linux/bootloader/u-boot-2013.x" name="u-boot/u-boot-2013.x" groups="device" remote="nexell_linux" revision="linux-dev" />-->
-  <project path="linux/kernel/kernel-3.4.39" name="kernel/kernel-3.4.39" groups="device" remote="nexell_linux" revision="linux-dev" />
-  <project path="linux/platform/s5p4418" name="pyrope" groups="device" remote="nexell_linux" revision="linux-dev" />
-  <project path="linux/platform/s5p6818" name="nxp5430" groups="device" remote="nexell_linux" revision="linux-dev" />
-  <project path="linux/platform/common" name="platform/common" groups="device" remote="nexell_linux" revision="linux-dev" />
+ <project path="linux/prototype/s5p4418" name="prototype/pyrope" groups="device" remote="nexell_linux" revision="linux-4418-release" />
+  <project path="linux/prototype/s5p6818" name="prototype/nxp5430" groups="device" remote="nexell_linux" revision="linux-4418-release" />
+  <project path="linux/bootloader/u-boot-2014.07" name="u-boot/u-boot-2014.07" groups="device" remote="nexell_linux" revision="linux-4418-release" />
+  <!--<project path="linux/bootloader/2ndboot/s5p4418" name="2ndboot/s5p4418" groups="device" remote="nexell_linux" revision="linux-4418-release" />-->
+  <!--<project path="linux/bootloader/2ndboot/s5p6818" name="2ndboot/s5p6818" groups="device" remote="nexell_linux" revision="linux-4418-release" />-->
+  <!--<project path="linux/bootloader/u-boot-2013.x" name="u-boot/u-boot-2013.x" groups="device" remote="nexell_linux" revision="linux-4418-release" />-->
+  <project path="linux/kernel/kernel-3.4.39" name="kernel/kernel-3.4.39" groups="device" remote="nexell_linux" revision="linux-4418-release" />
+  <project path="linux/platform/s5p4418" name="pyrope" groups="device" remote="nexell_linux" revision="linux-4418-release" />
+  <project path="linux/platform/s5p6818" name="nxp5430" groups="device" remote="nexell_linux" revision="linux-4418-release" />
+  <project path="linux/platform/common" name="platform/common" groups="device" remote="nexell_linux" revision="linux-4418-release" />
 
   <!-- AOSP fix for Nexell -->
-  <project path="external/wpa_supplicant_8" name="platform/external/wpa_supplicant_8" groups="pdk" remote="nexell" revision="kitkat-dev" />
-  <project path="external/exfat" name="platform/external/exfat" groups="pdk" remote="nexell" revision="kitkat-dev" />
-  <project path="external/ntfs-3g" name="platform/external/ntfs-3g" groups="pdk" remote="nexell" revision="kitkat-dev" />
-  <project path="external/fuse" name="platform/external/fuse" groups="pdk" remote="nexell" revision="kitkat-dev" />
-  <project path="hardware/libhardware" name="platform/hardware/libhardware" groups="pdk" remote="nexell" revision="kitkat-dev" />
-  <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" groups="pdk" remote="nexell" revision="kitkat-dev" />
-  <project path="frameworks/av" name="platform/frameworks/av" groups="pdk" remote="nexell" revision="kitkat-dev" />
-  <project path="frameworks/native" name="platform/frameworks/native" groups="pdk" remote="nexell" revision="kitkat-dev" />
-  <project path="frameworks/base" name="platform/frameworks/base" remote="nexell" revision="kitkat-dev" />
-  <project path="system/core" name="platform/system/core" groups="pdk" remote="nexell" revision="kitkat-dev" />
-  <project path="packages/apps/Settings" name="platform/packages/apps/Settings" remote="nexell" revision="kitkat-dev" />
-  <project path="packages/apps/Camera2" name="platform/packages/apps/Camera2"  remote="nexell" revision="kitkat-dev" />
-  <project path="packages/apps/OTAUpdateCenter" name="platform/packages/apps/OTAUpdateCenter"  remote="nexell" revision="kitkat-dev" />
-  <project path="packages/apps/Mira4U" name="platform/packages/apps/Mira4U"  remote="nexell" revision="kitkat-dev" />
-  <project path="system/vold" name="platform/system/vold" remote="nexell" revision="kitkat-dev" />
+  <project path="external/wpa_supplicant_8" name="platform/external/wpa_supplicant_8" groups="pdk" remote="nexell" revision="kitkat-4418-release" />
+  <project path="external/exfat" name="platform/external/exfat" groups="pdk" remote="nexell" revision="kitkat-4418-release" />
+  <project path="external/ntfs-3g" name="platform/external/ntfs-3g" groups="pdk" remote="nexell" revision="kitkat-4418-release" />
+  <project path="external/fuse" name="platform/external/fuse" groups="pdk" remote="nexell" revision="kitkat-4418-release" />
+  <project path="hardware/libhardware" name="platform/hardware/libhardware" groups="pdk" remote="nexell" revision="kitkat-4418-release" />
+  <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" groups="pdk" remote="nexell" revision="kitkat-4418-release" />
+  <project path="frameworks/av" name="platform/frameworks/av" groups="pdk" remote="nexell" revision="kitkat-4418-release" />
+  <project path="frameworks/native" name="platform/frameworks/native" groups="pdk" remote="nexell" revision="kitkat-4418-release" />
+  <project path="frameworks/base" name="platform/frameworks/base" remote="nexell" revision="kitkat-4418-release" />
+  <project path="system/core" name="platform/system/core" groups="pdk" remote="nexell" revision="kitkat-4418-release" />
+  <project path="packages/apps/Settings" name="platform/packages/apps/Settings" remote="nexell" revision="kitkat-4418-release" />
+  <project path="packages/apps/Camera2" name="platform/packages/apps/Camera2"  remote="nexell" revision="kitkat-4418-release" />
+  <project path="packages/apps/OTAUpdateCenter" name="platform/packages/apps/OTAUpdateCenter"  remote="nexell" revision="kitkat-4418-release" />
+  <project path="packages/apps/Mira4U" name="platform/packages/apps/Mira4U"  remote="nexell" revision="kitkat-4418-release" />
+  <project path="system/vold" name="platform/system/vold" remote="nexell" revision="kitkat-4418-release" />
 
   <!-- New projects for Nexell -->
-  <project path="device/nexell/tools" name="device/nexell/tools" groups="device" remote="nexell" revision="kitkat-dev" />
-  <project path="hardware/samsung_slsi/slsiap" name="platform/hardware/samsung_slsi/slsiap" groups="pdk" remote="nexell" revision="kitkat-dev" />
-  <project path="hardware/realtek" name="platform/hardware/realtek" groups="pdk" remote="nexell" revision="kitkat-dev" />
-  <project path="hardware/espressif" name="platform/hardware/espressif" groups="pdk" remote="nexell" revision="kitkat-dev" />
-  <project path="vendor/google/gapps" name="vendor/google/gapps" groups="pdk" remote="nexell" revision="kitkat-dev" />
+  <project path="device/nexell/tools" name="device/nexell/tools" groups="device" remote="nexell" revision="kitkat-4418-release" />
+  <project path="hardware/samsung_slsi/slsiap" name="platform/hardware/samsung_slsi/slsiap" groups="pdk" remote="nexell" revision="kitkat-4418-release" />
+  <project path="hardware/realtek" name="platform/hardware/realtek" groups="pdk" remote="nexell" revision="kitkat-4418-release" />
+  <project path="hardware/espressif" name="platform/hardware/espressif" groups="pdk" remote="nexell" revision="kitkat-4418-release" />
+  <project path="vendor/google/gapps" name="vendor/google/gapps" groups="pdk" remote="nexell" revision="kitkat-4418-release" />
 
   <!-- boards -->
-  <!--<project path="device/nexell/lynx" name="device/nexell/lynx" groups="device" remote="nexell" revision="kitkat-dev" />-->
-  <!--<project path="device/nexell/pyxis" name="device/nexell/pyxis" groups="device" remote="nexell" revision="kitkat-dev" />-->
-  <!--<project path="device/nexell/smartbox" name="device/nexell/smartbox" groups="device" remote="nexell" revision="kitkat-dev" />-->
-  <!--<project path="device/nexell/w7" name="device/nexell/w7" groups="device" remote="nexell" revision="kitkat-dev" />-->
-  <!--<project path="device/nexell/secret" name="device/nexell/secret" groups="device" remote="nexell" revision="kitkat-dev" />-->
-  <!--<project path="device/nexell/NBOX" name="device/nexell/NBOX" groups="device" remote="nexell" revision="kitkat-dev" />-->
-  <project path="device/nexell/drone" name="device/nexell/drone" groups="device" remote="nexell" revision="kitkat-dev" />
-  <project path="device/nexell/lepus" name="device/nexell/lepus" groups="device" remote="nexell" revision="kitkat-dev" />
-  <project path="device/nexell/drone2_s5p4418" name="device/nexell/drone2_s5p4418" groups="device" remote="nexell" revision="kitkat-dev" />
-  <project path="device/nexell/drone_s5p6818" name="device/nexell/drone_s5p6818" groups="device" remote="nexell" revision="kitkat-dev" />
-  <project path="device/nexell/svt" name="device/nexell/svt" groups="device" remote="nexell" revision="kitkat-dev" />
-  <!--<project path="device/nexell/kar" name="device/nexell/kar" groups="device" remote="nexell" revision="kitkat-dev" />-->
-  <!--<project path="device/nexell/vtk" name="device/nexell/vtk" groups="device" remote="nexell" revision="kitkat-dev" />-->
-  <project path="device/nexell/drone2l" name="device/nexell/drone2l" groups="device" remote="nexell" revision="kitkat-dev" />
-  <project path="device/nexell/KingCobra" name="device/nexell/KingCobra" groups="device" remote="nexell" revision="kitkat-dev" />
-  <project path="device/nexell/MIT4GT" name="device/nexell/MIT4GT" groups="device" remote="nexell" revision="kitkat-dev" />
-  <project path="device/nexell/LEVO" name="device/nexell/LEVO" groups="device" remote="nexell" revision="kitkat-dev" />
-  <project path="device/nexell/dronel-s5p6818" name="device/nexell/dronel-s5p6818" groups="device" remote="nexell" revision="kitkat-dev" />
-  <project path="device/nexell/dronel_s5p4418" name="device/nexell/dronel_s5p4418" groups="device" remote="nexell" revision="kitkat-dev" />
+  <!--<project path="device/nexell/lynx" name="device/nexell/lynx" groups="device" remote="nexell" revision="kitkat-4418-release" />-->
+  <!--<project path="device/nexell/pyxis" name="device/nexell/pyxis" groups="device" remote="nexell" revision="kitkat-4418-release" />-->
+  <!--<project path="device/nexell/smartbox" name="device/nexell/smartbox" groups="device" remote="nexell" revision="kitkat-4418-release" />-->
+  <!--<project path="device/nexell/w7" name="device/nexell/w7" groups="device" remote="nexell" revision="kitkat-4418-release" />-->
+  <!--<project path="device/nexell/secret" name="device/nexell/secret" groups="device" remote="nexell" revision="kitkat-4418-release" />-->
+  <!--<project path="device/nexell/NBOX" name="device/nexell/NBOX" groups="device" remote="nexell" revision="kitkat-4418-release" />-->
+  <project path="device/nexell/drone" name="device/nexell/drone" groups="device" remote="nexell" revision="kitkat-4418-release" />
+  <project path="device/nexell/lepus" name="device/nexell/lepus" groups="device" remote="nexell" revision="kitkat-4418-release" />
+  <project path="device/nexell/drone2_s5p4418" name="device/nexell/drone2_s5p4418" groups="device" remote="nexell" revision="kitkat-4418-release" />
+  <project path="device/nexell/drone_s5p6818" name="device/nexell/drone_s5p6818" groups="device" remote="nexell" revision="kitkat-4418-release" />
+  <project path="device/nexell/svt" name="device/nexell/svt" groups="device" remote="nexell" revision="kitkat-4418-release" />
+  <!--<project path="device/nexell/kar" name="device/nexell/kar" groups="device" remote="nexell" revision="kitkat-4418-release" />-->
+  <!--<project path="device/nexell/vtk" name="device/nexell/vtk" groups="device" remote="nexell" revision="kitkat-4418-release" />-->
+  <project path="device/nexell/drone2l" name="device/nexell/drone2l" groups="device" remote="nexell" revision="kitkat-4418-release" />
+  <project path="device/nexell/KingCobra" name="device/nexell/KingCobra" groups="device" remote="nexell" revision="kitkat-4418-release" />
+  <project path="device/nexell/MIT4GT" name="device/nexell/MIT4GT" groups="device" remote="nexell" revision="kitkat-4418-release" />
+  <project path="device/nexell/LEVO" name="device/nexell/LEVO" groups="device" remote="nexell" revision="kitkat-4418-release" />
+  <project path="device/nexell/dronel-s5p6818" name="device/nexell/dronel-s5p6818" groups="device" remote="nexell" revision="kitkat-4418-release" />
+  <project path="device/nexell/dronel_s5p4418" name="device/nexell/dronel_s5p4418" groups="device" remote="nexell" revision="kitkat-4418-release" />
 
 </manifest>
