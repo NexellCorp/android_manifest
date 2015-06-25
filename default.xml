@@ -284,7 +284,7 @@
   <project path="external/vixl" name="platform/external/vixl" groups="pdk" />
   <project path="external/webp" name="platform/external/webp" groups="pdk-cw-fs,qcom_msm8x26" />
   <project path="external/webrtc" name="platform/external/webrtc" groups="pdk" />
-  <!--<project path="external/wpa_supplicant_8" name="platform/external/wpa_supplicant_8" groups="pdk" />-->
+  <project path="external/wpa_supplicant_8" name="platform/external/wpa_supplicant_8" groups="pdk" />
   <project path="external/xmlwriter" name="platform/external/xmlwriter" groups="pdk-cw-fs" />
   <project path="external/xmp_toolkit" name="platform/external/xmp_toolkit" groups="pdk-cw-fs" />
   <project path="external/yaffs2" name="platform/external/yaffs2" groups="pdk" />
@@ -314,7 +314,7 @@
   <project path="frameworks/opt/mms" name="platform/frameworks/opt/mms" groups="pdk-cw-fs" />
   <project path="frameworks/opt/net/ims" name="platform/frameworks/opt/net/ims" groups="frameworks_ims,pdk-cw-fs" />
   <project path="frameworks/opt/net/voip" name="platform/frameworks/opt/net/voip" groups="pdk-cw-fs" />
-  <project path="frameworks/opt/net/wifi" name="platform/frameworks/opt/net/wifi" groups="pdk" />
+  <!--<project path="frameworks/opt/net/wifi" name="platform/frameworks/opt/net/wifi" groups="pdk" />-->
   <project path="frameworks/opt/net/ethernet" name="platform/frameworks/opt/net/ethernet" />
   <project path="frameworks/opt/photoviewer" name="platform/frameworks/opt/photoviewer" groups="pdk-cw-fs" />
   <project path="frameworks/opt/setupwizard" name="platform/frameworks/opt/setupwizard" groups="pdk-cw-fs" />
@@ -533,7 +533,7 @@
 
 
   <!-- AOSP fix for Nexell -->
-  <project path="external/wpa_supplicant_8" name="realtek/wpa_supplicant_8" groups="pdk" remote="nexell_aosp" revision="aosp-realtek" />
+  <!--<project path="external/wpa_supplicant_8" name="realtek/wpa_supplicant_8" groups="pdk" remote="nexell_aosp" revision="aosp-realtek" />-->
   <project path="hardware/libhardware" name="platform/hardware/libhardware" groups="pdk" remote="nexell_lollipop" revision="lollipop-dev" />
   <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" groups="pdk" remote="nexell_lollipop" revision="lollipop-dev" />
   <project path="frameworks/av" name="platform/frameworks/av" groups="pdk" remote="nexell_lollipop" revision="lollipop-dev" />
@@ -542,13 +542,14 @@
   <project path="packages/apps/Camera2" name="platform/apps/Camera2"  remote="nexell_lollipop" revision="lollipop-dev" />
   <project path="system/vold" name="platform/system/vold" remote="nexell_lollipop" revision="lollipop-dev" />
   <project path="external/sepolicy" name="platform/external/sepolicy" groups="pdk" remote="nexell_lollipop" revision="lollipop-dev" />
+  <project path="frameworks/opt/net/wifi" name="platform/frameworks/opt/net/wifi" remote="nexell_lollipop" revision="lollipop-dev" />
 
   <!-- New projects for Nexell -->
   <project path="device/nexell/tools-lollipop" name="device/nexell/tools" groups="device" remote="nexell_aosp" revision="aosp-nexell-tools" />
   <project path="device/nexell/tools" name="device/nexell/tools" groups="device" remote="nexell_kitkat" revision="kitkat-dev" />
   <project path="hardware/samsung_slsi/slsiap" name="platform/hardware/samsung_slsi/slsiap" groups="pdk" remote="nexell_kitkat" revision="kitkat-dev" />
 
-  <project path="hardware/realtek" name="realtek/hardware/realtek" groups="pdk" remote="nexell_aosp" revision="aosp-realtek" />
+  <project path="hardware/realtek" name="realtek/hardware/realtek" groups="pdk" remote="nexell_aosp" revision="aosp-realtek-lollipop" />
   <project path="vendor/google/gapps" name="vendor/google/gapps" groups="pdk" remote="nexell_lollipop" revision="lollipop-dev" />
 
   <!-- board -->
