@@ -262,7 +262,7 @@
   <project path="external/robolectric" name="platform/external/robolectric" groups="pdk-cw-fs" />
   <project path="external/safe-iop" name="platform/external/safe-iop" groups="pdk" />
   <project path="external/scrypt" name="platform/external/scrypt" groups="pdk" />
-  <project path="external/sepolicy" name="platform/external/sepolicy" groups="pdk" />
+  <!--<project path="external/sepolicy" name="platform/external/sepolicy" groups="pdk" />-->
   <project path="external/sfntly" name="platform/external/sfntly" groups="pdk-cw-fs,qcom_msm8x26" />
   <project path="external/skia" name="platform/external/skia" groups="pdk-cw-fs,qcom_msm8x26" />
   <project path="external/smack" name="platform/external/smack" groups="pdk-cw-fs" />
@@ -295,8 +295,8 @@
   <project path="external/zlib" name="platform/external/zlib" groups="pdk" />
   <project path="external/zopfli" name="platform/external/zopfli" groups="pdk-cw-fs" />
   <project path="external/zxing" name="platform/external/zxing" groups="pdk-cw-fs" />
-  <project path="frameworks/av" name="platform/frameworks/av" groups="pdk" />
-  <project path="frameworks/base" name="platform/frameworks/base" groups="pdk-cw-fs" />
+  <!--<project path="frameworks/av" name="platform/frameworks/av" groups="pdk" />-->
+  <!--<project path="frameworks/base" name="platform/frameworks/base" groups="pdk-cw-fs" />-->
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" />
@@ -305,7 +305,7 @@
   <project path="frameworks/minikin" name="platform/frameworks/minikin" groups="pdk-cw-fs" />
   <project path="frameworks/ml" name="platform/frameworks/ml" groups="pdk-cw-fs" />
   <project path="frameworks/multidex" name="platform/frameworks/multidex" groups="pdk-cw-fs" />
-  <project path="frameworks/native" name="platform/frameworks/native" groups="pdk" />
+  <!--<project path="frameworks/native" name="platform/frameworks/native" groups="pdk" />-->
   <project path="frameworks/opt/bitmap" name="platform/frameworks/opt/bitmap" />
   <project path="frameworks/opt/bluetooth" name="platform/frameworks/opt/bluetooth" groups="pdk-cw-fs" />
   <project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" groups="pdk-cw-fs" />
@@ -318,7 +318,7 @@
   <project path="frameworks/opt/mms" name="platform/frameworks/opt/mms" groups="pdk-cw-fs" />
   <project path="frameworks/opt/net/ims" name="platform/frameworks/opt/net/ims" groups="frameworks_ims,pdk-cw-fs" />
   <project path="frameworks/opt/net/voip" name="platform/frameworks/opt/net/voip" groups="pdk-cw-fs" />
-  <project path="frameworks/opt/net/wifi" name="platform/frameworks/opt/net/wifi" groups="pdk" />
+  <!--<project path="frameworks/opt/net/wifi" name="platform/frameworks/opt/net/wifi" groups="pdk" />-->
   <project path="frameworks/opt/net/ethernet" name="platform/frameworks/opt/net/ethernet" />
   <project path="frameworks/opt/photoviewer" name="platform/frameworks/opt/photoviewer" groups="pdk-cw-fs" />
   <project path="frameworks/opt/setupwizard" name="platform/frameworks/opt/setupwizard" groups="pdk-cw-fs" />
@@ -381,7 +381,7 @@
   <project path="packages/apps/Calculator" name="platform/packages/apps/Calculator" />
   <project path="packages/apps/Calendar" name="platform/packages/apps/Calendar" />
   <project path="packages/apps/Camera" name="platform/packages/apps/Camera" />
-  <project path="packages/apps/Camera2" name="platform/packages/apps/Camera2" />
+  <!--<project path="packages/apps/Camera2" name="platform/packages/apps/Camera2" />-->
   <project path="packages/apps/CellBroadcastReceiver" name="platform/packages/apps/CellBroadcastReceiver" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" groups="pdk-cw-fs" />
   <project path="packages/apps/Contacts" name="platform/packages/apps/Contacts" />
@@ -508,7 +508,7 @@
   <project path="system/media" name="platform/system/media" groups="pdk" />
   <project path="system/netd" name="platform/system/netd" groups="pdk" />
   <project path="system/security" name="platform/system/security" groups="pdk" />
-  <project path="system/vold" name="platform/system/vold" groups="pdk" />
+  <!--<project path="system/vold" name="platform/system/vold" groups="pdk" />-->
   <project path="tools/adt/eclipse" name="platform/tools/adt/eclipse" groups="notdefault,tools" />
   <project path="tools/adt/idea" name="platform/tools/adt/idea" groups="notdefault,tools" />
   <project path="tools/base" name="platform/tools/base" groups="notdefault,tools" />
@@ -540,13 +540,13 @@
   <!--<project path="external/wpa_supplicant_8" name="realtek/wpa_supplicant_8" groups="pdk" remote="nexell_aosp" revision="aosp-realtek" />-->
   <!--<project path="hardware/libhardware" name="platform/hardware/libhardware" groups="pdk" remote="nexell_lollipop" revision="lollipop-dev" />-->
   <!--<project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" groups="pdk" remote="nexell_lollipop" revision="lollipop-dev" />-->
-  <!--<project path="frameworks/av" name="platform/frameworks/av" groups="pdk" remote="nexell_lollipop" revision="lollipop-dev" />-->
-  <!--<project path="frameworks/base" name="platform/frameworks/base" remote="nexell_lollipop" revision="lollipop-dev" />-->
-  <!--<project path="frameworks/native" name="platform/frameworks/native" groups="pdk" remote="nexell_lollipop" revision="lollipop-dev" />-->
-  <!--<project path="packages/apps/Camera2" name="platform/apps/Camera2"  remote="nexell_lollipop" revision="lollipop-dev" />-->
-  <!--<project path="system/vold" name="platform/system/vold" remote="nexell_lollipop" revision="lollipop-dev" />-->
-  <!--<project path="external/sepolicy" name="platform/external/sepolicy" groups="pdk" remote="nexell_lollipop" revision="lollipop-dev" />-->
-  <!--<project path="frameworks/opt/net/wifi" name="platform/frameworks/opt/net/wifi" remote="nexell_lollipop" revision="lollipop-dev" />-->
+  <project path="frameworks/av" name="platform/frameworks/av" groups="pdk" remote="nexell_lollipop" revision="lollipop-5.1.1_r6" />
+  <project path="frameworks/base" name="platform/frameworks/base" remote="nexell_lollipop" revision="lollipop-5.1.1_r6" />
+  <project path="frameworks/native" name="platform/frameworks/native" groups="pdk" remote="nexell_lollipop" revision="lollipop-5.1.1_r6" />
+  <project path="packages/apps/Camera2" name="platform/apps/Camera2"  remote="nexell_lollipop" revision="lollipop-5.1.1_r6" />
+  <project path="system/vold" name="platform/system/vold" remote="nexell_lollipop" revision="lollipop-5.1.1_r6" />
+  <project path="external/sepolicy" name="platform/external/sepolicy" groups="pdk" remote="nexell_lollipop" revision="lollipop-5.1.1_r6" />
+  <project path="frameworks/opt/net/wifi" name="platform/frameworks/opt/net/wifi" remote="nexell_lollipop" revision="lollipop-5.1.1_r6" />
 
   <!-- New projects for Nexell -->
   <project path="device/nexell/tools" name="device/nexell/tools" groups="device" remote="nexell_kitkat" revision="kitkat-dev" />
