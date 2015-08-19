@@ -549,7 +549,7 @@
   <project path="device/nexell/tools-lollipop" name="device/nexell/tools" groups="device" remote="nexell_aosp" revision="aosp-nexell-tools" />
   <project path="device/nexell/tools" name="device/nexell/tools" groups="device" remote="nexell_kitkat" revision="kitkat-dev" />
   <project path="hardware/samsung_slsi/slsiap" name="platform/hardware/samsung_slsi/slsiap" groups="pdk" remote="nexell_kitkat" revision="kitkat-dev" />
-  <project path="hardware/samsung_slsi/slsiap/omx_slsi" name="platform/hardware/samsung_slsi/omx" groups="pdk" remote="nexell_kitkat" revision="kitkat-dev" />
+  <project path="hardware/samsung_slsi/slsiap/omx" name="platform/hardware/samsung_slsi/omx" groups="pdk" remote="nexell_kitkat" revision="lollipop-dev" />
 
   <project path="hardware/realtek" name="realtek/hardware/realtek" groups="pdk" remote="nexell_aosp" revision="aosp-realtek-lollipop" />
   <project path="vendor/google/gapps" name="vendor/google/gapps" groups="pdk" remote="nexell_lollipop" revision="lollipop-dev" />
