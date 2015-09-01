@@ -498,7 +498,7 @@
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" groups="pdk,tradefed" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" />
   <project path="sdk" name="platform/sdk" groups="pdk-cw-fs" />
-  <project path="system/core" name="platform/system/core" groups="pdk" />
+  <project path="system/core_aosp" name="platform/system/core" groups="pdk" />
   <project path="system/extras" name="platform/system/extras" groups="pdk" />
   <project path="system/keymaster" name="platform/system/keymaster" groups="pdk" />
   <project path="system/media" name="platform/system/media" groups="pdk" />
@@ -545,6 +545,7 @@
   <project path="system/vold" name="platform/system/vold" remote="nexell_lollipop" revision="lollipop-dev" />
   <project path="external/sepolicy" name="platform/external/sepolicy" groups="pdk" remote="nexell_lollipop" revision="lollipop-dev" />
   <project path="frameworks/opt/net/wifi" name="platform/frameworks/opt/net/wifi" remote="nexell_lollipop" revision="lollipop-dev" />
+  <project path="system/core" name="platform/system/core" remote="nexell_lollipop" revision="lollipop-dev" />
 
   <!-- New projects for Nexell -->
   <project path="device/nexell/tools-lollipop" name="device/nexell/tools" groups="device" remote="nexell_aosp" revision="aosp-nexell-tools" />
