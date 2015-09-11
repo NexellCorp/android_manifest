@@ -396,8 +396,8 @@
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" />
   <project path="packages/apps/InCallUI" name="platform/packages/apps/InCallUI" />
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" />
-  <project path="packages/apps/Launcher2" name="platform/packages/apps/Launcher2" />
-  <project path="packages/apps/Launcher3" name="platform/packages/apps/Launcher3" />
+  <!-- <project path="packages/apps/Launcher2" name="platform/packages/apps/Launcher2" /> -->
+  <!-- <project path="packages/apps/Launcher3" name="platform/packages/apps/Launcher3" /> -->
   <project path="packages/apps/LegacyCamera" name="platform/packages/apps/LegacyCamera" />
   <project path="packages/apps/ManagedProvisioning" name="platform/packages/apps/ManagedProvisioning" />
   <project path="packages/apps/Mms" name="platform/packages/apps/Mms" />
@@ -527,8 +527,8 @@
   <!-- nexell_linux: prototype, u-boot, kernel -->
   <project path="linux/prototype/s5p4418" name="prototype/pyrope" groups="device" remote="nexell_linux" revision="linux-dev" />
   <project path="linux/prototype/s5p6818" name="prototype/nxp5430" groups="device" remote="nexell_linux" revision="linux-dev" />
-  <project path="linux/bootloader/u-boot-2014.07" name="u-boot/u-boot-2014.07" groups="device" remote="nexell_linux" revision="linux-dev" />
-  <project path="linux/kernel/kernel-3.4.39" name="kernel/kernel-3.4.39" groups="device" remote="nexell_linux" revision="linux-dev" />
+  <project path="linux/bootloader/u-boot-2014.07" name="u-boot/u-boot-2014.07" groups="device" remote="nexell_linux" revision="avn-quickboot" />
+  <project path="linux/kernel/kernel-3.4.39" name="kernel/kernel-3.4.39" groups="device" remote="nexell_linux" revision="avn-quickboot" />
   <project path="linux/platform/s5p4418" name="pyrope" groups="device" remote="nexell_linux" revision="linux-dev" />
   <project path="linux/platform/s5p6818" name="nxp5430" groups="device" remote="nexell_linux" revision="linux-dev" />
   <project path="linux/platform/common" name="platform/common" groups="device" remote="nexell_linux" revision="linux-dev" />
@@ -541,30 +541,26 @@
   <!--<project path="hardware/libhardware" name="platform/hardware/libhardware" groups="pdk" remote="nexell_lollipop" revision="lollipop-dev" />-->
   <!--<project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" groups="pdk" remote="nexell_lollipop" revision="lollipop-dev" />-->
   <project path="frameworks/av" name="platform/frameworks/av" groups="pdk" remote="nexell_lollipop" revision="lollipop-5.1.1_r6" />
-  <project path="frameworks/base" name="platform/frameworks/base" remote="nexell_lollipop" revision="lollipop-5.1.1_r6" />
-  <project path="frameworks/native" name="platform/frameworks/native" groups="pdk" remote="nexell_lollipop" revision="lollipop-5.1.1_r6" />
+  <project path="frameworks/base" name="platform/frameworks/base" remote="nexell_lollipop" revision="avn" />
+  <project path="frameworks/native" name="platform/frameworks/native" groups="pdk" remote="nexell_lollipop" revision="avn" />
   <project path="packages/apps/Camera2" name="platform/apps/Camera2"  remote="nexell_lollipop" revision="lollipop-5.1.1_r6" />
   <project path="system/vold" name="platform/system/vold" remote="nexell_lollipop" revision="lollipop-5.1.1_r6" />
   <project path="external/sepolicy" name="platform/external/sepolicy" groups="pdk" remote="nexell_lollipop" revision="lollipop-5.1.1_r6" />
   <project path="frameworks/opt/net/wifi" name="platform/frameworks/opt/net/wifi" remote="nexell_lollipop" revision="lollipop-5.1.1_r6" />
-  <project path="system/core" name="platform/system/core" remote="nexell_lollipop" revision="lollipop-5.1.1_r6" />
+  <project path="system/core" name="platform/system/core" remote="nexell_lollipop" revision="avn" />
   
   <!-- New projects for Nexell -->
-  <project path="device/nexell/tools" name="device/nexell/tools" groups="device" remote="nexell_kitkat" revision="kitkat-dev" />
+  <project path="device/nexell/tools" name="device/nexell/tools" groups="device" remote="nexell_lollipop" revision="lollipop-dev" />
   <project path="hardware/samsung_slsi/slsiap" name="platform/hardware/samsung_slsi/slsiap" groups="pdk" remote="nexell_kitkat" revision="kitkat-dev" />
   <project path="hardware/samsung_slsi/slsiap/omx" name="platform/hardware/samsung_slsi/omx" groups="pdk" remote="nexell_kitkat" revision="lollipop-dev" />
 
   <project path="hardware/realtek" name="realtek/hardware/realtek" groups="pdk" remote="nexell_aosp" revision="aosp-realtek-lollipop" />
-  <project path="vendor/google/gapps" name="vendor/google/gapps" groups="pdk" remote="nexell_lollipop" revision="lollipop-dev" />
+  <!-- <project path="vendor/google/gapps" name="vendor/google/gapps" groups="pdk" remote="nexell_lollipop" revision="lollipop-dev" /> -->
   <project path="packages/apps/SmartSync" name="platform/packages/SmartSync" remote="nexell_lollipop" revision="lollipop-dev" />
-<project path="vendor/nexell/apps" name="vendor/nexell/apps" groups="pdk" remote="nexell_lollipop" revision="lollipop-dev" />
+  <project path="vendor/nexell/apps" name="vendor/nexell/apps" groups="pdk" remote="nexell_lollipop" revision="lollipop-dev" />
+  <project path="packages/apps/Home" name="platform/packages/apps/Home"  remote="nexell_lollipop" revision="lollipop-dev" />
 
   <!-- board -->
-  <project path="device/nexell/drone" name="device/nexell/drone" groups="device" remote="nexell_lollipop" revision="lollipop-dev" />
-  <project path="device/nexell/drone2_s5p4418" name="device/nexell/drone2_s5p4418" groups="device" remote="nexell_lollipop" revision="lollipop-dev" />
-  <project path="device/nexell/dronel_s5p4418" name="device/nexell/dronel_s5p4418" groups="device" remote="nexell_lollipop" revision="lollipop-dev" />
-  <project path="device/nexell/drone_s5p6818" name="device/nexell/drone_s5p6818" groups="device" remote="nexell_lollipop" revision="lollipop-dev" />
-  <project path="device/nexell/svt_s5p6818" name="device/nexell/svt_s5p6818" groups="device" remote="nexell_lollipop" revision="lollipop-dev" />
-  <project path="device/nexell/dronel_s5p6818" name="device/nexell/dronel_s5p6818" groups="device" remote="nexell_lollipop" revision="lollipop-dev" />
+  <project path="device/nexell/s5p4418_msd8000b" name="device/nexell/s5p4418_msd8000b" groups="device" remote="nexell_lollipop" revision="lollipop-dev" />
 
 </manifest>
