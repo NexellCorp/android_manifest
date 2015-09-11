@@ -550,7 +550,7 @@
   <project path="system/core" name="platform/system/core" remote="nexell_lollipop" revision="lollipop-5.1.1_r6" />
   
   <!-- New projects for Nexell -->
-  <project path="device/nexell/tools" name="device/nexell/tools" groups="device" remote="nexell_kitkat" revision="kitkat-dev" />
+  <project path="device/nexell/tools" name="device/nexell/tools" groups="device" remote="nexell_lollipop" revision="lollipop-dev" />
   <project path="hardware/samsung_slsi/slsiap" name="platform/hardware/samsung_slsi/slsiap" groups="pdk" remote="nexell_kitkat" revision="kitkat-dev" />
   <project path="hardware/samsung_slsi/slsiap/omx" name="platform/hardware/samsung_slsi/omx" groups="pdk" remote="nexell_kitkat" revision="lollipop-dev" />
 
