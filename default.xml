@@ -301,7 +301,7 @@
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" />
-  <project path="frameworks/ex" name="platform/frameworks/ex" groups="pdk-cw-fs" />
+  <!-- <project path="frameworks/ex" name="platform/frameworks/ex" groups="pdk-cw-fs" /> -->
   <project path="frameworks/mff" name="platform/frameworks/mff" groups="pdk-cw-fs" />
   <project path="frameworks/minikin" name="platform/frameworks/minikin" groups="pdk-cw-fs" />
   <project path="frameworks/ml" name="platform/frameworks/ml" groups="pdk-cw-fs" />
@@ -545,6 +545,7 @@
   <project path="frameworks/av" name="platform/frameworks/av" groups="pdk" remote="nexell_lollipop" revision="lollipop-5.1.1_r6" />
   <project path="frameworks/base" name="platform/frameworks/base" remote="nexell_lollipop" revision="avn" />
   <project path="frameworks/native" name="platform/frameworks/native" groups="pdk" remote="nexell_lollipop" revision="avn" />
+  <project path="frameworks/ex" name="platform/frameworks/ex" groups="pdk-cw-fs" remote="nexell_lollipop" revision="lollipop-5.1.1_r6" />
   <project path="packages/apps/Camera2" name="platform/apps/Camera2"  remote="nexell_lollipop" revision="lollipop-5.1.1_r6" />
   <project path="system/vold" name="platform/system/vold" remote="nexell_lollipop" revision="lollipop-5.1.1_r6" />
   <project path="external/sepolicy" name="platform/external/sepolicy" groups="pdk" remote="nexell_lollipop" revision="lollipop-5.1.1_r6" />
