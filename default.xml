@@ -560,6 +560,5 @@
   <project path="device/nexell/lepus" name="device/nexell/lepus" groups="device" remote="nexell_lollipop" revision="lollipop-5.1.1_r6-20151019" />
   <project path="device/nexell/s5p4418_drone" name="device/nexell/s5p4418_drone" groups="device" remote="nexell_lollipop" revision="lollipop-5.1.1_r6-20151019" />
   <project path="device/nexell/s5p6818_drone" name="device/nexell/s5p6818_drone" groups="device" remote="nexell_lollipop" revision="lollipop-5.1.1_r6-20151019" />
-  <project path="linux/patch" name="patch" groups="device" remote="nexell" revision="lollipop-5.1.1_r6-20151019" />
 
 </manifest>
