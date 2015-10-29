@@ -28,7 +28,7 @@
   <project path="art" name="platform/art" groups="pdk" />
   <project path="bionic" name="platform/bionic" groups="pdk" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" groups="pdk-cw-fs" />
-  <project path="bootable/recovery" name="platform/bootable/recovery" groups="pdk" />
+  <!-- <project path="bootable/recovery" name="platform/bootable/recovery" groups="pdk" /> -->
   <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs" />
   <project path="dalvik" name="platform/dalvik" groups="pdk-cw-fs" />
   <project path="developers/build" name="platform/developers/build" />
@@ -541,7 +541,7 @@
   <!--<project path="external/wpa_supplicant_8" name="realtek/wpa_supplicant_8" groups="pdk" remote="nexell_aosp" revision="aosp-realtek" />-->
   <!--<project path="hardware/libhardware" name="platform/hardware/libhardware" groups="pdk" remote="nexell_lollipop" revision="lollipop-dev" />-->
   <!--<project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" groups="pdk" remote="nexell_lollipop" revision="lollipop-dev" />-->
-<project path="external/tslib" name="platform/external/tslib" groups="pdk" remote="nexell_lollipop" revision="lollipop-dev" />
+  <project path="external/tslib" name="platform/external/tslib" groups="pdk" remote="nexell_lollipop" revision="lollipop-dev" />
   <project path="frameworks/av" name="platform/frameworks/av" groups="pdk" remote="nexell_lollipop" revision="lollipop-5.1.1_r6" />
   <project path="frameworks/base" name="platform/frameworks/base" remote="nexell_lollipop" revision="avn" />
   <project path="frameworks/native" name="platform/frameworks/native" groups="pdk" remote="nexell_lollipop" revision="avn" />
@@ -552,6 +552,7 @@
   <project path="frameworks/opt/net/wifi" name="platform/frameworks/opt/net/wifi" remote="nexell_lollipop" revision="lollipop-5.1.1_r6" />
   <project path="system/core" name="platform/system/core" remote="nexell_lollipop" revision="avn" />
   <project path="packages/inputmethods/LatinIME" name="platform/packages/inputmethods/LatinIME" remote="nexell_lollipop" revision="avn" />
+  <project path="bootable/recovery" name="platform/bootable/recovery" groups="pdk"  remote="nexell_lollipop" revision="avn" />
   
   <!-- New projects for Nexell -->
   <project path="device/nexell/tools" name="device/nexell/tools" groups="device" remote="nexell_lollipop" revision="lollipop-dev" />
