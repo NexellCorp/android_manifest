@@ -16,12 +16,13 @@
   <remote name="nexell_kitkat"
           fetch="../kitkat" />
 
+  <remote name="nexell_secure"
+          fetch="../../secureos" />
   <default revision="refs/tags/android-5.1.1_r6"
            remote="aosp"
            sync-j="4" />
 
-  <!-- <project path="build" name="platform/build" groups="pdk,tradefed" > -->
-  <project path="build" name="platform/build" groups="pdk,tradefed" remote="nexell_lollipop" revision="lollipop-5.1.1_r6" >
+  <project path="build" name="platform/build" groups="pdk,tradefed" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
@@ -567,5 +568,5 @@
   <project path="device/nexell/s5p6818_drone" name="device/nexell/s5p6818_drone" groups="device" remote="nexell_lollipop" revision="lollipop-dev" />
 
   <!-- secure_os -->
-  <project path="linux/secureos/optee_os_3.18" name="secure_os/optee_os_3.18" groups="device" remote="nexell_linux" revision="linux-dev" />
+  <project path="linux/secureos/optee_os_3.18" name="optee_os_3.18" groups="device" remote="nexell_secure" revision="master" />
 </manifest>
