@@ -393,7 +393,7 @@
   <project path="packages/apps/Exchange" name="platform/packages/apps/Exchange" />
   <project path="packages/apps/FMRadio" name="platform/packages/apps/FMRadio" />
   <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" />
-  <project path="packages/apps/Gallery2" name="platform/packages/apps/Gallery2" />
+  <!-- <project path="packages/apps/Gallery2" name="platform/packages/apps/Gallery2" /> -->
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" />
   <project path="packages/apps/InCallUI" name="platform/packages/apps/InCallUI" />
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" />
@@ -553,6 +553,7 @@
   <project path="system/core" name="platform/system/core" remote="nexell_lollipop" revision="avn" />
   <project path="packages/inputmethods/LatinIME" name="platform/packages/inputmethods/LatinIME" remote="nexell_lollipop" revision="avn" />
   <project path="bootable/recovery" name="platform/bootable/recovery" groups="pdk"  remote="nexell_lollipop" revision="avn" />
+  <project path="packages/apps/Gallery2" name="platform/packages/apps/Gallery2" remote="nexell_lollipop" revision="lollipop-5.1.1_r6" />
   
   <!-- New projects for Nexell -->
   <project path="device/nexell/tools" name="device/nexell/tools" groups="device" remote="nexell_lollipop" revision="lollipop-dev" />
