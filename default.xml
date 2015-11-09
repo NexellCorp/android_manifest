@@ -570,5 +570,5 @@
   <project path="device/nexell/s5p6818_drone" name="device/nexell/s5p6818_drone" groups="device" remote="nexell_lollipop" revision="lollipop-dev" />
 
   <!-- secure_os -->
-  <project path="linux/secureos/optee_os_3.18" name="optee_os_3.18" groups="device" remote="nexell_secure" revision="master" />
+  <project path="linux/secureos/optee_os_3.18" name="optee_os_3.18" groups="device" remote="nexell_secure" revision="optee-dev" />
 </manifest>
