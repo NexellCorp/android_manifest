@@ -16,7 +16,7 @@
   <remote name="nexell_kitkat"
           fetch="../kitkat" />
 
-  <default revision="refs/tags/lollipop-AVN-20151120"
+  <default revision="refs/tags/android-5.1.1_r6"
            remote="aosp"
            sync-j="4" />
 
