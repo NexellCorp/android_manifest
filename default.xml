@@ -563,5 +563,6 @@
   <!-- board -->
   <project path="device/nexell/s5p4418_avn_ref" name="device/nexell/s5p4418_avn_ref" groups="device" remote="nexell_lollipop" revision="lollipop-5.1.1_r6-avn-release" />
   <project path="device/nexell/s5p6818_avn_ref" name="device/nexell/s5p6818_avn_ref" groups="device" remote="nexell_lollipop" revision="lollipop-5.1.1_r6-avn-release" />
+ <project path="linux/patch" name="patch" groups="device" remote="nexell" revision="lollipop-5.1.1_r6-avn-release" />
 
 </manifest>
