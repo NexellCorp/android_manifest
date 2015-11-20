@@ -7,6 +7,10 @@
   <remote name="nexell_linux"
           fetch="../../linux" />
 
+  <remote name="nexell"
+          fetch="../../" />
+
+
   <remote name="nexell_aosp"
           fetch="../" />
 
