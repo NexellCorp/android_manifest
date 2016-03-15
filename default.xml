@@ -536,30 +536,30 @@
 
 
   <!-- AOSP fix for Nexell -->
-  <project path="frameworks/av" name="platform/frameworks/av" groups="pdk" remote="nexell_lollipop" revision="lollipop-5.1.1_r6-avn-release_2nd" />
-  <project path="frameworks/base" name="platform/frameworks/base" remote="nexell_lollipop" revision="lollipop-5.1.1_r6-avn-release_2nd" />
-  <project path="frameworks/native" name="platform/frameworks/native" groups="pdk" remote="nexell_lollipop" revision="lollipop-5.1.1_r6-avn-release_2nd" />
-  <project path="frameworks/ex" name="platform/frameworks/ex" groups="pdk-cw-fs" remote="nexell_lollipop" revision="lollipop-5.1.1_r6-avn-release_2nd" />
-  <project path="packages/apps/Camera2" name="platform/apps/Camera2"  remote="nexell_lollipop" revision="lollipop-5.1.1_r6-avn-release_2nd" />
-  <project path="packages/apps/Settings" name="platform/packages/apps/Settings" remote="nexell_lollipop" revision="lollipop-5.1.1_r6-avn-release_2nd" />
-  <project path="system/vold" name="platform/system/vold" remote="nexell_lollipop" revision="lollipop-5.1.1_r6-avn-release_2nd" />
-  <project path="external/sepolicy" name="platform/external/sepolicy" groups="pdk" remote="nexell_lollipop" revision="lollipop-5.1.1_r6-avn-release_2nd" />
-  <project path="frameworks/opt/net/wifi" name="platform/frameworks/opt/net/wifi" remote="nexell_lollipop" revision="lollipop-5.1.1_r6-avn-release_2nd" />
-  <project path="system/core" name="platform/system/core" remote="nexell_lollipop" revision="lollipop-5.1.1_r6-avn-release_2nd" />
-  <project path="packages/apps/Gallery2" name="platform/packages/apps/Gallery2" remote="nexell_lollipop" revision="lollipop-5.1.1_r6-avn-release_2nd" />
+  <project path="frameworks/av" name="platform/frameworks/av" groups="pdk" remote="nexell_lollipop" revision="lollipop-5.1.1_r6-release_2nd" />
+  <project path="frameworks/base" name="platform/frameworks/base" remote="nexell_lollipop" revision="lollipop-5.1.1_r6-release_2nd" />
+  <project path="frameworks/native" name="platform/frameworks/native" groups="pdk" remote="nexell_lollipop" revision="lollipop-5.1.1_r6-release_2nd" />
+  <project path="frameworks/ex" name="platform/frameworks/ex" groups="pdk-cw-fs" remote="nexell_lollipop" revision="lollipop-5.1.1_r6-release_2nd" />
+  <project path="packages/apps/Camera2" name="platform/apps/Camera2"  remote="nexell_lollipop" revision="lollipop-5.1.1_r6-release_2nd" />
+  <project path="packages/apps/Settings" name="platform/packages/apps/Settings" remote="nexell_lollipop" revision="lollipop-5.1.1_r6-release_2nd" />
+  <project path="system/vold" name="platform/system/vold" remote="nexell_lollipop" revision="lollipop-5.1.1_r6-release_2nd" />
+  <project path="external/sepolicy" name="platform/external/sepolicy" groups="pdk" remote="nexell_lollipop" revision="lollipop-5.1.1_r6-release_2nd" />
+  <project path="frameworks/opt/net/wifi" name="platform/frameworks/opt/net/wifi" remote="nexell_lollipop" revision="lollipop-5.1.1_r6-release_2nd" />
+  <project path="system/core" name="platform/system/core" remote="nexell_lollipop" revision="lollipop-5.1.1_r6-release_2nd" />
+  <project path="packages/apps/Gallery2" name="platform/packages/apps/Gallery2" remote="nexell_lollipop" revision="lollipop-5.1.1_r6-release_2nd" />
   
   <!-- New projects for Nexell -->
-  <project path="device/nexell/tools" name="device/nexell/tools" groups="device" remote="nexell_lollipop" revision="lollipop-5.1.1_r6-avn-release_2nd" />
-  <project path="vendor/nexell/apps" name="vendor/nexell/apps" groups="pdk" remote="nexell_lollipop" revision="lollipop-5.1.1_r6-avn-release_2nd" />
+  <project path="device/nexell/tools" name="device/nexell/tools" groups="device" remote="nexell_lollipop" revision="lollipop-5.1.1_r6-release_2nd" />
+  <project path="vendor/nexell/apps" name="vendor/nexell/apps" groups="pdk" remote="nexell_lollipop" revision="lollipop-5.1.1_r6-release_2nd" />
 
-  <project path="hardware/samsung_slsi/slsiap" name="platform/hardware/samsung_slsi/slsiap" groups="pdk" remote="nexell_kitkat" revision="lollipop-5.1.1_r6-avn-release_2nd" />
-  <project path="hardware/samsung_slsi/slsiap/omx" name="platform/hardware/samsung_slsi/omx" groups="pdk" remote="nexell_kitkat" revision="lollipop-5.1.1_r6-avn-release_2nd" />
+  <project path="hardware/samsung_slsi/slsiap" name="platform/hardware/samsung_slsi/slsiap" groups="pdk" remote="nexell_kitkat" revision="lollipop-5.1.1_r6-release_2nd" />
+  <project path="hardware/samsung_slsi/slsiap/omx" name="platform/hardware/samsung_slsi/omx" groups="pdk" remote="nexell_kitkat" revision="lollipop-5.1.1_r6-release_2nd" />
 
-  <project path="hardware/realtek" name="realtek/hardware/realtek" groups="pdk" remote="nexell_aosp" revision="lollipop-5.1.1_r6-avn-release_2nd" />
+  <project path="hardware/realtek" name="realtek/hardware/realtek" groups="pdk" remote="nexell_aosp" revision="lollipop-5.1.1_r6-release_2nd" />
 
   <!-- board -->
-  <project path="device/nexell/lepus" name="device/nexell/lepus" groups="device" remote="nexell_lollipop" revision="lollipop-5.1.1_r6-avn-release_2nd" />
-  <project path="device/nexell/s5p4418_drone" name="device/nexell/s5p4418_drone" groups="device" remote="nexell_lollipop" revision="lollipop-5.1.1_r6-avn-release_2nd" />
-  <project path="device/nexell/s5p6818_drone" name="device/nexell/s5p6818_drone" groups="device" remote="nexell_lollipop" revision="lollipop-5.1.1_r6-avn-release_2nd" />
+  <project path="device/nexell/lepus" name="device/nexell/lepus" groups="device" remote="nexell_lollipop" revision="lollipop-5.1.1_r6-release_2nd" />
+  <project path="device/nexell/s5p4418_drone" name="device/nexell/s5p4418_drone" groups="device" remote="nexell_lollipop" revision="lollipop-5.1.1_r6-release_2nd" />
+  <project path="device/nexell/s5p6818_drone" name="device/nexell/s5p6818_drone" groups="device" remote="nexell_lollipop" revision="lollipop-5.1.1_r6-release_2nd" />
 
 </manifest>
