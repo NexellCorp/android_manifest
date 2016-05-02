@@ -526,13 +526,13 @@
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
 
   <!-- nexell_linux: prototype, u-boot, kernel -->
-  <project path="linux/prototype/s5p4418" name="prototype/pyrope" groups="device" remote="nexell_linux" revision="lollipop-5.1.1_r6-avn-release_2nd" />
-  <project path="linux/prototype/s5p6818" name="prototype/nxp5430" groups="device" remote="nexell_linux" revision="lollipop-5.1.1_r6-avn-release_2nd" />
-  <project path="linux/bootloader/u-boot-2014.07" name="u-boot/u-boot-2014.07" groups="device" remote="nexell_linux" revision="lollipop-5.1.1_r6-avn-release_2nd" />
-  <project path="linux/kernel/kernel-3.4.39" name="kernel/kernel-3.4.39" groups="device" remote="nexell_linux" revision="lollipop-5.1.1_r6-avn-release_2nd" />
-  <project path="linux/platform/s5p4418" name="pyrope" groups="device" remote="nexell_linux" revision="lollipop-5.1.1_r6-avn-release_2nd" />
-  <project path="linux/platform/s5p6818" name="nxp5430" groups="device" remote="nexell_linux" revision="lollipop-5.1.1_r6-avn-release_2nd" />
-  <project path="linux/platform/common" name="platform/common" groups="device" remote="nexell_linux" revision="lollipop-5.1.1_r6-avn-release_2nd" />
+  <project path="linux/prototype/s5p4418" name="prototype/pyrope" groups="device" remote="nexell_linux" revision="linux-avn-release" />
+  <project path="linux/prototype/s5p6818" name="prototype/nxp5430" groups="device" remote="nexell_linux" revision="linux-avn-release" />
+  <project path="linux/bootloader/u-boot-2014.07" name="u-boot/u-boot-2014.07" groups="device" remote="nexell_linux" revision="linux-avn-release" />
+  <project path="linux/kernel/kernel-3.4.39" name="kernel/kernel-3.4.39" groups="device" remote="nexell_linux" revision="linux-avn-release" />
+  <project path="linux/platform/s5p4418" name="pyrope" groups="device" remote="nexell_linux" revision="linux-avn-release" />
+  <project path="linux/platform/s5p6818" name="nxp5430" groups="device" remote="nexell_linux" revision="linux-avn-release" />
+  <project path="linux/platform/common" name="platform/common" groups="device" remote="nexell_linux" revision="linux-avn-release" />
 
 
   <!-- AOSP fix for Nexell -->
@@ -564,5 +564,6 @@
   <!-- board -->
   <project path="device/nexell/s5p4418_avn_ref" name="device/nexell/s5p4418_avn_ref" groups="device" remote="nexell_lollipop" revision="lollipop-5.1.1_r6-avn-release_2nd" />
   <project path="device/nexell/s5p6818_avn_ref" name="device/nexell/s5p6818_avn_ref" groups="device" remote="nexell_lollipop" revision="lollipop-5.1.1_r6-avn-release_2nd" />
+  <project path="device/nexell/s5p4418_navi_ref" name="device/nexell/s5p4418_navi_ref" groups="device" remote="nexell_lollipop" revision="lollipop-5.1.1_r6-avn-release_2nd" />
 
 </manifest>
