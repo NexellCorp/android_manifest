@@ -559,7 +559,7 @@
   
   <!-- New projects for Nexell -->
   <project path="packages/apps/TSCalibration" name="platform/apps/TSCalibration" remote="nexell_lollipop" revision="vd_cinema" />
-  <project path="device/nexell/tools" name="device/nexell/tools" groups="device" remote="nexell_lollipop" revision="lollipop-dev" />
+  <project path="device/nexell/tools" name="device/nexell/tools" groups="device" remote="nexell_lollipop" revision="vd_cinema" />
   <project path="hardware/samsung_slsi/slsiap" name="platform/hardware/samsung_slsi/slsiap" groups="pdk" remote="nexell_kitkat" revision="vd_cinema" />
   <project path="hardware/samsung_slsi/slsiap/omx" name="platform/hardware/samsung_slsi/omx" groups="pdk" remote="nexell_kitkat" revision="lollipop-dev" />
 
