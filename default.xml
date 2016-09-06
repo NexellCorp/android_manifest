@@ -556,9 +556,9 @@
   <project path="frameworks/opt/net/wifi" name="platform/frameworks/opt/net/wifi" remote="nexell_lollipop" revision="lollipop-5.1.1_r6" />
   <project path="system/core" name="platform/system/core" remote="nexell_lollipop" revision="lollipop-5.1.1_r6" />
   <project path="packages/apps/Gallery2" name="platform/packages/apps/Gallery2" remote="nexell_lollipop" revision="lollipop-5.1.1_r6" />
-  <project path="packages/apps/TSCalibration" name="platform/packages/apps/TSCalibration" remote="nexell_lollipop" revision="vd_cinema" />
   
   <!-- New projects for Nexell -->
+  <project path="packages/apps/TSCalibration" name="platform/apps/TSCalibration" remote="nexell_lollipop" revision="vd_cinema" />
   <project path="device/nexell/tools" name="device/nexell/tools" groups="device" remote="nexell_lollipop" revision="lollipop-dev" />
   <project path="hardware/samsung_slsi/slsiap" name="platform/hardware/samsung_slsi/slsiap" groups="pdk" remote="nexell_kitkat" revision="vd_cinema" />
   <project path="hardware/samsung_slsi/slsiap/omx" name="platform/hardware/samsung_slsi/omx" groups="pdk" remote="nexell_kitkat" revision="lollipop-dev" />
