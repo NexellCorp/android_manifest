@@ -530,13 +530,13 @@
   <!-- nexell_linux: prototype, u-boot, kernel -->
   <project path="linux/prototype/s5p4418" name="prototype/pyrope" groups="device" remote="nexell_linux" revision="linux-dev" />
   <project path="linux/prototype/s5p6818" name="prototype/nxp5430" groups="device" remote="nexell_linux" revision="linux-dev" />
-  <project path="linux/bootloader/u-boot-2014.07" name="u-boot/u-boot-2014.07" groups="device" remote="nexell_linux" revision="linux-dev" />
-  <project path="linux/kernel/kernel-3.4.39" name="kernel/kernel-3.4.39" groups="device" remote="nexell_linux" revision="linux-dev" />
+  <project path="linux/bootloader/u-boot-2014.07" name="u-boot/u-boot-2014.07" groups="device" remote="nexell_linux" revision="vd_cinema" />
+  <project path="linux/kernel/kernel-3.4.39" name="kernel/kernel-3.4.39" groups="device" remote="nexell_linux" revision="vd_cinema" />
   <project path="linux/kernel/kernel-3.18" name="kernel/kernel-3.18" groups="device" remote="nexell_linux" revision="linux-dev" />
-  <project path="linux/platform/s5p4418" name="pyrope" groups="device" remote="nexell_linux" revision="linux-dev" />
+  <project path="linux/platform/s5p4418" name="pyrope" groups="device" remote="nexell_linux" revision="vd_cinema" />
   <project path="linux/platform/s5p6818" name="nxp5430" groups="device" remote="nexell_linux" revision="linux-dev" />
-  <project path="linux/platform/common" name="platform/common" groups="device" remote="nexell_linux" revision="linux-dev" />
-  <project path="linux/bootloader/2ndboot/s5p4418" name="2ndboot/s5p4418" groups="device" remote="nexell_linux" revision="linux-dev" />
+  <project path="linux/platform/common" name="platform/common" groups="device" remote="nexell_linux" revision="vd_cinema" />
+  <project path="linux/bootloader/2ndboot/s5p4418" name="2ndboot/s5p4418" groups="device" remote="nexell_linux" revision="vd_cinema" />
   <project path="linux/bootloader/2ndboot/s5p6818" name="2ndboot/s5p6818" groups="device" remote="nexell_linux" revision="linux-dev" />
 
 
@@ -544,8 +544,9 @@
   <!--<project path="external/wpa_supplicant_8" name="realtek/wpa_supplicant_8" groups="pdk" remote="nexell_aosp" revision="aosp-realtek" />-->
   <!--<project path="hardware/libhardware" name="platform/hardware/libhardware" groups="pdk" remote="nexell_lollipop" revision="lollipop-dev" />-->
   <!--<project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" groups="pdk" remote="nexell_lollipop" revision="lollipop-dev" />-->
+  <project path="external/tslib" name="platform/external/tslib" groups="pdk" remote="nexell_lollipop" revision="vd_cinema" />
   <project path="frameworks/av" name="platform/frameworks/av" groups="pdk" remote="nexell_lollipop" revision="lollipop-5.1.1_r6" />
-  <project path="frameworks/base" name="platform/frameworks/base" remote="nexell_lollipop" revision="lollipop-5.1.1_r6" />
+  <project path="frameworks/base" name="platform/frameworks/base" remote="nexell_lollipop" revision="vd_cinema" />
   <project path="frameworks/native" name="platform/frameworks/native" groups="pdk" remote="nexell_lollipop" revision="lollipop-5.1.1_r6" />
   <project path="frameworks/ex" name="platform/frameworks/ex" groups="pdk-cw-fs" remote="nexell_lollipop" revision="lollipop-5.1.1_r6" />
   <project path="packages/apps/Camera2" name="platform/apps/Camera2"  remote="nexell_lollipop" revision="lollipop-5.1.1_r6" />
@@ -555,10 +556,11 @@
   <project path="frameworks/opt/net/wifi" name="platform/frameworks/opt/net/wifi" remote="nexell_lollipop" revision="lollipop-5.1.1_r6" />
   <project path="system/core" name="platform/system/core" remote="nexell_lollipop" revision="lollipop-5.1.1_r6" />
   <project path="packages/apps/Gallery2" name="platform/packages/apps/Gallery2" remote="nexell_lollipop" revision="lollipop-5.1.1_r6" />
+  <project path="packages/apps/TSCalibration" name="platform/packages/apps/TSCalibration" remote="nexell_lollipop" revision="vd_cinema" />
   
   <!-- New projects for Nexell -->
   <project path="device/nexell/tools" name="device/nexell/tools" groups="device" remote="nexell_lollipop" revision="lollipop-dev" />
-  <project path="hardware/samsung_slsi/slsiap" name="platform/hardware/samsung_slsi/slsiap" groups="pdk" remote="nexell_kitkat" revision="kitkat-dev" />
+  <project path="hardware/samsung_slsi/slsiap" name="platform/hardware/samsung_slsi/slsiap" groups="pdk" remote="nexell_kitkat" revision="vd_cinema" />
   <project path="hardware/samsung_slsi/slsiap/omx" name="platform/hardware/samsung_slsi/omx" groups="pdk" remote="nexell_kitkat" revision="lollipop-dev" />
 
   <project path="hardware/realtek" name="realtek/hardware/realtek" groups="pdk" remote="nexell_aosp" revision="aosp-realtek-lollipop" />
@@ -569,6 +571,7 @@
   <project path="device/nexell/lepus" name="device/nexell/lepus" groups="device" remote="nexell_lollipop" revision="lollipop-dev" />
   <project path="device/nexell/s5p4418_drone" name="device/nexell/s5p4418_drone" groups="device" remote="nexell_lollipop" revision="lollipop-dev" />
   <project path="device/nexell/s5p6818_drone" name="device/nexell/s5p6818_drone" groups="device" remote="nexell_lollipop" revision="lollipop-dev" />
+  <project path="device/nexell/s5p4418_digital_cinema" name="device/nexell/s5p4418_digital_cinema" groups="device" remote="nexell_lollipop" revision="vd_cinema" />
 
   <!-- secure_os -->
   <project path="linux/secureos/optee_os_3.18" name="optee_os_3.18" groups="device" remote="nexell_secure" revision="optee-dev" />
