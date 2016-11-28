@@ -565,6 +565,7 @@
 
   <project path="hardware/realtek" name="realtek/hardware/realtek" groups="pdk" remote="nexell_aosp" revision="aosp-realtek-lollipop" />
   <project path="vendor/google/gapps" name="vendor/google/gapps" groups="pdk" remote="nexell_lollipop" revision="lollipop-dev" />
+  <project path="packages/apps/TSCalibration" name="platform/apps/TSCalibration" remote="nexell_lollipop" revision="lollipop-dev" /> 
   <project path="vendor/nexell/apps" name="vendor/nexell/apps" groups="pdk" remote="nexell_lollipop" revision="lollipop-dev" />
 
   <!-- board -->
