@@ -28,7 +28,7 @@
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
   <project path="art" name="platform/art" groups="pdk" />
-  <project path="bionic" name="platform/bionic" groups="pdk" />
+  <!--project path="bionic" name="platform/bionic" groups="pdk" /-->
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" groups="pdk-cw-fs" />
   <project path="bootable/recovery" name="platform/bootable/recovery" groups="pdk" />
   <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs" />
@@ -545,6 +545,7 @@
   <!--<project path="hardware/libhardware" name="platform/hardware/libhardware" groups="pdk" remote="nexell_lollipop" revision="lollipop-dev" />-->
   <!--<project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" groups="pdk" remote="nexell_lollipop" revision="lollipop-dev" />-->
   <project path="external/tslib" name="platform/external/tslib" groups="pdk" remote="nexell_lollipop" revision="lollipop-dev" />
+  <project path="bionic" name="platform/bionic" groups="pdk" remote="nexell_lollipop" revision="lollipop-5.1.1_r6" />
   <project path="external/flac" name="platform/external/flac" groups="pdk" remote="nexell_lollipop" revision="lollipop-dev" />
   <project path="frameworks/av" name="platform/frameworks/av" groups="pdk" remote="nexell_lollipop" revision="lollipop-5.1.1_r6" />
   <project path="frameworks/base" name="platform/frameworks/base" remote="nexell_lollipop" revision="lollipop-5.1.1_r6" />
@@ -557,7 +558,7 @@
   <project path="frameworks/opt/net/wifi" name="platform/frameworks/opt/net/wifi" remote="nexell_lollipop" revision="lollipop-5.1.1_r6" />
   <project path="system/core" name="platform/system/core" remote="nexell_lollipop" revision="lollipop-5.1.1_r6" />
   <project path="packages/apps/Gallery2" name="platform/packages/apps/Gallery2" remote="nexell_lollipop" revision="lollipop-5.1.1_r6" />
-  
+
   <!-- New projects for Nexell -->
   <project path="device/nexell/tools" name="device/nexell/tools" groups="device" remote="nexell_lollipop" revision="lollipop-dev" />
   <project path="hardware/samsung_slsi/slsiap" name="platform/hardware/samsung_slsi/slsiap" groups="pdk" remote="nexell_kitkat" revision="kitkat-dev" />
@@ -565,7 +566,7 @@
 
   <project path="hardware/realtek" name="realtek/hardware/realtek" groups="pdk" remote="nexell_aosp" revision="aosp-realtek-lollipop" />
   <project path="vendor/google/gapps" name="vendor/google/gapps" groups="pdk" remote="nexell_lollipop" revision="lollipop-dev" />
-  <project path="packages/apps/TSCalibration" name="platform/apps/TSCalibration" remote="nexell_lollipop" revision="lollipop-dev" /> 
+  <project path="packages/apps/TSCalibration" name="platform/apps/TSCalibration" remote="nexell_lollipop" revision="lollipop-dev" />
   <project path="vendor/nexell/apps" name="vendor/nexell/apps" groups="pdk" remote="nexell_lollipop" revision="lollipop-dev" />
 
   <!-- board -->
