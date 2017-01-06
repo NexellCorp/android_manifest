@@ -551,18 +551,21 @@
   <project path="packages/inputmethods/LatinIME" name="platform/packages/inputmethods/LatinIME" remote="nexell_lollipop" revision="lollipop-5.1.1_r6-avn-release_3rd" />
   <project path="bootable/recovery" name="platform/bootable/recovery" groups="pdk"  remote="nexell_lollipop" revision="lollipop-5.1.1_r6-avn-release_3rd" />
   <project path="packages/apps/Gallery2" name="platform/packages/apps/Gallery2" remote="nexell_lollipop" revision="lollipop-5.1.1_r6-avn-release_3rd" />
-  
+
   <!-- New projects for Nexell -->
   <project path="device/nexell/tools" name="device/nexell/tools" groups="device" remote="nexell_lollipop" revision="lollipop-5.1.1_r6-avn-release_3rd" />
   <project path="hardware/samsung_slsi/slsiap" name="platform/hardware/samsung_slsi/slsiap" groups="pdk" remote="nexell_kitkat" revision="lollipop-5.1.1_r6-avn-release_3rd" />
   <project path="hardware/samsung_slsi/slsiap/omx" name="platform/hardware/samsung_slsi/omx" groups="pdk" remote="nexell_kitkat" revision="lollipop-5.1.1_r6-avn-release_3rd" />
 
   <project path="hardware/realtek" name="realtek/hardware/realtek" groups="pdk" remote="nexell_aosp" revision="lollipop-5.1.1_r6-avn-release_3rd" />
-  <project path="packages/apps/TSCalibration" name="platform/apps/TSCalibration" remote="nexell_lollipop" revision="lollipop-5.1.1_r6-avn-release_3rd" /> 
+  <project path="packages/apps/TSCalibration" name="platform/apps/TSCalibration" remote="nexell_lollipop" revision="lollipop-5.1.1_r6-avn-release_3rd" />
   <project path="vendor/nexell/apps" name="vendor/nexell/apps" groups="pdk" remote="nexell_lollipop" revision="lollipop-5.1.1_r6-avn-release_3rd" />
   <project path="packages/apps/Home" name="platform/packages/apps/Home"  remote="nexell_lollipop" revision="lollipop-5.1.1_r6-avn-release_3rd" />
 
   <!-- board -->
+  <project path="device/nexell/s5p4418_avn_ref" name="device/nexell/s5p4418_avn_ref" groups="device" remote="nexell_lollipop" revision="lollipop-5.1.1_r6-avn-release_3rd" />
   <project path="device/nexell/s5p4418_navi_ref" name="device/nexell/s5p4418_navi_ref" groups="device" remote="nexell_lollipop" revision="lollipop-5.1.1_r6-avn-release_3rd" />
+  <project path="device/nexell/s5p6818_avn_ref" name="device/nexell/s5p6818_avn_ref" groups="device" remote="nexell_lollipop" revision="lollipop-5.1.1_r6-avn-release_3rd" />
+  <project path="device/nexell/s5p6818_avn_ref_bt" name="device/nexell/s5p6818_avn_ref_bt" groups="device" remote="nexell_lollipop" revision="lollipop-5.1.1_r6-avn-release_3rd" />
 
 </manifest>
