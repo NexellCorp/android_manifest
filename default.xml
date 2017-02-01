@@ -3,6 +3,13 @@
 
   <remote  name="aosp"
 	   fetch="../../../mirror/aosp" />
+
+  <remote name="nexell_nougat"
+	  fetch="." />
+
+  <remote name="nexell"
+	  fetch="../../../" />
+
   <default revision="refs/tags/android-7.1.1_r13"
            remote="aosp"
            sync-j="4" />
@@ -542,5 +549,21 @@
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
   <project path="tools/test/connectivity" name="platform/tools/test/connectivity" />
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
+
+  <!-- Added by Nexell -->
+  <project path="device/nexell/tools" name="device/nexell/tools" groups="device" remote="nexell_nougat" revision="nougat-dev" />
+  <project path="device/nexell/avn_ref" name="device/nexell/avn_ref" groups="device" remote="nexell_nougat" revision="nougat-dev" />
+  <project path="device/nexell/kboard" name="device/nexell/kboard" groups="device" remote="nexell_nougat" revision="nougat-dev" />
+  <project path="device/nexell/bl1/bl1-s5p6818" name="nexell/bl1/bl1-s5p6818" groups="bl1" remote="nexell" revision="nexell" />
+  <project path="device/nexell/bl1/bl1-s5p4418" name="nexell/bl1/bl1-s5p4418" groups="bl1" remote="nexell" revision="nexell" />
+  <project path="device/nexell/secure/l-loader" name="nexell/secure/l-loader" groups="secure" remote="nexell" revision="nexell" />
+  <project path="device/nexell/secure/arm-trusted-firmware" name="nexell/secure/arm-trusted-firmware" groups="secure" remote="nexell" revision="nexell" />
+  <project path="device/nexell/secure/optee_build" name="nexell/secure/optee/optee_build" groups="secure" remote="nexell" revision="nexell" />
+  <project path="device/nexell/secure/optee_client" name="nexell/secure/optee/optee_client" groups="secure" remote="nexell" revision="nexell" />
+  <project path="device/nexell/secure/optee_linuxdriver" name="nexell/secure/optee/optee_linuxdriver" groups="secure" remote="nexell" revision="nexell" />
+  <project path="device/nexell/secure/optee_os" name="nexell/secure/optee/optee_os" groups="secure" remote="nexell" revision="nexell" />
+  <project path="device/nexell/secure/optee_test" name="nexell/secure/optee/optee_test" groups="secure" remote="nexell" revision="nexell" />
+  <project path="device/nexell/u-boot/u-boot-2016.01" name="nexell/linux/u-boot/u-boot-2016.01" groups="u-boot" remote="nexell" revision="nexell" />
+  <project path="device/nexell/kernel/kernel-4.4.19" name="nexell/linux/kernel/kernel-4.4.19" groups="kernel" remote="nexell" revision="nexell" />
 
 </manifest>
