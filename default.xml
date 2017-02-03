@@ -565,5 +565,12 @@
   <project path="device/nexell/secure/optee_test" name="nexell/secure/optee/optee_test" groups="secure" remote="nexell" revision="nexell" />
   <project path="device/nexell/u-boot/u-boot-2016.01" name="nexell/linux/u-boot/u-boot-2016.01" groups="u-boot" remote="nexell" revision="nexell" />
   <project path="device/nexell/kernel/kernel-4.4.19" name="nexell/linux/kernel/kernel-4.4.19" groups="kernel" remote="nexell" revision="nexell" />
+  <project path="hardware/nexell/s5pxx18/gralloc" name="hardware/nexell/s5pxx18/gralloc" groups="hal" remote="nexell_nougat" revision="nougat-dev" />
+  <project path="hardware/nexell/s5pxx18/audio" name="hardware/nexell/s5pxx18/audio" groups="hal" remote="nexell_nougat" revision="nougat-dev" />
+  <project path="hardware/nexell/s5pxx18/keystore" name="hardware/nexell/s5pxx18/keystore" groups="hal" remote="nexell_nougat" revision="nougat-dev" />
+  <project path="hardware/nexell/s5pxx18/lights" name="hardware/nexell/s5pxx18/lights" groups="hal" remote="nexell_nougat" revision="nougat-dev" />
+  <project path="hardware/nexell/s5pxx18/omx" name="hardware/nexell/s5pxx18/omx" groups="hal" remote="nexell_nougat" revision="nougat-dev" />
+  <project path="hardware/nexell/s5pxx18/camera" name="hardware/nexell/s5pxx18/camera" groups="hal" remote="nexell_nougat" revision="nougat-dev" />
+  <project path="hardware/nexell/s5pxx18/ogl" name="hardware/nexell/s5pxx18/ogl" groups="hal" remote="nexell_nougat" revision="nougat-dev" />
 
 </manifest>
