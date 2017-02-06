@@ -561,10 +561,10 @@
   <project path="vendor/nexell/apps" name="vendor/nexell/apps" groups="pdk" remote="nexell_lollipop" revision="lollipop-5.1.1_r6-release_3rd" />
 
   <!-- board -->
-  <project path="device/nexell/lepus" name="device/nexell/lepus" groups="device" remote="nexell_lollipop" revision="lollipop-dev" />
-  <project path="device/nexell/s5p4418_drone" name="device/nexell/s5p4418_drone" groups="device" remote="nexell_lollipop" revision="lollipop-dev" />
-  <project path="device/nexell/s5p4418_general" name="device/nexell/s5p4418_general" groups="device" remote="nexell_lollipop" revision="lollipop-dev" />
-  <project path="device/nexell/s5p6818_drone" name="device/nexell/s5p6818_drone" groups="device" remote="nexell_lollipop" revision="lollipop-dev" />
-  <project path="device/nexell/s5p6818_general" name="device/nexell/s5p6818_general" groups="device" remote="nexell_lollipop" revision="lollipop-dev" />
+  <project path="device/nexell/lepus" name="device/nexell/lepus" groups="device" remote="nexell_lollipop" revision="lollipop-5.1.1_r6-release_3rd" />
+  <project path="device/nexell/s5p4418_drone" name="device/nexell/s5p4418_drone" groups="device" remote="nexell_lollipop" revision="lollipop-5.1.1_r6-release_3rd" />
+  <project path="device/nexell/s5p4418_general" name="device/nexell/s5p4418_general" groups="device" remote="nexell_lollipop" revision="lollipop-5.1.1_r6-release_3rd" />
+  <project path="device/nexell/s5p6818_drone" name="device/nexell/s5p6818_drone" groups="device" remote="nexell_lollipop" revision="lollipop-5.1.1_r6-release_3rd" />
+  <project path="device/nexell/s5p6818_general" name="device/nexell/s5p6818_general" groups="device" remote="nexell_lollipop" revision="lollipop-5.1.1_r6-release_3rd" />
 
 </manifest>
