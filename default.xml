@@ -10,7 +10,7 @@
   <remote name="nexell"
 	  fetch="../../../" />
 
-  <default revision="refs/tags/android-7.1.1_r13"
+  <default revision="refs/tags/android-7.1.1_r28"
            remote="aosp"
            sync-j="4" />
 
