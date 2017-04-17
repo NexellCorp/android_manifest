@@ -574,7 +574,7 @@
   <project path="hardware/nexell/s5pxx18/camera" name="hardware/nexell/s5pxx18/camera" groups="hal" remote="nexell_nougat" revision="nougat-dev" />
   <project path="hardware/nexell/s5pxx18/ogl" name="hardware/nexell/s5pxx18/ogl" groups="hal" remote="nexell_nougat" revision="nougat-dev" />
   <project path="hardware/nexell/s5pxx18/hwc1" name="hardware/nexell/s5pxx18/hwc1" groups="hal" remote="nexell_nougat" revision="nougat-dev" />
-  <project path="hardware/nexell/s5pxx18/hwc2" name="hardware/nexell/s5pxx18/hwc2" groups="hal" remote="nexell_nougat" revision="nougat-dev" />
+  <project path="hardware/nexell/s5pxx18/hwc1-drm" name="hardware/nexell/s5pxx18/hwc1-drm" groups="hal" remote="nexell_nougat" revision="nougat-dev" />
   <project path="external/tslib" name="platform/external/tslib" groups="pdk" remote="nexell_nougat" revision="nougat-dev" />
 
 </manifest>
