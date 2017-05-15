@@ -556,6 +556,7 @@
   <!-- Added by Nexell -->
   <project path="device/nexell/tools" name="device/nexell/tools" groups="device" remote="nexell_nougat" revision="nougat-dev" />
   <project path="device/nexell/avn_ref" name="device/nexell/avn_ref" groups="device" remote="nexell_nougat" revision="nougat-dev" />
+  <project path="device/nexell/kick_st" name="device/nexell/kick_st" groups="device" remote="nexell_nougat" revision="nougat-dev" />
   <project path="device/nexell/kboard" name="device/nexell/kboard" groups="device" remote="nexell_nougat" revision="nougat-dev" />
   <project path="device/nexell/bl1/bl1-s5p6818" name="nexell/bl1/bl1-s5p6818" groups="bl1" remote="nexell" revision="nexell" />
   <project path="device/nexell/bl1/bl1-s5p4418" name="nexell/bl1/bl1-s5p4418" groups="bl1" remote="nexell" revision="nexell" />
