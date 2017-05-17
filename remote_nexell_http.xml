@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="nexell_nougat"
+	  fetch="http://git.nexell.co.kr:8081/gerrit/nexell/android/nougat/" />
+
+  <remote name="nexell_aosp"
+	  fetch="http://git.nexell.co.kr:8081/gerrit/nexell/android/" />
+
+  <remote name="nexell"
+	  fetch="http://git.nexell.co.kr:8081/gerrit/" />
+</manifest>
