@@ -4,9 +4,9 @@
   <remote  name="aosp"
 	  fetch="https://android.googlesource.com" />
 
-  <include name="remote_nexell_http.xml" />
+  <!-- <include name="remote_nexell_http.xml" /> -->
   <!-- If you init by ssh, deactivate upper line and activate below line -->
-  <!-- <include name="remote_nexell_ssh.xml" /> -->
+  <include name="remote_nexell_ssh.xml" />
 
   <default revision="refs/tags/android-7.1.2_r17"
            remote="aosp"
