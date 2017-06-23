@@ -31,4 +31,6 @@
   <project path="external/tslib" name="platform/external/tslib" groups="pdk" remote="nexell_nougat" revision="nougat-dev" />
   <project path="hardware/realtek" name="realtek/hardware/realtek" groups="pdk" remote="nexell_aosp" revision="aosp-realtek-nougat" />
   <project path="external/wpa_supplicant_8_realtek" name="realtek/wpa_supplicant_8" groups="pdk" remote="nexell_aosp" revision="nougat-dev" />
+  <project path="device/nexell/library/nx-video-api" name="nexell/linux/library/nx-video-api" groups="library" remote="nexell" revision="nexell" />
+  <project path="device/nexell/apps/testsuite" name="nexell/linux/apps/testsuite" groups="apps" remote="nexell" revision="nexell" />
 </manifest>
