@@ -8,7 +8,7 @@
   <!-- If you init by ssh, deactivate upper line and activate below line -->
   <include name="remote_nexell_ssh.xml" />
 
-  <default revision="refs/tags/android-7.1.2_r27"
+  <default revision="refs/tags/android-7.1.2_r33"
            remote="aosp"
            sync-j="4" />
 
