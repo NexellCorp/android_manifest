@@ -35,4 +35,5 @@
   <project path="external/wpa_supplicant_8_realtek" name="realtek/wpa_supplicant_8" groups="pdk" remote="nexell_aosp" revision="nougat-dev" />
   <project path="device/nexell/library/nx-video-api" name="nexell/linux/library/nx-video-api" groups="library" remote="nexell" revision="nexell" />
   <project path="device/nexell/apps/testsuite" name="nexell/linux/apps/testsuite" groups="apps" remote="nexell" revision="nexell" />
+  <project path="device/nexell/quickboot" name="device/nexell/quickboot_patch" groups="device" remote="nexell_nougat" revision="nougat-dev" />
 </manifest>
