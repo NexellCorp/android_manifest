@@ -36,4 +36,8 @@
   <project path="device/nexell/library/nx-video-api" name="nexell/linux/library/nx-video-api" groups="library" remote="nexell" revision="nexell" />
   <project path="device/nexell/apps/testsuite" name="nexell/linux/apps/testsuite" groups="apps" remote="nexell" revision="nexell" />
   <project path="device/nexell/quickboot" name="device/nexell/quickboot_patch" groups="device" remote="nexell_nougat" revision="nougat-dev" />
+
+  <project path="external/exfat" name="platform/external/exfat" groups="pdk" remote="nexell_nougat" revision="nougat-dev" />
+  <project path="external/ntfs-3g" name="platform/external/ntfs-3g" groups="pdk" remote="nexell_nougat" revision="nougat-dev" />
+  <project path="external/fuse" name="platform/external/fuse" groups="pdk" remote="nexell_nougat" revision="nougat-dev" />
 </manifest>
