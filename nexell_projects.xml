@@ -6,6 +6,7 @@
   <project path="device/nexell/zh_dragon" name="device/nexell/zh_dragon" groups="device" remote="nexell_nougat" revision="nougat-dev" />
   <project path="device/nexell/zh_blackdragon" name="device/nexell/zh_blackdragon" groups="device" remote="nexell_nougat" revision="nougat-dev" />
   <project path="device/nexell/navi_ref" name="device/nexell/navi_ref" groups="device" remote="nexell_nougat" revision="nougat-dev" />
+  <project path="device/nexell/clova" name="device/nexell/clova" groups="device" remote="nexell_nougat" revision="nougat-dev" />
   <project path="device/nexell/bl1/bl1-s5p6818" name="nexell/bl1/bl1-s5p6818" groups="bl1" remote="nexell" revision="nexell" />
   <project path="device/nexell/bl1/bl1-s5p4418" name="nexell/bl1/bl1-s5p4418" groups="bl1" remote="nexell" revision="nexell" />
   <project path="device/nexell/secure/l-loader" name="nexell/secure/l-loader" groups="secure" remote="nexell" revision="nexell" />
