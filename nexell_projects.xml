@@ -38,6 +38,7 @@
   <project path="device/nexell/library/nx-video-api" name="nexell/linux/library/nx-video-api" groups="library" remote="nexell" revision="nexell" />
   <project path="device/nexell/library/nx-scaler" name="nexell/linux/library/nx-scaler" groups="library" remote="nexell" revision="nexell" />
   <project path="device/nexell/library/libagcpdm" name="nexell/linux/library/libagcpdm" groups="library" remote="nexell" revision="nexell" />
+  <project path="device/nexell/library/libresample" name="nexell/linux/library/libresample" groups="library" remote="nexell" revision="nexell" />
   <project path="device/nexell/apps/testsuite" name="nexell/linux/apps/testsuite" groups="apps" remote="nexell" revision="nexell" />
   <project path="device/nexell/apps/nx-feedback" name="nexell/linux/apps/nx-feedback" groups="apps" remote="nexell" revision="nexell" />
   <project path="device/nexell/quickboot" name="device/nexell/quickboot_patch" groups="device" remote="nexell_nougat" revision="nougat-dev" />
