@@ -37,6 +37,7 @@
   <project path="external/wpa_supplicant_8_realtek" name="realtek/wpa_supplicant_8" groups="pdk" remote="nexell_aosp" revision="nougat-dev" />
   <project path="device/nexell/library/nx-video-api" name="nexell/linux/library/nx-video-api" groups="library" remote="nexell" revision="nexell" />
   <project path="device/nexell/library/nx-scaler" name="nexell/linux/library/nx-scaler" groups="library" remote="nexell" revision="nexell" />
+  <project path="device/nexell/library/nx-csc" name="nexell/linux/library/nx-csc" groups="library" remote="nexell" revision="nexell" />
   <project path="device/nexell/library/libagcpdm" name="nexell/linux/library/libagcpdm" groups="library" remote="nexell" revision="nexell" />
   <project path="device/nexell/library/libresample" name="nexell/linux/library/libresample" groups="library" remote="nexell" revision="nexell" />
   <project path="device/nexell/library/nx-smartvoice" name="nexell/linux/library/nx-smartvoice" groups="library" remote="nexell" revision="nexell" />
