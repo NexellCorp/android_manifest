@@ -13,4 +13,5 @@
   <project path="frameworks/native" name="platform/frameworks/native" groups="pdk" remote="nexell_nougat" revision="nougat-dev" />
   <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" groups="pdk" remote="nexell_nougat" revision="nougat-dev" />
   <project path="packages/apps/Settings" name="platform/packages/apps/Settings" groups="pdk-fs" remote="nexell_nougat" revision="nougat-dev" />
+  <project path="packages/apps/Music" name="platform/packages/apps/Music" groups="pdk-fs" remote="nexell_nougat" revision="nougat-dev" />
 </manifest>
