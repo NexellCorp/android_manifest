@@ -6,6 +6,9 @@
   <remote name="nexell_aosp"
 	  fetch="ssh://git.nexell.co.kr:29418/nexell/android" />
 
+  <remote name="nexell_solution"
+	  fetch="ssh://git.nexell.co.kr:29418/nexell/android/solution" />
+
   <remote name="nexell"
 	  fetch="ssh://git.nexell.co.kr:29418/" />
 </manifest>
