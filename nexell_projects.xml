@@ -54,4 +54,13 @@
   <project path="external/fuse" name="platform/external/fuse" groups="pdk" remote="nexell_nougat" revision="nougat-dev" />
 
   <project path="vendor/google" name="vendor/google" groups="vendor" remote="nexell_nougat" revision="nougat-dev" />
+
+  <project path="device/nexell/solution/carlife/libplist" name="carlife/libplist" groups="solution" remote="nexell_solution" revision="nexell" />
+  <project path="device/nexell/solution/carlife/openssl" name="carlife/openssl" groups="solution" remote="nexell_solution" revision="nexell" />
+  <project path="device/nexell/solution/carlife/libzip" name="carlife/libzip" groups="solution" remote="nexell_solution" revision="nexell" />
+  <project path="device/nexell/solution/carlife/libusb" name="carlife/libusb" groups="solution" remote="nexell_solution" revision="nexell" />
+  <project path="device/nexell/solution/carlife/libusbmuxd" name="carlife/libusbmuxd" groups="solution" remote="nexell_solution" revision="nexell" />
+  <project path="device/nexell/solution/carlife/libimobiledevice" name="carlife/libimobiledevice" groups="solution" remote="nexell_solution" revision="nexell" />
+  <project path="device/nexell/solution/carlife/usbmuxd" name="carlife/usbmuxd" groups="solution" remote="nexell_solution" revision="nexell" />
+  <project path="device/nexell/solution/carlife/ideviceinstaller" name="carlife/ideviceinstaller" groups="solution" remote="nexell_solution" revision="nexell" />
 </manifest>
