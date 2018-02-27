@@ -48,6 +48,7 @@
   <project path="device/nexell/apps/nx-feedback" name="nexell/linux/apps/nx-feedback" groups="apps" remote="nexell" revision="nexell" />
   <project path="device/nexell/apps/smart_voice_apps" name="nexell/linux/apps/smart_voice_apps" groups="apps" remote="nexell" revision="master" />
   <project path="device/nexell/quickboot" name="device/nexell/quickboot_patch" groups="device" remote="nexell_nougat" revision="nougat-dev" />
+  <project path="device/nexell/test" name="device/nexell/test" groups="device" remote="nexell_nougat" revision="nougat-dev" />
 
   <project path="external/exfat" name="platform/external/exfat" groups="pdk" remote="nexell_nougat" revision="nougat-dev" />
   <project path="external/ntfs-3g" name="platform/external/ntfs-3g" groups="pdk" remote="nexell_nougat" revision="nougat-dev" />
