@@ -55,6 +55,7 @@
   <project path="external/fuse" name="platform/external/fuse" groups="pdk" remote="nexell_nougat" revision="nougat-dev" />
 
   <project path="vendor/google" name="vendor/google" groups="vendor" remote="nexell_nougat" revision="nougat-dev" />
+  <project path="vendor/opengapps" name="vendor/opengapps" groups="vendor" remote="nexell_aosp" revision="nougat-dev" />
 
   <project path="device/nexell/solution/carlife/libplist" name="carlife/libplist" groups="solution" remote="nexell_solution" revision="nexell" />
   <project path="device/nexell/solution/carlife/openssl" name="carlife/openssl" groups="solution" remote="nexell_solution" revision="nexell" />
