@@ -1,24 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <project path="device/nexell/tools" name="device/nexell/tools" groups="device" remote="nexell_nougat" revision="nougat-dev" />
-  <project path="device/nexell/avn_ref" name="device/nexell/avn_ref" groups="device" remote="nexell_nougat" revision="nougat-dev" />
-  <project path="device/nexell/kick_st" name="device/nexell/kick_st" groups="device" remote="nexell_nougat" revision="nougat-dev" />
-  <project path="device/nexell/zh_dragon" name="device/nexell/zh_dragon" groups="device" remote="nexell_nougat" revision="nougat-dev" />
-  <project path="device/nexell/zh_blackdragon" name="device/nexell/zh_blackdragon" groups="device" remote="nexell_nougat" revision="nougat-dev" />
-  <project path="device/nexell/navi_ref" name="device/nexell/navi_ref" groups="device" remote="nexell_nougat" revision="nougat-dev" />
-  <project path="device/nexell/clova" name="device/nexell/clova" groups="device" remote="nexell_nougat" revision="nougat-dev" />
-  <project path="device/nexell/smart_voice" name="device/nexell/smart_voice" groups="device" remote="nexell_nougat" revision="nougat-dev" />
-  <project path="device/nexell/bl1/bl1-s5p6818" name="nexell/bl1/bl1-s5p6818" groups="bl1" remote="nexell" revision="nexell" />
-  <project path="device/nexell/bl1/bl1-s5p4418" name="nexell/bl1/bl1-s5p4418" groups="bl1" remote="nexell" revision="nexell" />
-  <project path="device/nexell/secure/l-loader" name="nexell/secure/l-loader" groups="secure" remote="nexell" revision="nexell" />
-  <project path="device/nexell/secure/arm-trusted-firmware" name="nexell/secure/arm-trusted-firmware" groups="secure" remote="nexell" revision="nexell" />
-  <project path="device/nexell/secure/optee_build" name="nexell/secure/optee/optee_build" groups="secure" remote="nexell" revision="nexell" />
-  <project path="device/nexell/secure/optee_client" name="nexell/secure/optee/optee_client" groups="secure" remote="nexell" revision="nexell" />
-  <project path="device/nexell/secure/optee_linuxdriver" name="nexell/secure/optee/optee_linuxdriver" groups="secure" remote="nexell" revision="nexell" />
-  <project path="device/nexell/secure/optee_os" name="nexell/secure/optee/optee_os" groups="secure" remote="nexell" revision="nexell" />
-  <project path="device/nexell/secure/optee_test" name="nexell/secure/optee/optee_test" groups="secure" remote="nexell" revision="nexell" />
-  <project path="device/nexell/secure/bl2-s5p4418" name="nexell/bl2/bl2-s5p4418" groups="secure" remote="nexell" revision="nexell" />
-  <project path="device/nexell/secure/armv7-dispatcher" name="nexell/secure/armv7-dispatcher" groups="secure" remote="nexell" revision="nexell" />
+  <project path="device/nexell/bl1/bl1-s5p6818" name="nexell/bl1/bl1-s5p6818" groups="bl1" remote="nexell" revision="artik" />
+  <project path="device/nexell/bl1/bl1-s5p4418" name="nexell/bl1/bl1-s5p4418" groups="bl1" remote="nexell" revision="artik" />
+  <project path="device/nexell/secure/l-loader" name="nexell/secure/l-loader" groups="secure" remote="nexell" revision="artik" />
+  <project path="device/nexell/secure/arm-trusted-firmware" name="nexell/secure/arm-trusted-firmware" groups="secure" remote="nexell" revision="artik" />
+  <project path="device/nexell/secure/optee_build" name="nexell/secure/optee/optee_build" groups="secure" remote="nexell" revision="artik" />
+  <project path="device/nexell/secure/optee_client" name="nexell/secure/optee/optee_client" groups="secure" remote="nexell" revision="artik" />
+  <project path="device/nexell/secure/optee_linuxdriver" name="nexell/secure/optee/optee_linuxdriver" groups="secure" remote="nexell" revision="artik" />
+  <project path="device/nexell/secure/optee_os" name="nexell/secure/optee/optee_os" groups="secure" remote="nexell" revision="artik" />
+  <project path="device/nexell/secure/optee_test" name="nexell/secure/optee/optee_test" groups="secure" remote="nexell" revision="artik" />
+  <project path="device/nexell/secure/bl2-s5p4418" name="nexell/bl2/bl2-s5p4418" groups="secure" remote="nexell" revision="artik" />
+  <project path="device/nexell/secure/armv7-dispatcher" name="nexell/secure/armv7-dispatcher" groups="secure" remote="nexell" revision="artik" />
   <project path="device/nexell/u-boot/u-boot-2016.01" name="nexell/linux/u-boot/u-boot-2016.01" groups="u-boot" remote="nexell" revision="nexell" />
   <project path="device/nexell/kernel/kernel-4.4.x" name="nexell/linux/kernel/kernel-4.4.x" groups="kernel" remote="nexell" revision="nexell" />
   <project path="device/nexell/patch" name="device/nexell/patch" groups="device" remote="nexell_nougat" revision="nougat-dev" />
