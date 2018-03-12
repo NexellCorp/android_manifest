@@ -5,8 +5,8 @@
   <project path="device/nexell/bl1/bl1-s5p6818" name="nexell/bl1/bl1-s5p6818" groups="bl1" remote="nexell" revision="artik" />
   <project path="device/nexell/bl1/bl1-s5p4418" name="nexell/bl1/bl1-s5p4418" groups="bl1" remote="nexell" revision="artik" />
   <project path="device/nexell/secure/l-loader" name="nexell/secure/l-loader" groups="secure" remote="nexell" revision="artik" />
-  <project path="device/nexell/secure/arm-trusted-firmware" name="nexell/secure/arm-trusted-firmware" groups="secure" remote="nexell" revision="artik" />
-  <project path="device/nexell/secure/optee_build" name="nexell/secure/optee/optee_build" groups="secure" remote="nexell" revision="artik" />
+  <project path="device/nexell/secure/arm-trusted-firmware" name="nexell/secure/arm-trusted-firmware" groups="secure" remote="nexell" revision="artik-nexell" />
+  <project path="device/nexell/secure/optee_build" name="nexell/secure/optee/optee_build" groups="secure" remote="nexell" revision="artik-nexell" />
   <project path="device/nexell/secure/optee_client" name="nexell/secure/optee/optee_client" groups="secure" remote="nexell" revision="artik" />
   <project path="device/nexell/secure/optee_linuxdriver" name="nexell/secure/optee/optee_linuxdriver" groups="secure" remote="nexell" revision="artik" />
   <project path="device/nexell/secure/optee_os" name="nexell/secure/optee/optee_os" groups="secure" remote="nexell" revision="artik" />
