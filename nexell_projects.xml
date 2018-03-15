@@ -2,7 +2,7 @@
 <manifest>
   <project path="device/nexell/tools" name="device/nexell/tools" groups="device" remote="nexell_nougat" revision="nougat-dev" />
   <project path="device/nexell/raptor" name="device/nexell/raptor" groups="device" remote="nexell_nougat" revision="nougat-dev" />
-  <project path="device/nexell/bl1/bl1-s5p6818" name="nexell/bl1/bl1-s5p6818" groups="bl1" remote="nexell" revision="artik" />
+  <project path="device/nexell/bl1/bl1-s5p6818" name="nexell/bl1/bl1-s5p6818" groups="bl1" remote="nexell" revision="artik-nexell" />
   <project path="device/nexell/bl1/bl1-s5p4418" name="nexell/bl1/bl1-s5p4418" groups="bl1" remote="nexell" revision="artik" />
   <project path="device/nexell/secure/l-loader" name="nexell/secure/l-loader" groups="secure" remote="nexell" revision="artik" />
   <project path="device/nexell/secure/arm-trusted-firmware" name="nexell/secure/arm-trusted-firmware" groups="secure" remote="nexell" revision="artik-nexell" />
