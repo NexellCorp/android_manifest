@@ -18,5 +18,6 @@
   <project path="system/core" name="platform/system/core" groups="pdk" remote="nexell_nougat" revision="nougat-dev" />
   <project path="system/bt" name="platform/system/bt" groups="pdk" remote="nexell_nougat" revision="nougat-dev" />
   <project path="hardware/broadcom/libbt" name="platform/hardware/broadcom/libbt" groups="pdk" remote="nexell_nougat" revision="nougat-dev" />
+  <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" groups="pdk,broadcom_wlan" remote="nexell_nougat" revision="nougat-dev" />
   <project path="packages/apps/Bluetooth" name="platform/packages/apps/Bluetooth" groups="pdk-cw-fs,pdk-fs" remote="nexell_nougat" revision="nougat-dev" />
 </manifest>
