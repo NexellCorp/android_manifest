@@ -43,8 +43,10 @@
   <project path="device/nexell/library/nx-csc" name="nexell/linux/library/nx-csc" groups="library" remote="nexell" revision="nexell" />
   <project path="device/nexell/library/libagcpdm" name="nexell/linux/library/libagcpdm" groups="library" remote="nexell" revision="nexell" />
   <project path="device/nexell/library/libresample" name="nexell/linux/library/libresample" groups="library" remote="nexell" revision="nexell" />
+  <project path="device/nexell/library/include" name="nexell/linux/library/include" groups="library" remote="nexell" revision="nexell" />
   <project path="device/nexell/library/nx-smartvoice" name="nexell/linux/library/nx-smartvoice" groups="library" remote="nexell" revision="nexell" />
   <project path="device/nexell/library/libpowervoice" name="nexell/linux/library/libpowervoice" groups="library" remote="nexell" revision="nexell" />
+  <project path="device/nexell/library/libmwsr" name="nexell/linux/library/libmwsr" groups="library" remote="nexell" revision="nexell" />
   <project path="device/nexell/apps/testsuite" name="nexell/linux/apps/testsuite" groups="apps" remote="nexell" revision="nexell" />
   <project path="device/nexell/apps/nx-feedback" name="nexell/linux/apps/nx-feedback" groups="apps" remote="nexell" revision="nexell" />
   <project path="device/nexell/apps/smart_voice_apps" name="nexell/linux/apps/smart_voice_apps" groups="apps" remote="nexell" revision="master" />
