@@ -16,6 +16,7 @@
   <project path="hardware/nexell/s5pxx18/lights" name="hardware/nexell/s5pxx18/lights" groups="hal" remote="nexell_pie" revision="pie-dev" />
   <project path="hardware/nexell/s5pxx18/hwc1-drm-nexell" name="hardware/nexell/s5pxx18/hwc1-drm-nexell" groups="hal" remote="nexell_pie" revision="pie-dev" />
   <project path="hardware/nexell/s5pxx18/ogl" name="hardware/nexell/s5pxx18/ogl" groups="hal" remote="nexell_pie" revision="pie-dev" />
+  <project path="hardware/nexell/s5pxx18/audio" name="hardware/nexell/s5pxx18/audio" groups="hal" remote="nexell_pie" revision="pie-dev" />
   <project path="hardware/nexell/s5pxx18/libnxjpeg" name="hardware/nexell/s5pxx18/libnxjpeg" groups="hal" remote="nexell_nougat" revision="nougat-dev" />
   <project path="external/tslib" name="platform/external/tslib" groups="pdk" remote="nexell_nougat" revision="pie-dev" />
 </manifest>
