@@ -69,4 +69,5 @@
   <project path="device/nexell/solution/carlife/libimobiledevice" name="carlife/libimobiledevice" groups="solution" remote="nexell_solution" revision="nexell" />
   <project path="device/nexell/solution/carlife/usbmuxd" name="carlife/usbmuxd" groups="solution" remote="nexell_solution" revision="nexell" />
   <project path="device/nexell/solution/carlife/ideviceinstaller" name="carlife/ideviceinstaller" groups="solution" remote="nexell_solution" revision="nexell" />
+  <project path="packages/apps/DualDisplayTest" name="platform/packages/apps/DualDisplayTest" groups="pdk-fs" remote="nexell_aosp" revision="nougat-dev" />
 </manifest>
