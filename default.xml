@@ -119,7 +119,7 @@
   <project path="external/drm_gralloc" name="platform/external/drm_gralloc" groups="drm_gralloc,pdk-fs" />
   <project path="external/drm_hwcomposer" name="platform/external/drm_hwcomposer" groups="drm_hwcomposer,pdk-fs" />
   <project path="external/droiddriver" name="platform/external/droiddriver" groups="pdk" />
-  <project path="external/e2fsprogs" name="platform/external/e2fsprogs" groups="pdk" />
+  <!-- <project path="external/e2fsprogs" name="platform/external/e2fsprogs" groups="pdk" /> -->
   <project path="external/easymock" name="platform/external/easymock" groups="pdk" />
   <project path="external/eclipse-basebuilder" name="platform/external/eclipse-basebuilder" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/eclipse-windowbuilder" name="platform/external/eclipse-windowbuilder" groups="pdk" />
@@ -315,7 +315,7 @@
   <project path="external/vulkan-validation-layers" name="platform/external/vulkan-validation-layers" groups="pdk" />
   <project path="external/webp" name="platform/external/webp" groups="pdk,qcom_msm8x26" />
   <project path="external/webrtc" name="platform/external/webrtc" groups="pdk" />
-  <project path="external/wpa_supplicant_8" name="platform/external/wpa_supplicant_8" groups="pdk" />
+  <!-- <project path="external/wpa_supplicant_8" name="platform/external/wpa_supplicant_8" groups="pdk" /> -->
   <project path="external/xmlrpcpp" name="platform/external/xmlrpcpp" groups="pdk" />
   <project path="external/xmlwriter" name="platform/external/xmlwriter" groups="pdk" />
   <project path="external/xmp_toolkit" name="platform/external/xmp_toolkit" groups="pdk" />
@@ -533,11 +533,11 @@
   <!-- <project path="system/netd" name="platform/system/netd" groups="pdk" /> -->
   <project path="system/nvram" name="platform/system/nvram" />
   <project path="system/security" name="platform/system/security" groups="pdk" />
-  <project path="system/sepolicy" name="platform/system/sepolicy" groups="pdk" />
+  <!-- <project path="system/sepolicy" name="platform/system/sepolicy" groups="pdk" /> -->
   <project path="system/tools/aidl" name="platform/system/tools/aidl" groups="pdk" />
   <project path="system/tpm" name="platform/system/tpm" />
   <project path="system/update_engine" name="platform/system/update_engine" groups="pdk" />
-  <project path="system/vold" name="platform/system/vold" groups="pdk" />
+  <!-- <project path="system/vold" name="platform/system/vold" groups="pdk" /> -->
   <project path="system/weaved" name="platform/system/weaved" />
   <project path="system/webservd" name="platform/system/webservd" />
   <project path="test/vts" name="platform/test/vts" groups="vts,pdk" />
