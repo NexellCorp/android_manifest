@@ -8,7 +8,7 @@
            sync-j="4" />
 
   <remote name="nexell"
-	  fetch="ssh://swpark@review.gerrithub.io:29418/NexellCorp" />
+	  fetch="ssh://{USER_ID}@review.gerrithub.io:29418/NexellCorp" />
 
   <project path="build" name="platform/build" groups="pdk,tradefed" >
     <copyfile src="core/root.mk" dest="Makefile" />
