@@ -434,7 +434,7 @@
   <!-- nexell_linux: prototype, u-boot, kernel -->
   <project path="linux/prototype/pyrope" name="linux_prototype-pyrope" groups="device" remote="nexell" revision="linux-pyrope-release" />
   <project path="linux/bootloader/u-boot-2013.x" name="u-boot-2013.x" groups="device" remote="nexell" revision="linux-pyrope-release" />
-  <project path="linux/kernel/kernel-3.4.39" name="linux_kernel-3.4.39" groups="device" remote="nexell_linux" revision="linux-pyrope-release" />
+  <project path="linux/kernel/kernel-3.4.39" name="linux_kernel-3.4.39" groups="device" remote="nexell" revision="linux-pyrope-release" />
   <project path="linux/pyrope" name="pyrope_linux" groups="device" remote="nexell" revision="linux-pyrope-release" />
 
   <!-- AOSP fix for Nexell -->
@@ -442,7 +442,6 @@
   <project path="external/exfat" name="android_platform_external_exfat" groups="pdk" remote="nexell" revision="kitkat-mr1-pyrope-release" />
   <project path="external/fuse" name="android_platform_external_fuse" groups="pdk" remote="nexell" revision="kitkat-mr1-pyrope-release" />
   <project path="external/ntfs-3g" name="android_platform_external_ntfs-3g" groups="pdk" remote="nexell" revision="kitkat-mr1-pyrope-release" />
-  <project path="hardware/libhardware_legacy" name="android_platform_hardware_libhardware_legacy" groups="pdk" remote="nexell" revision="kitkat-mr1-pyrope-release" />
   <project path="hardware/libhardware_legacy" name="android_platform_hardware_libhardware_legacy" groups="pdk" remote="nexell" revision="kitkat-mr1-pyrope-release" />
   <project path="frameworks/av" name="android_platform_frameworks_av" groups="pdk" remote="nexell" revision="kitkat-mr1-pyrope-release" />
   <project path="frameworks/native" name="android_platform_frameworks_native" groups="pdk" remote="nexell" revision="kitkat-mr1-pyrope-release" />
