@@ -1,18 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote name="nexell_nougat"
-	  fetch="ssh://git.nexell.co.kr:29418/nexell/android/nougat"
-	  revision="refs/tags/20181106" />
-
-  <remote name="nexell_aosp"
-	  fetch="ssh://git.nexell.co.kr:29418/nexell/android"
-	  revision="refs/tags/20181106" />
-
-  <remote name="nexell_solution"
-	  fetch="ssh://git.nexell.co.kr:29418/nexell/android/solution"
-	  revision="refs/tags/20181106" />
-
   <remote name="nexell"
-	  fetch="ssh://git.nexell.co.kr:29418/"
+	  fetch="ssh://{USER_ID}@review.gerrithub.io:29418/NexellCorp" 
 	  revision="refs/tags/20181106" />
 </manifest>

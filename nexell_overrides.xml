@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <project path="build" name="platform/build" groups="pdk" remote="nexell_nougat">
+  <project path="build" name="android_build" groups="pdk" remote="nexell">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-  <project path="frameworks/av" name="platform/frameworks/av" groups="pdk" remote="nexell_nougat" />
-  <project path="frameworks/opt/net/wifi" name="platform/frameworks/opt/net/wifi" groups="pdk" remote="nexell_nougat" />
-  <project path="packages/apps/Camera2" name="platform/packages/apps/Camera2" groups="pdk-fs" remote="nexell_nougat" />
-  <project path="system/netd" name="platform/system/netd" groups="pdk" remote="nexell_nougat" />
-  <project path="frameworks/base" name="platform/frameworks/base" groups="pdk-cw-fs,pdk-fs" remote="nexell_nougat" />
-  <project path="hardware/libhardware" name="platform/hardware/libhardware" groups="pdk" remote="nexell_nougat" />
-  <project path="packages/apps/Launcher3" name="platform/packages/apps/Launcher3" groups="pdk-fs" remote="nexell_nougat" />
-  <project path="frameworks/native" name="platform/frameworks/native" groups="pdk" remote="nexell_nougat" />
-  <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" groups="pdk" remote="nexell_nougat" />
-  <project path="packages/apps/Settings" name="platform/packages/apps/Settings" groups="pdk-fs" remote="nexell_nougat" />
-  <project path="packages/apps/Music" name="platform/packages/apps/Music" groups="pdk-fs" remote="nexell_nougat" />
-  <project path="bootable/recovery" name="bootable/recovery" groups="pdk" remote="nexell_nougat" />
-  <project path="system/core" name="platform/system/core" groups="pdk" remote="nexell_nougat" />
-  <project path="system/bt" name="platform/system/bt" groups="pdk" remote="nexell_nougat" />
-  <project path="hardware/broadcom/libbt" name="platform/hardware/broadcom/libbt" groups="pdk" remote="nexell_nougat" />
-  <project path="packages/apps/Bluetooth" name="platform/packages/apps/Bluetooth" groups="pdk-cw-fs,pdk-fs" remote="nexell_nougat" />
-  <project path="prebuilts/sdk" name="platform/prebuilts/sdk" groups="pdk" remote="nexell_nougat" />
-  <project path="external/e2fsprogs" name="platform/external/e2fsprogs" groups="pdk" remote="nexell_nougat" />
-  <project path="external/wpa_supplicant_8" name="platform/external/wpa_supplicant_8" groups="pdk" remote="nexell_nougat" />
-  <project path="system/sepolicy" name="platform/system/sepolicy" groups="pdk" remote="nexell_nougat" />
-  <project path="system/vold" name="platform/system/vold" groups="pdk" remote="nexell_nougat" />
+  <project path="frameworks/av" name="android_platform_frameworks_av" groups="pdk" remote="nexell" />
+  <project path="frameworks/opt/net/wifi" name="android_platform_frameworks_opt_net_wifi" groups="pdk" remote="nexell" />
+  <project path="packages/apps/Camera2" name="android_platform_packages_app_Camera2" groups="pdk-fs" remote="nexell" />
+  <project path="system/netd" name="android_platform_system_netd" groups="pdk" remote="nexell" />
+  <project path="frameworks/base" name="android_platform_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="nexell" />
+  <project path="hardware/libhardware" name="android_platform_hardware_libhardware" groups="pdk" remote="nexell" />
+  <project path="packages/apps/Launcher3" name="android_platform_packages_apps_Launcher3" groups="pdk-fs" remote="nexell" />
+  <project path="frameworks/native" name="android_platform_frameworks_native" groups="pdk" remote="nexell" />
+  <project path="hardware/libhardware_legacy" name="android_platform_hardware_libhardware_legacy" groups="pdk" remote="nexell" />
+  <project path="packages/apps/Settings" name="android_platform_packages_app_Settings" groups="pdk-fs" remote="nexell" />
+  <project path="packages/apps/Music" name="android_platform_packages_apps_Music" groups="pdk-fs" remote="nexell" />
+  <project path="bootable/recovery" name="android_platform_bootable_recovery" groups="pdk" remote="nexell" />
+  <project path="system/core" name="android_platform_system_core" groups="pdk" remote="nexell" />
+  <project path="system/bt" name="android_platform_system_bt" groups="pdk" remote="nexell" />
+  <project path="hardware/broadcom/libbt" name="android_platform_hardware_broadcom_libbt" groups="pdk" remote="nexell" />
+  <project path="packages/apps/Bluetooth" name="android_platform_packages_apps_Bluetooth" groups="pdk-cw-fs,pdk-fs" remote="nexell" />
+  <project path="prebuilts/sdk" name="android_platform_prebuilts_sdk" groups="pdk" remote="nexell" revision="nougat-dev" />
+  <project path="external/e2fsprogs" name="android_platform_external_e2fsprogs" groups="pdk" remote="nexell" />
+  <project path="external/wpa_supplicant_8" name="android_platform_external_wpa_supplicant_8" groups="pdk" remote="nexell" />
+  <project path="system/sepolicy" name="android_platform_external_sepolicy" groups="pdk" remote="nexell" />
+  <project path="system/vold" name="android_platform_system_vold" groups="pdk" remote="nexell" />
 </manifest>
