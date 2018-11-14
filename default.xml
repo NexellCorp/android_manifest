@@ -551,5 +551,5 @@
   <project path="device/nexell/s5p4418_digital_cinema" name="android_board_s5p4418_digital_cinema" groups="device" remote="nexell" revision="vd_cinema" />
 
   <!-- secure_os -->
-  <project path="linux/secureos/optee_os_3.18" name="secure_optee_optee-os-3.18" groups="device" remote="nexell_secure" revision="optee-dev" />
+  <project path="linux/secureos/optee_os_3.18" name="secure_optee_optee-os-3.18" groups="device" remote="nexell" revision="optee-dev" />
 </manifest>
