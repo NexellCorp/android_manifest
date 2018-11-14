@@ -1,29 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remote  name="aosp"
-          fetch="../../../mirror/aosp" />
-
-  <remote name="nexell_linux"
-          fetch="../../linux" />
-
-  <remote name="nexell_aosp"
-          fetch="../" />
-
-  <remote name="nexell_lollipop"
-          fetch="." />
-
-  <remote name="nexell_kitkat"
-          fetch="../kitkat" />
-
-  <remote name="nexell_secure"
-          fetch="../../secureos" />
+  <remote name="aosp"
+	  fetch="https://android.googlesource.com" />
   <default revision="refs/tags/android-5.1.1_r6"
            remote="aosp"
            sync-j="4" />
 
+  <remote name="nexell"
+	  fetch="ssh://{USER_ID}@review.gerrithub.io:29418/NexellCorp" />
+
   <!-- <project path="build" name="platform/build" groups="pdk,tradefed" > -->
-  <project path="build" name="platform/build" groups="pdk,tradefed" remote="nexell_lollipop" revision="vd_cinema" >
+  <project path="build" name="android_build" groups="pdk,tradefed" remote="nexell" revision="vd_cinema" >
   <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
@@ -527,44 +515,41 @@
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
 
-  <!-- nexell_linux: prototype, u-boot, kernel -->
-  <project path="linux/prototype/s5p4418" name="prototype/pyrope" groups="device" remote="nexell_linux" revision="linux-dev" />
-  <project path="linux/prototype/s5p6818" name="prototype/nxp5430" groups="device" remote="nexell_linux" revision="linux-dev" />
-  <project path="linux/bootloader/u-boot-2014.07" name="u-boot/u-boot-2014.07" groups="device" remote="nexell_linux" revision="vd_cinema" />
-  <project path="linux/kernel/kernel-3.4.39" name="kernel/kernel-3.4.39" groups="device" remote="nexell_linux" revision="vd_cinema" />
-  <project path="linux/platform/s5p4418" name="pyrope" groups="device" remote="nexell_linux" revision="vd_cinema" />
-  <project path="linux/platform/common" name="platform/common" groups="device" remote="nexell_linux" revision="vd_cinema" />
+  <!-- nexell: prototype, u-boot, kernel -->
+  <project path="linux/prototype/s5p4418" name="linux_prototype-pyrope" groups="device" remote="nexell" revision="linux-dev" />
+  <project path="linux/prototype/s5p6818" name="linux_prototype-nxp5430" groups="device" remote="nexell" revision="linux-dev" />
+  <project path="linux/bootloader/u-boot-2014.07" name="u-boot-2014.07" groups="device" remote="nexell" revision="vd_cinema" />
+  <project path="linux/kernel/kernel-3.4.39" name="linux_kernel-3.4.39" groups="device" remote="nexell" revision="vd_cinema" />
+  <project path="linux/platform/s5p4418" name="pyrope_linux" groups="device" remote="nexell" revision="vd_cinema" />
+  <project path="linux/platform/common" name="linux_platform_common" groups="device" remote="nexell" revision="vd_cinema" />
 
   <!-- AOSP fix for Nexell -->
-  <!--<project path="external/wpa_supplicant_8" name="realtek/wpa_supplicant_8" groups="pdk" remote="nexell_aosp" revision="aosp-realtek" />-->
-  <!--<project path="hardware/libhardware" name="platform/hardware/libhardware" groups="pdk" remote="nexell_lollipop" revision="lollipop-dev" />-->
-  <!--<project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" groups="pdk" remote="nexell_lollipop" revision="lollipop-dev" />-->
-  <project path="external/tslib" name="platform/external/tslib" groups="pdk" remote="nexell_lollipop" revision="vd_cinema" />
-  <project path="frameworks/av" name="platform/frameworks/av" groups="pdk" remote="nexell_lollipop" revision="lollipop-5.1.1_r6" />
-  <project path="frameworks/base" name="platform/frameworks/base" remote="nexell_lollipop" revision="vd_cinema" />
-  <project path="frameworks/native" name="platform/frameworks/native" groups="pdk" remote="nexell_lollipop" revision="vd_cinema" />
-  <project path="frameworks/ex" name="platform/frameworks/ex" groups="pdk-cw-fs" remote="nexell_lollipop" revision="lollipop-5.1.1_r6" />
-  <project path="packages/apps/Camera2" name="platform/apps/Camera2"  remote="nexell_lollipop" revision="lollipop-5.1.1_r6" />
-  <project path="packages/apps/Settings" name="platform/packages/apps/Settings" remote="nexell_lollipop" revision="vd_cinema" />
-  <project path="system/vold" name="platform/system/vold" remote="nexell_lollipop" revision="lollipop-5.1.1_r6" />
-  <project path="external/sepolicy" name="platform/external/sepolicy" groups="pdk" remote="nexell_lollipop" revision="lollipop-5.1.1_r6" />
-  <project path="frameworks/opt/net/wifi" name="platform/frameworks/opt/net/wifi" remote="nexell_lollipop" revision="lollipop-5.1.1_r6" />
-  <project path="system/core" name="platform/system/core" remote="nexell_lollipop" revision="vd_cinema" />
-  <project path="packages/apps/Gallery2" name="platform/packages/apps/Gallery2" remote="nexell_lollipop" revision="lollipop-5.1.1_r6" />
+  <project path="external/tslib" name="android_platform_external_tslib" groups="pdk" remote="nexell" revision="vd_cinema" />
+  <project path="frameworks/av" name="android_platform_frameworks_av" groups="pdk" remote="nexell" revision="lollipop-5.1.1_r6" />
+  <project path="frameworks/base" name="android_platform_frameworks_base" remote="nexell" revision="vd_cinema" />
+  <project path="frameworks/native" name="android_platform_frameworks_native" groups="pdk" remote="nexell" revision="vd_cinema" />
+  <project path="frameworks/ex" name="android_platform_frameworks_ex" groups="pdk-cw-fs" remote="nexell" revision="lollipop-5.1.1_r6" />
+  <project path="packages/apps/Camera2" name="android_platform_packages_app_Camera2"  remote="nexell" revision="lollipop-5.1.1_r6" />
+  <project path="packages/apps/Settings" name="android_platform_packages_app_Settings" remote="nexell" revision="vd_cinema" />
+  <project path="system/vold" name="android_platform_system_vold" remote="nexell" revision="lollipop-5.1.1_r6" />
+  <project path="external/sepolicy" name="android_platform_external_sepolicy" groups="pdk" remote="nexell" revision="lollipop-5.1.1_r6" />
+  <project path="frameworks/opt/net/wifi" name="android_platform_frameworks_opt_net_wifi" remote="nexell" revision="lollipop-5.1.1_r6" />
+  <project path="system/core" name="android_platform_system_core" remote="nexell" revision="vd_cinema" />
+  <project path="packages/apps/Gallery2" name="android_platform_packages_apps_Gallery2" remote="nexell" revision="lollipop-5.1.1_r6" />
   
   <!-- New projects for Nexell -->
-  <project path="packages/apps/TSCalibration" name="platform/apps/TSCalibration" remote="nexell_lollipop" revision="vd_cinema" />
-  <project path="device/nexell/tools" name="device/nexell/tools" groups="device" remote="nexell_lollipop" revision="vd_cinema" />
-  <project path="hardware/samsung_slsi/slsiap" name="platform/hardware/samsung_slsi/slsiap" groups="pdk" remote="nexell_kitkat" revision="vd_cinema" />
-  <project path="hardware/samsung_slsi/slsiap/omx" name="platform/hardware/samsung_slsi/omx" groups="pdk" remote="nexell_kitkat" revision="lollipop-dev" />
+  <project path="packages/apps/TSCalibration" name="android_apps_TSCalibration" remote="nexell" revision="vd_cinema" />
+  <project path="device/nexell/tools" name="android_nexell_tools" groups="device" remote="nexell" revision="vd_cinema" />
+  <project path="hardware/samsung_slsi/slsiap" name="android_hal_slsiap" groups="pdk" remote="nexell" revision="vd_cinema" />
+  <project path="hardware/samsung_slsi/slsiap/omx" name="android_hal_omx" groups="pdk" remote="nexell" revision="lollipop-dev" />
 
-  <project path="hardware/realtek" name="realtek/hardware/realtek" groups="pdk" remote="nexell_aosp" revision="aosp-realtek-lollipop" />
-  <project path="vendor/google/gapps" name="vendor/google/gapps" groups="pdk" remote="nexell_lollipop" revision="lollipop-dev" />
-  <project path="vendor/nexell/apps" name="vendor/nexell/apps" groups="pdk" remote="nexell_lollipop" revision="vd_cinema" />
+  <project path="hardware/realtek" name="android_realtek_hardware" groups="pdk" remote="nexell" revision="aosp-realtek-lollipop" />
+  <project path="vendor/google/gapps" name="android_vendor_google_gapps" groups="pdk" remote="nexell" revision="lollipop-dev" />
+  <project path="vendor/nexell/apps" name="android_vendor_nexell_apps" groups="pdk" remote="nexell" revision="vd_cinema" />
 
   <!-- board -->
-  <project path="device/nexell/s5p4418_digital_cinema" name="device/nexell/s5p4418_digital_cinema" groups="device" remote="nexell_lollipop" revision="vd_cinema" />
+  <project path="device/nexell/s5p4418_digital_cinema" name="android_board_s5p4418_digital_cinema" groups="device" remote="nexell" revision="vd_cinema" />
 
   <!-- secure_os -->
-  <project path="linux/secureos/optee_os_3.18" name="optee_os_3.18" groups="device" remote="nexell_secure" revision="optee-dev" />
+  <project path="linux/secureos/optee_os_3.18" name="secure_optee_optee-os-3.18" groups="device" remote="nexell_secure" revision="optee-dev" />
 </manifest>
