@@ -8,7 +8,7 @@
            sync-j="4" />
 
   <remote name="nexell"
-	  fetch="ssh://swpark@review.gerrithub.io:29418/NexellCorp" />
+	  fetch="ssh://{USER_ID}@review.gerrithub.io:29418/NexellCorp" />
 
   <!-- <project path="build" name="platform/build" groups="pdk,tradefed" > -->
   <project path="build" name="android_build" groups="pdk,tradefed" remote="nexell" revision="avn" >
@@ -532,7 +532,7 @@
   <project path="frameworks/native" name="android_platform_frameworks_native" groups="pdk" remote="nexell" revision="lollipop-5.1.1_r6-avn-release_2nd" />
   <project path="frameworks/ex" name="android_platform_frameworks_ex" groups="pdk-cw-fs" remote="nexell" revision="lollipop-5.1.1_r6-avn-release_2nd" />
   <project path="packages/apps/Camera2" name="android_platform_packages_app_Camera2"  remote="nexell" revision="lollipop-5.1.1_r6-avn-release_2nd" />
-  <project path="packages/apps/Settings" name="android_platform_packages_apps_Settings" remote="nexell" revision="lollipop-5.1.1_r6-avn-release_2nd" />
+  <project path="packages/apps/Settings" name="android_platform_packages_app_Settings" remote="nexell" revision="lollipop-5.1.1_r6-avn-release_2nd" />
   <project path="system/vold" name="android_platform_system_vold" remote="nexell" revision="lollipop-5.1.1_r6-avn-release_2nd" />
   <project path="external/sepolicy" name="android_platform_external_sepolicy" groups="pdk" remote="nexell" revision="lollipop-5.1.1_r6-avn-release_2nd" />
   <project path="frameworks/opt/net/wifi" name="android_platform_frameworks_opt_net_wifi" remote="nexell" revision="lollipop-5.1.1_r6-avn-release_2nd" />
