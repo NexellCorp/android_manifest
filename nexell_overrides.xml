@@ -23,5 +23,5 @@
   <project path="external/e2fsprogs" name="android_platform_external_e2fsprogs" groups="pdk" remote="nexell" />
   <project path="external/wpa_supplicant_8" name="android_platform_external_wpa_supplicant_8" groups="pdk" remote="nexell" />
   <project path="system/sepolicy" name="android_platform_external_sepolicy" groups="pdk" remote="nexell" />
-  <project path="system/vold" name="android_platform_system_vold" groups="pdk" remote="nexell" />
+  <project path="system/vold" name="android_platform_system_vold" groups="pdk" remote="nexell" revision="nougat-dev" />
 </manifest>

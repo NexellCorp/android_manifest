@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <project path="device/nexell/tools" name="android_nexell_tools" groups="device" remote="nexell" />
+  <project path="device/nexell/tools" name="android_nexell_tools" groups="device" remote="nexell" revision="nougat-dev" />
   <project path="device/nexell/avn_ref" name="android_board_avn_ref" groups="device" remote="nexell" />
   <project path="device/nexell/navi_ref" name="android_board_navi_ref" groups="device" remote="nexell" />
   <project path="device/nexell/con_svma" name="android_board_con_svma" groups="device" remote="nexell" />
-  <project path="device/nexell/bl1/bl1-s5p6818" name="bl1_s5p6818" groups="bl1" remote="nexell" />
-  <project path="device/nexell/bl1/bl1-s5p4418" name="bl1_s5p4418" groups="bl1" remote="nexell" />
+  <project path="device/nexell/bl1/bl1-s5p6818" name="bl1_s5p6818" groups="bl1" remote="nexell" revision="nexell" />
+  <project path="device/nexell/bl1/bl1-s5p4418" name="bl1_s5p4418" groups="bl1" remote="nexell" revision="nexell" />
   <project path="device/nexell/secure/l-loader" name="secure_l-loader" groups="secure" remote="nexell" />
   <project path="device/nexell/secure/arm-trusted-firmware" name="secure_arm-trusted-firmware" groups="secure" remote="nexell" />
   <project path="device/nexell/secure/optee_build" name="secure_optee_optee-build" groups="secure" remote="nexell" />
-  <project path="device/nexell/secure/optee_client" name="secure_opteeloptee-client" groups="secure" remote="nexell" />
+  <project path="device/nexell/secure/optee_client" name="secure_optee_optee-client" groups="secure" remote="nexell" />
   <project path="device/nexell/secure/optee_linuxdriver" name="secure_optee_optee-linuxdriver" groups="secure" remote="nexell" />
   <project path="device/nexell/secure/optee_os" name="secure_optee_optee-os" groups="secure" remote="nexell" />
   <project path="device/nexell/secure/optee_test" name="secure_optee_optee-test" groups="secure" remote="nexell" />
-  <project path="device/nexell/secure/bl2-s5p4418" name="bl2_s5p4418" groups="secure" remote="nexell"  />
+  <project path="device/nexell/secure/bl2-s5p4418" name="bl2_s5p4418" groups="secure" remote="nexell" revision="nexell" />
   <project path="device/nexell/secure/armv7-dispatcher" name="secure_armv7-dispatcher" groups="secure" remote="nexell"  />
   <project path="device/nexell/u-boot/u-boot-2016.01" name="u-boot-2016.01" groups="u-boot" remote="nexell"  />
-  <project path="device/nexell/kernel/kernel-4.4.x" name="linux_kernel-4.4.x" groups="kernel" remote="nexell"  />
+  <project path="device/nexell/kernel/kernel-4.4.x" name="linux_kernel-4.4.x" groups="kernel" remote="nexell" revision="nexell"  />
   <project path="hardware/nexell/s5pxx18/gralloc" name="android_hal_gralloc" groups="hal" remote="nexell"  />
   <project path="hardware/nexell/s5pxx18/audio" name="android_hal_audio" groups="hal" remote="nexell"  />
   <project path="hardware/nexell/s5pxx18/keystore" name="android_hal_keystore" groups="hal" remote="nexell"  />
@@ -51,5 +51,5 @@
   <project path="device/nexell/solution/carlife/libimobiledevice" name="android_solution_carlife_libimobiledevice" groups="solution" remote="nexell"  />
   <project path="device/nexell/solution/carlife/usbmuxd" name="android_solution_carlife_usbmuxd" groups="solution" remote="nexell"  />
   <project path="device/nexell/solution/carlife/ideviceinstaller" name="android_solution_carlife_ideviceinstaller" groups="solution" remote="nexell"  />
-  <project path="packages/apps/DualDisplayTest" name="android_apps_DualDisplayTest" groups="pdk-fs" remote="nexell"  />
+  <project path="packages/apps/DualDisplayTest" name="android_apps_DualDisplayTest" groups="pdk-fs" remote="nexell" revision="nougat-dev" />
 </manifest>
