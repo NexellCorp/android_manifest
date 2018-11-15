@@ -22,6 +22,6 @@
   <project path="prebuilts/sdk" name="android_platform_prebuilts_sdk" groups="pdk" remote="nexell" revision="nougat-dev" />
   <project path="external/e2fsprogs" name="android_platform_external_e2fsprogs" groups="pdk" remote="nexell" revision="nougat-dev" />
   <project path="external/wpa_supplicant_8" name="android_platform_external_wpa_supplicant_8" groups="pdk" remote="nexell" revision="nougat-dev" />
-  <project path="system/sepolicy" name="android_platform_system_sepolicy" groups="pdk" remote="nexell" revision="nougat-dev" />
+  <project path="system/sepolicy" name="android_platform_external_sepolicy" groups="pdk" remote="nexell" revision="nougat-dev" />
   <project path="system/vold" name="android_platform_system_vold" groups="pdk" remote="nexell" revision="nougat-dev" />
 </manifest>
