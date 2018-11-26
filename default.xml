@@ -7,8 +7,7 @@
            remote="aosp"
            sync-j="4" />
 
-  <remote name="nexell"
-	  fetch="ssh://{USER_ID}@review.gerrithub.io:29418/NexellCorp" />
+  <include name="remote_nexell_ssh.xml" />
 
   <project path="build" name="platform/build" groups="pdk,tradefed" >
     <copyfile src="core/root.mk" dest="Makefile" />
