@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <project path="device/nexell/tools" name="android_nexell_tools" groups="device" remote="nexell" revision="pie-dev" />
-  <project path="device/nexell/avn_ref" name="android_board_avn_ref" groups="device" remote="nexell" revision="pie-dev" />
   <project path="device/nexell/bl1/bl1-s5p6818" name="bl1_s5p6818" groups="bl1" remote="nexell" revision="nexell" />
   <project path="device/nexell/secure/l-loader" name="secure_l-loader" groups="secure" remote="nexell" revision="nexell" />
   <project path="device/nexell/secure/arm-trusted-firmware" name="secure_arm-trusted-firmware" groups="secure" remote="nexell" revision="nexell" />
@@ -20,4 +19,7 @@
   <project path="hardware/nexell/s5pxx18/gatekeeper" name="android_hal_gatekeeper" groups="hal" remote="nexell" revision="pie-dev" />
   <project path="hardware/nexell/s5pxx18/libnxjpeg" name="android_library_libnxjpeg" groups="hal" remote="nexell" revision="nougat-dev" />
   <project path="external/tslib" name="android_platform_external_tslib" groups="pdk" remote="nexell" revision="pie-dev" />
+  <!-- board -->
+  <project path="device/nexell/avn_ref" name="android_board_avn_ref" groups="device" remote="nexell" revision="pie-dev" />
+  <project path="device/nexell/con_svma" name="android_board_con_svma" groups="device" remote="nexell" revision="master" />
 </manifest>
