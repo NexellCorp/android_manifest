@@ -2,6 +2,7 @@
 <manifest>
   <project path="device/nexell/tools" name="android_nexell_tools" groups="device" remote="nexell" revision="pie-dev" />
   <project path="device/nexell/bl1/bl1-s5p6818" name="bl1_s5p6818" groups="bl1" remote="nexell" revision="nexell" />
+  <project path="device/nexell/bl1/bl1-s5p4418" name="bl1_s5p4418" groups="bl1" remote="nexell" revision="nexell" />
   <project path="device/nexell/secure/l-loader" name="secure_l-loader" groups="secure" remote="nexell" revision="nexell" />
   <project path="device/nexell/secure/arm-trusted-firmware" name="secure_arm-trusted-firmware" groups="secure" remote="nexell" revision="nexell" />
   <project path="device/nexell/secure/optee_build" name="secure_optee_optee-build" groups="secure" remote="nexell" revision="nexell" />
@@ -9,6 +10,8 @@
   <project path="device/nexell/secure/optee_linuxdriver" name="secure_optee_optee-linuxdriver" groups="secure" remote="nexell" revision="nexell" />
   <project path="device/nexell/secure/optee_os" name="secure_optee_optee-os" groups="secure" remote="nexell" revision="nexell" />
   <project path="device/nexell/secure/optee_test" name="secure_optee_optee-test" groups="secure" remote="nexell" revision="nexell" />
+  <project path="device/nexell/secure/bl2-s5p4418" name="bl2_s5p4418" groups="secure" remote="nexell" revision="nexell" />
+  <project path="device/nexell/secure/armv7-dispatcher" name="secure_armv7-dispatcher" groups="secure" remote="nexell" revision="nexell" />
   <project path="device/nexell/u-boot/u-boot-2016.01" name="u-boot-2016.01" groups="u-boot" remote="nexell" revision="nexell" />
   <project path="device/nexell/kernel/kernel-4.4.x" name="linux_kernel-4.4.x" groups="kernel" remote="nexell" revision="pie-4.4.162" />
   <project path="hardware/nexell/s5pxx18/gralloc" name="android_hal_gralloc" groups="hal" remote="nexell" revision="pie-dev" />
