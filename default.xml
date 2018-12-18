@@ -545,4 +545,6 @@
   <!-- board -->
   <project path="device/nexell/drone" name="android_board_drone" groups="device" remote="nexell" revision="lollipop-dev" />
   <project path="device/nexell/drone_s5p6818" name="android_board_drone_s5p6818" groups="device" remote="nexell" revision="lollipop-dev" />
+  <project path="device/nexell/s5p4418_general" name="android_board_s5p4418_general" groups="device" remote="nexell" revision="lollipop-dev" />
+  <project path="device/nexell/s5p6818_general" name="android_board_s5p6818_general" groups="device" remote="nexell" revision="lollipop-dev" />
 </manifest>
