@@ -35,6 +35,7 @@
   <project path="device/nexell/library/nx-video-api" name="linux_library_nx-video-api" groups="library" remote="nexell" revision="nexell" />
   <project path="device/nexell/library/nx-scaler" name="linux_library_nx-scaler" groups="library" remote="nexell" revision="nexell" />
   <project path="device/nexell/library/nx-csc" name="linux_library_nx-csc" groups="library" remote="nexell" revision="nexell" />
+  <project path="device/nexell/library/nx-deinterlacer" name="linux_library_nx-deinterlacer" groups="library" remote="nexell" revision="nexell" />
   <project path="device/nexell/library/include" name="linux_library_include" groups="library" remote="nexell" revision="nexell" />
   <project path="device/nexell/apps/testsuite" name="linux_apps_testsuite" groups="apps" remote="nexell" revision="nexell" />
   <project path="device/nexell/quickboot" name="android_patch_quickboot_nougat" groups="device" remote="nexell" revision="nougat-dev" />
