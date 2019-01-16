@@ -20,11 +20,12 @@
   <project path="hardware/nexell/s5pxx18/ogl" name="android_hal_mali" groups="hal" remote="nexell" revision="pie-dev" />
   <project path="hardware/nexell/s5pxx18/audio" name="android_hal_audio" groups="hal" remote="nexell" revision="pie-dev" />
   <project path="hardware/nexell/s5pxx18/gatekeeper" name="android_hal_gatekeeper" groups="hal" remote="nexell" revision="pie-dev" />
-  <project path="hardware/nexell/s5pxx18/libnxjpeg" name="android_library_libnxjpeg" groups="hal" remote="nexell" revision="pie-dev" />
+  <project path="hardware/nexell/s5pxx18/libnxjpeg" name="android_library_libnxjpeg" groups="hal" remote="nexell" revision="nougat-dev" />
   <project path="external/tslib" name="android_platform_external_tslib" groups="pdk" remote="nexell" revision="pie-dev" />
   <!-- board -->
   <project path="device/nexell/avn_ref" name="android_board_avn_ref" groups="device" remote="nexell" revision="pie-dev" />
   <project path="device/nexell/con_svma" name="android_board_con_svma" groups="device" remote="nexell" revision="pie-dev" />
-  <project path="hardware/nexell/s5pxx18/camera" name="android_hal_camera" groups="hal" remote="nexell" revision="pie-dev" />
-  <project path="device/nexell/library/nx-scaler" name="linux_library_nx-scaler" groups="library" remote="nexell" revision="pie-dev" />
+  <project path="hardware/nexell/s5pxx18/camera" name="android_hal_camera" groups="hal" remote="nexell" revision="nougat-dev" />
+  <project path="device/nexell/library/nx-scaler" name="linux_library_nx-scaler" groups="library" remote="nexell" revision="nexell" />
+  <project path="device/nexell/library/nx-deinterlacer" name="linux_library_nx-deinterlacer" groups="library" remote="nexell" revision="nexell" />
 </manifest>
