@@ -31,6 +31,7 @@
   <project path="packages/inputmethods/LatinIME" name="android_platform_packages_inputmethods_LatinIME" groups="pdk-fs" remote="nexell" revision="nougat-quickboot" />
   <project path="system/extras" name="android_platform_system_extras" groups="pdk" remote="nexell" revision="nougat-quickboot" />
   <project path="frameworks/opt/photoviewer" name="android_platform_frameworks_opt_photoviewer" groups="pdk-cw-fs,pdk-fs" remote="nexell" revision="nougat-quickboot" />
+  <project path="frameworks/opt/telephony" name="android_platform_frameworks_opt_telephony" groups="pdk" remote="nexell" revision="nougat-quickboot" />
   <project path="packages/services/Telecomm" name="android_platform_packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" remote="nexell" revision="nougat-quickboot" />
   <project path="packages/apps/ManagedProvisioning" name="android_platform_packages_apps_ManagedProvisioning" groups="pdk-fs" remote="nexell" revision="nougat-quickboot" />
 
