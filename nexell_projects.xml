@@ -13,7 +13,7 @@
   <project path="device/nexell/secure/bl2-s5p4418" name="bl2_s5p4418" groups="secure" remote="nexell" revision="nexell" />
   <project path="device/nexell/secure/armv7-dispatcher" name="secure_armv7-dispatcher" groups="secure" remote="nexell" revision="nexell" />
   <project path="device/nexell/u-boot/u-boot-2016.01" name="u-boot-2016.01" groups="u-boot" remote="nexell" revision="nexell" />
-  <project path="device/nexell/kernel/kernel-4.4.x" name="linux_kernel-4.4.x" groups="kernel" remote="nexell" revision="pie-4.4.162" />
+  <project path="device/nexell/kernel/kernel-4.4.x" name="linux_kernel-4.4.x" groups="kernel" remote="nexell" revision="pie-4.4.172" />
   <project path="hardware/nexell/s5pxx18/gralloc" name="android_hal_gralloc" groups="hal" remote="nexell" revision="pie-dev" />
   <project path="hardware/nexell/s5pxx18/lights" name="android_hal_lights" groups="hal" remote="nexell" revision="pie-dev" />
   <project path="hardware/nexell/s5pxx18/hwc1-drm-nexell" name="android_hal_hwc" groups="hal" remote="nexell" revision="pie-dev" />
