@@ -1,59 +1,56 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <project path="device/nexell/tools" name="android_nexell_tools" groups="device" remote="nexell" revision="nougat-dev" />
-  <project path="device/nexell/avn_ref" name="android_board_avn_ref" groups="device" remote="nexell" revision="nougat-dev" />
-  <project path="device/nexell/navi_ref" name="android_board_navi_ref" groups="device" remote="nexell" revision="nougat-dev" />
-  <project path="device/nexell/con_svma" name="android_board_con_svma" groups="device" remote="nexell" revision="nougat-dev" />
-  <project path="device/nexell/bl1/bl1-s5p6818" name="bl1_s5p6818" groups="bl1" remote="nexell" revision="nexell" />
-  <project path="device/nexell/bl1/bl1-s5p4418" name="bl1_s5p4418" groups="bl1" remote="nexell" revision="nexell" />
-  <project path="device/nexell/secure/l-loader" name="secure_l-loader" groups="secure" remote="nexell" revision="nexell" />
-  <project path="device/nexell/secure/arm-trusted-firmware" name="secure_arm-trusted-firmware" groups="secure" remote="nexell" revision="nexell" />
-  <project path="device/nexell/secure/optee_build" name="secure_optee_optee-build" groups="secure" remote="nexell" revision="nexell" />
-  <project path="device/nexell/secure/optee_client" name="secure_optee_optee-client" groups="secure" remote="nexell" revision="nexell" />
-  <project path="device/nexell/secure/optee_linuxdriver" name="secure_optee_optee-linuxdriver" groups="secure" remote="nexell" revision="nexell" />
-  <project path="device/nexell/secure/optee_os" name="secure_optee_optee-os" groups="secure" remote="nexell" revision="nexell" />
-  <project path="device/nexell/secure/optee_test" name="secure_optee_optee-test" groups="secure" remote="nexell" revision="nexell" />
-  <project path="device/nexell/secure/bl2-s5p4418" name="bl2_s5p4418" groups="secure" remote="nexell" revision="nexell" />
-  <project path="device/nexell/secure/armv7-dispatcher" name="secure_armv7-dispatcher" groups="secure" remote="nexell" revision="nexell" />
-  <project path="device/nexell/u-boot/u-boot-2016.01" name="u-boot-2016.01" groups="u-boot" remote="nexell" revision="nexell" />
-  <project path="device/nexell/kernel/kernel-4.4.x" name="linux_kernel-4.4.x" groups="kernel" remote="nexell" revision="nexell" />
-  <project path="device/nexell/patch" name="android_patch_nougat" groups="device" remote="nexell" revision="nougat-dev" />
-  <project path="hardware/nexell/s5pxx18/gralloc" name="android_hal_gralloc" groups="hal" remote="nexell" revision="nougat-dev" />
-  <project path="hardware/nexell/s5pxx18/audio" name="android_hal_audio" groups="hal" remote="nexell" revision="nougat-dev" />
-  <project path="hardware/nexell/s5pxx18/keystore" name="android_hal_keystore" groups="hal" remote="nexell" revision="nougat-dev" />
-  <project path="hardware/nexell/s5pxx18/lights" name="android_hal_lights" groups="hal" remote="nexell" revision="nougat-dev" />
-  <project path="hardware/nexell/s5pxx18/omx" name="android_hal_omx" groups="hal" remote="nexell" revision="nougat-dev" />
-  <project path="hardware/nexell/s5pxx18/camera" name="android_hal_camera" groups="hal" remote="nexell" revision="nougat-dev" />
-  <project path="hardware/nexell/s5pxx18/ogl" name="android_hal_mali" groups="hal" remote="nexell" revision="nougat-dev" />
-  <project path="hardware/nexell/s5pxx18/hwc1-drm-nexell" name="android_hal_hwc" groups="hal" remote="nexell" revision="nougat-dev" />
-  <project path="hardware/nexell/s5pxx18/memtrack" name="android_hal_memtrack" groups="hal" remote="nexell" revision="nougat-dev" />
-  <project path="hardware/nexell/s5pxx18/librecovery" name="android_library_librecovery" groups="hal" remote="nexell" revision="nougat-dev" />
-  <project path="hardware/nexell/s5pxx18/libnxjpeg" name="android_library_libnxjpeg" groups="hal" remote="nexell" revision="nougat-dev" />
-  <project path="external/tslib" name="android_platform_external_tslib" groups="pdk" remote="nexell" revision="nougat-dev" />
-  <project path="hardware/realtek" name="android_realtek_hardware" groups="pdk" remote="nexell" revision="aosp-realtek-nougat" />
-  <project path="external/wpa_supplicant_8_realtek" name="android_realtek_wpa_supplicant_8" groups="pdk" remote="nexell" revision="nougat-dev" />
-  <project path="device/nexell/library/nx-video-api" name="linux_library_nx-video-api" groups="library" remote="nexell" revision="nexell" />
-  <project path="device/nexell/library/nx-scaler" name="linux_library_nx-scaler" groups="library" remote="nexell" revision="nexell" />
-  <project path="device/nexell/library/nx-csc" name="linux_library_nx-csc" groups="library" remote="nexell" revision="nexell" />
-  <project path="device/nexell/library/nx-deinterlacer" name="linux_library_nx-deinterlacer" groups="library" remote="nexell" revision="nexell" />
-  <project path="device/nexell/library/include" name="linux_library_include" groups="library" remote="nexell" revision="nexell" />
-  <project path="device/nexell/apps/testsuite" name="linux_apps_testsuite" groups="apps" remote="nexell" revision="nexell" />
-  <project path="device/nexell/quickboot" name="android_patch_quickboot_nougat" groups="device" remote="nexell" revision="nougat-dev" />
-  <project path="device/nexell/test" name="android_test" groups="device" remote="nexell" revision="nougat-dev" />
+  <project path="device/nexell/tools" name="android_nexell_tools" groups="device" remote="nexell"  />
+  <project path="device/nexell/avn_ref" name="android_board_avn_ref" groups="device" remote="nexell"  />
+  <project path="device/nexell/navi_ref" name="android_board_navi_ref" groups="device" remote="nexell"  />
+  <project path="device/nexell/con_svma" name="android_board_con_svma" groups="device" remote="nexell"  />
+  <project path="device/nexell/bl1/bl1-s5p6818" name="bl1_s5p6818" groups="bl1" remote="nexell"  />
+  <project path="device/nexell/bl1/bl1-s5p4418" name="bl1_s5p4418" groups="bl1" remote="nexell"  />
+  <project path="device/nexell/secure/l-loader" name="secure_l-loader" groups="secure" remote="nexell"  />
+  <project path="device/nexell/secure/arm-trusted-firmware" name="secure_arm-trusted-firmware" groups="secure" remote="nexell"  />
+  <project path="device/nexell/secure/optee_build" name="secure_optee_optee-build" groups="secure" remote="nexell"  />
+  <project path="device/nexell/secure/optee_client" name="secure_optee_optee-client" groups="secure" remote="nexell"  />
+  <project path="device/nexell/secure/optee_linuxdriver" name="secure_optee_optee-linuxdriver" groups="secure" remote="nexell"  />
+  <project path="device/nexell/secure/optee_os" name="secure_optee_optee-os" groups="secure" remote="nexell"  />
+  <project path="device/nexell/secure/optee_test" name="secure_optee_optee-test" groups="secure" remote="nexell"  />
+  <project path="device/nexell/secure/bl2-s5p4418" name="bl2_s5p4418" groups="secure" remote="nexell"  />
+  <project path="device/nexell/secure/armv7-dispatcher" name="secure_armv7-dispatcher" groups="secure" remote="nexell"  />
+  <project path="device/nexell/u-boot/u-boot-2016.01" name="u-boot-2016.01" groups="u-boot" remote="nexell"  />
+  <project path="device/nexell/kernel/kernel-4.4.x" name="linux_kernel-4.4.x" groups="kernel" remote="nexell"  />
+  <project path="device/nexell/patch" name="android_patch_nougat" groups="device" remote="nexell"  />
+  <project path="hardware/nexell/s5pxx18/gralloc" name="android_hal_gralloc" groups="hal" remote="nexell"  />
+  <project path="hardware/nexell/s5pxx18/audio" name="android_hal_audio" groups="hal" remote="nexell"  />
+  <project path="hardware/nexell/s5pxx18/keystore" name="android_hal_keystore" groups="hal" remote="nexell"  />
+  <project path="hardware/nexell/s5pxx18/lights" name="android_hal_lights" groups="hal" remote="nexell"  />
+  <project path="hardware/nexell/s5pxx18/omx" name="android_hal_omx" groups="hal" remote="nexell"  />
+  <project path="hardware/nexell/s5pxx18/camera" name="android_hal_camera" groups="hal" remote="nexell"  />
+  <project path="hardware/nexell/s5pxx18/ogl" name="android_hal_mali" groups="hal" remote="nexell"  />
+  <project path="hardware/nexell/s5pxx18/hwc1-drm-nexell" name="android_hal_hwc" groups="hal" remote="nexell"  />
+  <project path="hardware/nexell/s5pxx18/memtrack" name="android_hal_memtrack" groups="hal" remote="nexell"  />
+  <project path="hardware/nexell/s5pxx18/librecovery" name="android_library_librecovery" groups="hal" remote="nexell"  />
+  <project path="hardware/nexell/s5pxx18/libnxjpeg" name="android_library_libnxjpeg" groups="hal" remote="nexell"  />
+  <project path="external/tslib" name="android_platform_external_tslib" groups="pdk" remote="nexell"  />
+  <project path="hardware/realtek" name="android_realtek_hardware" groups="pdk" remote="nexell"  />
+  <project path="external/wpa_supplicant_8_realtek" name="android_realtek_wpa_supplicant_8" groups="pdk" remote="nexell"  />
+  <project path="device/nexell/library/nx-video-api" name="linux_library_nx-video-api" groups="library" remote="nexell"  />
+  <project path="device/nexell/library/nx-scaler" name="linux_library_nx-scaler" groups="library" remote="nexell"  />
+  <project path="device/nexell/library/nx-csc" name="linux_library_nx-csc" groups="library" remote="nexell"  />
+  <project path="device/nexell/library/nx-deinterlacer" name="linux_library_nx-deinterlacer" groups="library" remote="nexell"  />
+  <project path="device/nexell/library/include" name="linux_library_include" groups="library" remote="nexell"  />
+  <project path="device/nexell/apps/testsuite" name="linux_apps_testsuite" groups="apps" remote="nexell"  />
+  <project path="device/nexell/quickboot" name="android_patch_quickboot_nougat" groups="device" remote="nexell"  />
+  <project path="device/nexell/test" name="android_test" groups="device" remote="nexell"  />
 
-  <project path="external/exfat" name="android_platform_external_exfat" groups="pdk" remote="nexell" revision="nougat-dev" />
-  <project path="external/ntfs-3g" name="android_platform_external_ntfs-3g" groups="pdk" remote="nexell" revision="nougat-dev" />
-  <project path="external/fuse" name="android_platform_external_fuse" groups="pdk" remote="nexell" revision="nougat-dev" />
+  <project path="external/exfat" name="android_platform_external_exfat" groups="pdk" remote="nexell"  />
+  <project path="external/ntfs-3g" name="android_platform_external_ntfs-3g" groups="pdk" remote="nexell"  />
+  <project path="external/fuse" name="android_platform_external_fuse" groups="pdk" remote="nexell"  />
 
-  <project path="vendor/google" name="android_vendor_google" groups="vendor" remote="nexell" revision="nougat-dev" />
-  <project path="vendor/opengapps" name="android_vendor_opengapps" groups="vendor" remote="nexell" revision="nougat-dev" />
-
-  <project path="device/nexell/solution/carlife/libplist" name="android_solution_carlife_libplist" groups="solution" remote="nexell" revision="nexell" />
-  <project path="device/nexell/solution/carlife/openssl" name="android_solution_carlife_openssl" groups="solution" remote="nexell" revision="nexell" />
-  <project path="device/nexell/solution/carlife/libzip" name="android_solution_carlife_libzip" groups="solution" remote="nexell" revision="nexell" />
-  <project path="device/nexell/solution/carlife/libusb" name="android_solution_carlife_libusb" groups="solution" remote="nexell" revision="nexell" />
-  <project path="device/nexell/solution/carlife/libusbmuxd" name="android_solution_carlife_libusbmuxd" groups="solution" remote="nexell" revision="nexell" />
-  <project path="device/nexell/solution/carlife/libimobiledevice" name="android_solution_carlife_libimobiledevice" groups="solution" remote="nexell" revision="nexell" />
-  <project path="device/nexell/solution/carlife/usbmuxd" name="android_solution_carlife_usbmuxd" groups="solution" remote="nexell" revision="nexell" />
-  <project path="device/nexell/solution/carlife/ideviceinstaller" name="android_solution_carlife_ideviceinstaller" groups="solution" remote="nexell" revision="nexell" />
+  <project path="device/nexell/solution/carlife/libplist" name="android_solution_carlife_libplist" groups="solution" remote="nexell"  />
+  <project path="device/nexell/solution/carlife/openssl" name="android_solution_carlife_openssl" groups="solution" remote="nexell"  />
+  <project path="device/nexell/solution/carlife/libzip" name="android_solution_carlife_libzip" groups="solution" remote="nexell"  />
+  <project path="device/nexell/solution/carlife/libusb" name="android_solution_carlife_libusb" groups="solution" remote="nexell"  />
+  <project path="device/nexell/solution/carlife/libusbmuxd" name="android_solution_carlife_libusbmuxd" groups="solution" remote="nexell"  />
+  <project path="device/nexell/solution/carlife/libimobiledevice" name="android_solution_carlife_libimobiledevice" groups="solution" remote="nexell"  />
+  <project path="device/nexell/solution/carlife/usbmuxd" name="android_solution_carlife_usbmuxd" groups="solution" remote="nexell"  />
+  <project path="device/nexell/solution/carlife/ideviceinstaller" name="android_solution_carlife_ideviceinstaller" groups="solution" remote="nexell"  />
 </manifest>
