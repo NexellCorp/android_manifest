@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <project path="system/core" name="android_platform_system_core" groups="pdk" remote="nexell" revision="pie-quickboot" />
+  <project path="bootable/recovery" name="android_platform_bootable_recovery" groups="pdk" remote="nexell" revision="pie-quickboot" />
+  <project path="external/ipsec-tools" name="android_platform_external_ipsec-tools" groups="pdk" remote="nexell" revision="pie-quickboot" />
+  <project path="external/mtpd" name="android_platform_external_mtpd" groups="pdk" remote="nexell" revision="pie-quickboot" />
+  <project path="external/perfetto" name="android_platform_external_perfetto" groups="pdk" remote="nexell" revision="pie-quickboot"/>
+  <project path="frameworks/av" name="android_platform_frameworks_av" groups="pdk" remote="nexell" revision="pie-quickboot" />
+  <project path="frameworks/base" name="android_platform_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="nexell" revision="pie-quickboot" />
+  <project path="frameworks/native" name="android_platform_frameworks_native" groups="pdk" remote="nexell" revision="pie-quickboot" />
+  <project path="hardware/interfaces" name="android_platform_hardware_interfaces" groups="pdk" remote="nexell" revision="pie-quickboot" />
+  <project path="packages/services/Car" name="android_platform_packages_services_Car" groups="pdk-cw-fs,pdk-fs" remote="nexell" revision="pie-quickboot" />
+  <project path="system/bt" name="android_platform_system_bt" groups="pdk" remote="nexell" revision="pie-quickboot" />
+  <project path="system/connectivity/wificond" name="android_platform_system_connectivity_wificond" groups="pdk" remote="nexell" revision="pie-quickboot" />
+  <project path="system/extras" name="android_platform_system_extras" groups="pdk" remote="nexell" revision="pie-quickboot" />
+  <project path="system/vold" name="android_platform_system_vold" groups="pdk" remote="nexell" revision="pie-quickboot" />
+</manifest>
