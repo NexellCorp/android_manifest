@@ -26,6 +26,9 @@
   <project path="device/nexell/avn_ref" name="android_board_avn_ref" groups="device" remote="nexell" revision="pie-dev" />
   <project path="device/nexell/con_svma" name="android_board_con_svma" groups="device" remote="nexell" revision="pie-dev" />
   <project path="hardware/nexell/s5pxx18/camera" name="android_hal_camera" groups="hal" remote="nexell" revision="nougat-dev" />
+  <project path="hardware/nexell/s5pxx18/omx" name="android_hal_omx" groups="hal" remote="nexell" revision="nougat-dev" />
   <project path="device/nexell/library/nx-scaler" name="linux_library_nx-scaler" groups="library" remote="nexell" revision="nexell" />
   <project path="device/nexell/library/nx-deinterlacer" name="linux_library_nx-deinterlacer" groups="library" remote="nexell" revision="nexell" />
+  <project path="device/nexell/library/nx-video-api" name="linux_library_nx-video-api" groups="library" remote="nexell" revision="nexell" />
+  <project path="device/nexell/library/nx-csc" name="linux_library_nx-csc" groups="library" remote="nexell" revision="nexell" />
 </manifest>
