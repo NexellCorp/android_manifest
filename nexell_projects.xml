@@ -20,7 +20,7 @@
   <project path="hardware/nexell/s5pxx18/ogl" name="android_hal_mali" groups="hal" remote="nexell" revision="pie-dev" />
   <project path="hardware/nexell/s5pxx18/audio" name="android_hal_audio" groups="hal" remote="nexell" revision="pie-dev" />
   <project path="hardware/nexell/s5pxx18/gatekeeper" name="android_hal_gatekeeper" groups="hal" remote="nexell" revision="pie-dev" />
-  <project path="hardware/nexell/s5pxx18/bootctrl" name="android_library_bootctrl" groups="hal" remote="nexell" revision="pie-dev" />
+  <project path="hardware/nexell/s5pxx18/bootctrl" name="android_hal_bootctrl" groups="hal" remote="nexell" revision="pie-dev" />
   <project path="hardware/nexell/s5pxx18/libnxjpeg" name="android_library_libnxjpeg" groups="hal" remote="nexell" revision="nougat-dev" />
   <project path="external/tslib" name="android_platform_external_tslib" groups="pdk" remote="nexell" revision="pie-dev" />
   <!-- board -->
