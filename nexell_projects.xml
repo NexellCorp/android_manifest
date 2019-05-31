@@ -24,6 +24,10 @@
   <project path="hardware/nexell/s5pxx18/power" name="android_hal_power" groups="hal" remote="nexell" revision="pie-dev" />
   <project path="hardware/nexell/s5pxx18/libnxjpeg" name="android_library_libnxjpeg" groups="hal" remote="nexell" revision="nougat-dev" />
   <project path="external/tslib" name="android_platform_external_tslib" groups="pdk" remote="nexell" revision="pie-dev" />
+
+  <project path="external/exfat" name="android_platform_external_exfat" groups="pdk" remote="nexell" revision="pie-dev" />
+  <project path="external/fuse" name="android_platform_external_fuse" groups="pdk" remote="nexell" revision="pie-dev" />
+  <project path="external/ntfs-3g" name="android_platform_external_ntfs-3g" groups="pdk" remote="nexell" revision="pie-dev" />
   <!-- board -->
   <project path="device/nexell/avn_ref" name="android_board_avn_ref" groups="device" remote="nexell" revision="pie-dev" />
   <project path="device/nexell/con_svma" name="android_board_con_svma" groups="device" remote="nexell" revision="pie-dev" />
