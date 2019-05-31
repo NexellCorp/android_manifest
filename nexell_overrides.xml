@@ -11,4 +11,5 @@
   </project>
   <project path="frameworks/av" name="android_platform_frameworks_av" groups="pdk" remote="nexell" revision="pie-dev" />
   <project path="frameworks/base" name="android_platform_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="nexell" revision="pie-dev" />
+  <project path="system/vold" name="android_platform_system_vold" groups="pdk" remote="nexell" revision="pie-dev" />
 </manifest>
