@@ -36,8 +36,10 @@
   <project path="device/nexell/library/nx-v4l2" name="linux_library_nx-v4l2" groups="library" remote="nexell" revision="nexell" />
   <project path="device/nexell/library/libnxjpeg" name="android_library_libnxjpeg" groups="library" remote="nexell" revision="nougat-dev" />
   <!-- app -->
+  <project path="device/nexell/app/nx_quickrearcam" name="linux_apps_NxQuickRearCam" groups="app" remote="nexell" revision="master" />
   <project path="device/nexell/app/svm_daemon" name="solution_svm_daemon" groups="app" remote="nexell" revision="master" />
   <project path="device/nexell/app/nx_init" name="nx_init" groups="app" remote="nexell" revision="master" />
+
   <!-- external -->
   <project path="external/tslib" name="android_platform_external_tslib" groups="pdk" remote="nexell" revision="pie-dev" />
   <project path="external/exfat" name="android_platform_external_exfat" groups="pdk" remote="nexell" revision="pie-dev" />
