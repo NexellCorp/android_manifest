@@ -34,6 +34,7 @@
   <project path="device/nexell/library/nx-video-api" name="linux_library_nx-video-api" groups="library" remote="nexell" revision="nexell" />
   <project path="device/nexell/library/nx-csc" name="linux_library_nx-csc" groups="library" remote="nexell" revision="nexell" />
   <project path="device/nexell/library/nx-v4l2" name="linux_library_nx-v4l2" groups="library" remote="nexell" revision="nexell" />
+  <project path="device/nexell/library/nx-renderer" name="linux_library_nx-renderer" groups="library" remote="nexell" revision="nexell" />
   <project path="device/nexell/library/libnxjpeg" name="android_library_libnxjpeg" groups="library" remote="nexell" revision="nougat-dev" />
   <!-- app -->
   <project path="device/nexell/app/NxQuickRearCam" name="linux_apps_NxQuickRearCam" groups="app" remote="nexell" revision="master" />
