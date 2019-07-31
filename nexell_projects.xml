@@ -20,6 +20,7 @@
   <project path="hardware/nexell/s5pxx18/lights" name="android_hal_lights" groups="hal" remote="nexell" revision="pie-dev" />
   <project path="hardware/nexell/s5pxx18/hwc1-drm-nexell" name="android_hal_hwc" groups="hal" remote="nexell" revision="pie-dev" />
   <project path="hardware/nexell/s5pxx18/ogl" name="android_hal_mali" groups="hal" remote="nexell" revision="pie-dev" />
+  <project path="hardware/nexell/s5pxx18/memtrack" name="android_hal_memtrack" groups="hal" remote="nexell" revision="pie-dev" />
   <project path="hardware/nexell/s5pxx18/audio" name="android_hal_audio" groups="hal" remote="nexell" revision="pie-dev" />
   <project path="hardware/nexell/s5pxx18/gatekeeper" name="android_hal_gatekeeper" groups="hal" remote="nexell" revision="pie-dev" />
   <project path="hardware/nexell/s5pxx18/bootctrl" name="android_hal_bootctrl" groups="hal" remote="nexell" revision="pie-dev" />
