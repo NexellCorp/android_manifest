@@ -21,4 +21,5 @@
   <project path="packages/apps/Car/Dialer" name="android_platform_packages_apps_Car_Dialer" groups="pdk-fs" remote="nexell" revision="pie-dev" />
   <project path="system/core" name="android_platform_system_core" groups="pdk" remote="nexell" revision="pie-dev" />
   <project path="system/extras" name="android_platform_system_extras" groups="pdk" remote="nexell" revision="pie-dev" />
+  <project path="frameworks/native" name="android_platform_frameworks_native" groups="pdk" remote="nexell" revision="pie-dev" />
 </manifest>
