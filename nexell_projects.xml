@@ -41,6 +41,12 @@
   <project path="device/nexell/app/nx_quickrearcam" name="linux_apps_NxQuickRearCam" groups="app" remote="nexell" revision="master" />
   <project path="device/nexell/app/svm_daemon" name="solution_svm_daemon" groups="app" remote="nexell" revision="master" />
   <project path="device/nexell/app/nx_init" name="nx_init" groups="app" remote="nexell" revision="pie-dev" />
+  <project path="device/nexell/app/nx_backgear_service" name="android_apps_NxBackGearService" groups="app" remote="nexell" revision="pie-dev" />
+  <project path="device/nexell/app/nx_rearcam_app" name="android_apps_NxRearCam" groups="app" remote="nexell" revision="pie-dev" />
+  <project path="device/nexell/app/nx_svm_app" name="android_apps_NxSvm" groups="app" remote="nexell" revision="pie-dev" />
+  <project path="device/nexell/app/nx_svm_viewmode_editor" name="android_apps_NxSvmViewModeEditor" groups="app" remote="nexell" revision="pie-dev" />
+  <project path="device/nexell/app/nx_svm_demo" name="android_apps_NxSvmDemo" groups="app" remote="nexell" revision="pie-dev" />
+  <project path="device/nexell/app/nx_svm_autocalibration" name="android_apps_NxSvmAutoCalibration" groups="app" remote="nexell" revision="pie-dev" />
 
   <!-- external -->
   <project path="external/tslib" name="android_platform_external_tslib" groups="pdk" remote="nexell" revision="pie-dev" />
