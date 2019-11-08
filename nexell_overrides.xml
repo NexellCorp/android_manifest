@@ -18,6 +18,7 @@
   <project path="system/vold" name="android_platform_system_vold" groups="pdk" remote="nexell" revision="pie-dev" />
   <project path="packages/apps/Car/Media" name="android_platform_packages_apps_Car_Media" groups="pdk-fs" remote="nexell" revision="pie-dev" />
   <project path="hardware/broadcom/libbt" name="android_platform_hardware_broadcom_libbt" groups="pdk" remote="nexell" revision="pie-dev" />
+  <project path="packages/apps/Bluetooth" name="android_platform_packages_apps_Bluetooth" groups="pdk-cw-fs,pdk-fs" remote="nexell" revision="pie-dev" />
   <project path="packages/apps/Car/Dialer" name="android_platform_packages_apps_Car_Dialer" groups="pdk-fs" remote="nexell" revision="pie-dev" />
   <project path="system/core" name="android_platform_system_core" groups="pdk" remote="nexell" revision="pie-dev" />
   <project path="system/extras" name="android_platform_system_extras" groups="pdk" remote="nexell" revision="pie-dev" />
