@@ -4,6 +4,7 @@
   <project path="device/nexell/avn_ref" name="android_board_avn_ref" groups="device" remote="nexell" revision="nougat-dev" />
   <project path="device/nexell/navi_ref" name="android_board_navi_ref" groups="device" remote="nexell" revision="nougat-dev" />
   <project path="device/nexell/con_svma" name="android_board_con_svma" groups="device" remote="nexell" revision="nougat-dev" />
+  <project path="device/nexell/svt_ref" name="android_board_svt_ref" groups="device" remote="nexell" revision="nougat-dev" />
   <project path="device/nexell/bl1/bl1-s5p6818" name="bl1_s5p6818" groups="bl1" remote="nexell" revision="nexell" />
   <project path="device/nexell/bl1/bl1-s5p4418" name="bl1_s5p4418" groups="bl1" remote="nexell" revision="nexell" />
   <project path="device/nexell/secure/l-loader" name="secure_l-loader" groups="secure" remote="nexell" revision="nexell" />
