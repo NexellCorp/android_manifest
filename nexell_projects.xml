@@ -59,4 +59,5 @@
   <project path="device/nexell/solution/carlife/libimobiledevice" name="android_solution_carlife_libimobiledevice" groups="solution" remote="nexell" revision="nexell" />
   <project path="device/nexell/solution/carlife/usbmuxd" name="android_solution_carlife_usbmuxd" groups="solution" remote="nexell" revision="nexell" />
   <project path="device/nexell/solution/carlife/ideviceinstaller" name="android_solution_carlife_ideviceinstaller" groups="solution" remote="nexell" revision="nexell" />
+  <project path="packages/apps/TSCalibration" name="android_apps_TSCalibration" groups="pdk" remote="nexell" revision="nougat-dev" />
 </manifest>
