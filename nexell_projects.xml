@@ -47,6 +47,7 @@
   <project path="device/nexell/app/nx_svm_viewmode_editor" name="android_apps_NxSvmViewModeEditor" groups="app" remote="nexell" revision="pie-dev" />
   <project path="device/nexell/app/nx_svm_demo" name="android_apps_NxSvmDemo" groups="app" remote="nexell" revision="pie-dev" />
   <project path="device/nexell/app/nx_svm_autocalibration" name="android_apps_NxSvmAutoCalibration" groups="app" remote="nexell" revision="pie-dev" />
+  <project path="packages/apps/TSCalibration" name="android_apps_TSCalibration" groups="pdk" remote="nexell" revision="nougat-dev" />
 
   <!-- external -->
   <project path="external/tslib" name="android_platform_external_tslib" groups="pdk" remote="nexell" revision="pie-dev" />
