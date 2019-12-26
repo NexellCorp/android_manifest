@@ -38,6 +38,7 @@
   <project path="device/nexell/library/nx-csc" name="linux_library_nx-csc" groups="library" remote="nexell" revision="nexell" />
   <project path="device/nexell/library/nx-deinterlacer" name="linux_library_nx-deinterlacer" groups="library" remote="nexell" revision="nexell" />
   <project path="device/nexell/library/nx-v4l2" name="linux_library_nx-v4l2" groups="library" remote="nexell" revision="nexell" />
+  <project path="device/nexell/library/nx-renderer" name="linux_library_nx-renderer" groups="library" remote="nexell" revision="nexell" />
   <project path="device/nexell/library/include" name="linux_library_include" groups="library" remote="nexell" revision="nexell" />
   <project path="device/nexell/library/libvcp" name="android_library_libvcp" groups="library" remote="nexell" revision="nougat-dev" />
   <project path="device/nexell/apps/testsuite" name="linux_apps_testsuite" groups="apps" remote="nexell" revision="nexell" />
