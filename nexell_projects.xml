@@ -54,4 +54,5 @@
   <project path="device/nexell/solution/carlife/libimobiledevice" name="android_solution_carlife_libimobiledevice" groups="solution" remote="nexell"  />
   <project path="device/nexell/solution/carlife/usbmuxd" name="android_solution_carlife_usbmuxd" groups="solution" remote="nexell"  />
   <project path="device/nexell/solution/carlife/ideviceinstaller" name="android_solution_carlife_ideviceinstaller" groups="solution" remote="nexell"  />
+  <project path="device/nexell/apps/nx_init" name="nx_init" groups="apps" remote="nexell" />
 </manifest>
