@@ -62,7 +62,7 @@
   <project path="device/nexell/solution/carlife/ideviceinstaller" name="android_solution_carlife_ideviceinstaller" groups="solution" remote="nexell" revision="nexell" />
   <project path="packages/apps/TSCalibration" name="android_apps_TSCalibration" groups="pdk" remote="nexell" revision="nougat-dev" />
 
-  <project path="device/nexell/app/nx_quickrearcam" name="linux_apps_NxQuickRearCam" groups="app" remote="nexell" revision="master" />
-  <project path="device/nexell/app/nx_backgear_service" name="android_apps_NxBackGearService" groups="app" remote="nexell" revision="master" />
-  <project path="device/nexell/app/nx_rearcam_app" name="android_apps_NxRearCam" groups="app" remote="nexell" revision="master" />
+  <project path="device/nexell/apps/nx_quickrearcam" name="linux_apps_NxQuickRearCam" groups="apps" remote="nexell" revision="master" />
+  <project path="device/nexell/apps/nx_backgear_service" name="android_apps_NxBackGearService" groups="apps" remote="nexell" revision="master" />
+  <project path="device/nexell/apps/nx_rearcam_app" name="android_apps_NxRearCam" groups="apps" remote="nexell" revision="master" />
 </manifest>
