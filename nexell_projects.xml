@@ -41,6 +41,7 @@
   <project path="device/nexell/quickboot" name="android_patch_quickboot_nougat" groups="device" remote="nexell"  />
   <project path="device/nexell/test" name="android_test" groups="device" remote="nexell"  />
   <project path="device/nexell/library/nx-v4l2" name="linux_library_nx-v4l2" groups="library" remote="nexell" />
+  <project path="device/nexell/library/nx-renderer" name="linux_library_nx-renderer" groups="library" remote="nexell"  />
 
   <project path="external/exfat" name="android_platform_external_exfat" groups="pdk" remote="nexell"  />
   <project path="external/ntfs-3g" name="android_platform_external_ntfs-3g" groups="pdk" remote="nexell"  />
