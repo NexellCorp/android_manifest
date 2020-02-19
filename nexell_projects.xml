@@ -49,10 +49,10 @@
   <project path="vendor/nexell/app/TSCalibration" name="android_apps_TSCalibration" groups="pdk" remote="nexell" revision="nougat-dev" />
 
   <!-- external -->
-  <project path="vendor/nexell/external/tslib" name="android_platform_external_tslib" groups="pdk" remote="nexell" revision="pie-dev" />
+  <project path="vendor/nexell/external/tslib" name="android_platform_external_tslib" groups="pdk" remote="nexell" revision="pie-work" />
   <project path="vendor/nexell/external/exfat" name="android_platform_external_exfat" groups="pdk" remote="nexell" revision="pie-work" />
   <project path="vendor/nexell/external/fuse" name="android_platform_external_fuse" groups="pdk" remote="nexell" revision="pie-work" />
-  <project path="vendor/nexell/external/ntfs-3g" name="android_platform_external_ntfs-3g" groups="pdk" remote="nexell" revision="pie-work" />
+  <project path="vendor/nexell/external/ntfs-3g" name="android_platform_external_ntfs-3g" groups="pdk" remote="nexell" revision="pie-dev" />
   <!--toolchain-->
   <project path="vendor/nexell/toolchain/arm-eabi-4.8" name="toolchain_arm_eabi_4.8" groups="pdk" remote="nexell" revision="pie-dev" />
   <project path="vendor/nexell/toolchain/gcc-linaro-4.9-2014.11-x86_64_arm-linux-gnueabihf" name="toolchain_linaro-2014.11" groups="pdk" remote="nexell" revision="pie-dev" />
