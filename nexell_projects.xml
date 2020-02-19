@@ -5,7 +5,9 @@
   <project path="vendor/nexell/bl1/bl1-s5p4418" name="bl1_s5p4418" groups="bl1" remote="nexell" revision="pie-work" />
   <project path="vendor/nexell/secure/l-loader" name="secure_l-loader" groups="secure" remote="nexell" revision="nexell" />
   <project path="vendor/nexell/secure/arm-trusted-firmware" name="secure_arm-trusted-firmware" groups="secure" remote="nexell" revision="nexell" />
-  <project path="vendor/nexell/secure/optee_build" name="secure_optee_optee-build" groups="secure" remote="nexell" revision="nexell" />
+  <project path="vendor/nexell/secure/optee_build" name="secure_optee_optee-build" groups="secure" remote="nexell" revision="nexell" >
+  <linkfile src="Makefile" dest="vendor/nexell/secure/Makefile" />
+  </project>
   <project path="vendor/nexell/secure/optee_client" name="secure_optee_optee-client" groups="secure" remote="nexell" revision="nexell" />
   <project path="vendor/nexell/secure/optee_linuxdriver" name="secure_optee_optee-linuxdriver" groups="secure" remote="nexell" revision="nexell" />
   <project path="vendor/nexell/secure/optee_os" name="secure_optee_optee-os" groups="secure" remote="nexell" revision="nexell" />
