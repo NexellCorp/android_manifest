@@ -59,5 +59,6 @@
   <project path="device/nexell/apps/nx_quickrearcam" name="linux_apps_NxQuickRearCam" groups="apps" remote="nexell" />
   <project path="device/nexell/apps/nx_backgear_service" name="android_apps_NxBackGearService" groups="apps" remote="nexell" />
   <project path="device/nexell/apps/nx_rearcam_app" name="android_apps_NxRearCam" groups="apps" remote="nexell" />
+  <project path="nx_version_info" name="nx_version_info" groups="swversion" remote="nexell" />
 
 </manifest>
