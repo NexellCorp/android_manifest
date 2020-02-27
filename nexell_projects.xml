@@ -66,4 +66,5 @@
   <project path="device/nexell/apps/nx_backgear_service" name="android_apps_NxBackGearService" groups="apps" remote="nexell" revision="master" />
   <project path="device/nexell/apps/nx_rearcam_app" name="android_apps_NxRearCam" groups="apps" remote="nexell" revision="master" />
   <project path="device/nexell/apps/nx_init" name="nx_init" groups="apps" remote="nexell" revision="master" />
+  <project path="nx_version_info" name="nx_version_info" groups="swversion" remote="nexell" revision="master" />
 </manifest>
