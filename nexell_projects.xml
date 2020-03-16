@@ -27,7 +27,7 @@
   <project path="hardware/nexell/s5pxx18/bootctrl" name="android_hal_bootctrl" groups="hal" remote="nexell" revision="pie-dev" />
   <project path="hardware/nexell/s5pxx18/power" name="android_hal_power" groups="hal" remote="nexell" revision="pie-dev" />
   <project path="hardware/nexell/s5pxx18/audiocontrol" name="android_hal_audiocontrol" groups="hal" remote="nexell" revision="pie-dev" />
-  <project path="hardware/nexell/s5pxx18/camera" name="android_hal_camera" groups="hal" remote="nexell" revision="nougat-dev" />
+  <project path="hardware/nexell/s5pxx18/camera" name="android_hal_camera" groups="hal" remote="nexell" revision="pie-dev" />
   <project path="hardware/nexell/s5pxx18/omx" name="android_hal_omx" groups="hal" remote="nexell" revision="nougat-dev" />
   <project path="hardware/nexell/s5pxx18/usb" name="android_hal_usb" groups="hal" remote="nexell" revision="pie-dev" />
   <!-- library -->
