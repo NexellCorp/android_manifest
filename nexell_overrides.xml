@@ -28,4 +28,5 @@
   <project path="packages/apps/Car/Launcher" name="android_platform_packages_apps_Car_Launcher" groups="pdk-fs" remote="nexell" revision="pie-dev" />
   <project path="frameworks/opt/telephony" name="android_platform_frameworks_opt_telephony" groups="pdk" remote="nexell" revision="pie-dev" />
   <project path="system/sepolicy" name="android_platform_system_sepolicy" groups="pdk" remote="nexell" revision="pie-dev" />
+  <project path="art" name="android_platform_art_pie" groups="pdk" remote="nexell" revision="pie-dev" />
 </manifest>
