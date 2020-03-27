@@ -1,69 +1,69 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <!-- bsp -->
-  <project path="vendor/nexell/bl1/bl1-s5p6818" name="bl1_s5p6818" groups="bl1" remote="nexell" revision="nexell" />
-  <project path="vendor/nexell/bl1/bl1-s5p4418" name="bl1_s5p4418" groups="bl1" remote="nexell" revision="pie-dev" />
+  <project path="vendor/nexell/bl1/bl1-s5p6818" name="bl1_s5p6818" groups="bl1" remote="nexell" revision="nexell_pie_r2" />
+  <project path="vendor/nexell/bl1/bl1-s5p4418" name="bl1_s5p4418" groups="bl1" remote="nexell" revision="nexell_pie_r2" />
   <project path="vendor/nexell/secure/l-loader" name="secure_l-loader" groups="secure" remote="nexell" revision="nexell" />
-  <project path="vendor/nexell/secure/arm-trusted-firmware" name="secure_arm-trusted-firmware" groups="secure" remote="nexell" revision="nexell" />
-  <project path="vendor/nexell/secure/optee_build" name="secure_optee_optee-build" groups="secure" remote="nexell" revision="nexell" >
+  <project path="vendor/nexell/secure/arm-trusted-firmware" name="secure_arm-trusted-firmware" groups="secure" remote="nexell" revision="nexell_pie_r2" />
+  <project path="vendor/nexell/secure/optee_build" name="secure_optee_optee-build" groups="secure" remote="nexell" revision="nexell_pie_r2" >
   <linkfile src="Makefile" dest="vendor/nexell/secure/Makefile" />
   </project>
-  <project path="vendor/nexell/secure/optee_client" name="secure_optee_optee-client" groups="secure" remote="nexell" revision="nexell" />
-  <project path="vendor/nexell/secure/optee_linuxdriver" name="secure_optee_optee-linuxdriver" groups="secure" remote="nexell" revision="nexell" />
-  <project path="vendor/nexell/secure/optee_os" name="secure_optee_optee-os" groups="secure" remote="nexell" revision="nexell" />
-  <project path="vendor/nexell/secure/optee_test" name="secure_optee_optee-test" groups="secure" remote="nexell" revision="nexell" />
-  <project path="vendor/nexell/secure/bl2-s5p4418" name="bl2_s5p4418" groups="secure" remote="nexell" revision="nexell" />
-  <project path="vendor/nexell/secure/armv7-dispatcher" name="secure_armv7-dispatcher" groups="secure" remote="nexell" revision="nexell" />
-  <project path="vendor/nexell/u-boot/u-boot-2016.01" name="u-boot-2016.01" groups="u-boot" remote="nexell" revision="nexell" />
-  <project path="vendor/nexell/kernel/kernel-4.4.x" name="linux_kernel-4.4.x" groups="kernel" remote="nexell" revision="pie-4.4.172" />
+  <project path="vendor/nexell/secure/optee_client" name="secure_optee_optee-client" groups="secure" remote="nexell" revision="nexell_pie_r2" />
+  <project path="vendor/nexell/secure/optee_linuxdriver" name="secure_optee_optee-linuxdriver" groups="secure" remote="nexell" revision="nexell_pie_r2" />
+  <project path="vendor/nexell/secure/optee_os" name="secure_optee_optee-os" groups="secure" remote="nexell" revision="nexell_pie_r2" />
+  <project path="vendor/nexell/secure/optee_test" name="secure_optee_optee-test" groups="secure" remote="nexell" revision="nexell_pie_r2" />
+  <project path="vendor/nexell/secure/bl2-s5p4418" name="bl2_s5p4418" groups="secure" remote="nexell" revision="nexell_pie_r2" />
+  <project path="vendor/nexell/secure/armv7-dispatcher" name="secure_armv7-dispatcher" groups="secure" remote="nexell" revision="nexell_pie_r2" />
+  <project path="vendor/nexell/u-boot/u-boot-2016.01" name="u-boot-2016.01" groups="u-boot" remote="nexell" revision="nexell_pie_r2" />
+  <project path="vendor/nexell/kernel/kernel-4.4.x" name="linux_kernel-4.4.x" groups="kernel" remote="nexell" revision="nexell_pie_r2" />
   <!-- hal -->
-  <project path="hardware/nexell/s5pxx18/gralloc" name="android_hal_gralloc" groups="hal" remote="nexell" revision="pie-dev" />
-  <project path="hardware/nexell/s5pxx18/lights" name="android_hal_lights" groups="hal" remote="nexell" revision="pie-dev" />
-  <project path="hardware/nexell/s5pxx18/hwc1-drm-nexell" name="android_hal_hwc" groups="hal" remote="nexell" revision="pie-dev" />
-  <project path="hardware/nexell/s5pxx18/ogl" name="android_hal_mali" groups="hal" remote="nexell" revision="pie-dev" />
-  <project path="hardware/nexell/s5pxx18/memtrack" name="android_hal_memtrack" groups="hal" remote="nexell" revision="pie-dev" />
-  <project path="hardware/nexell/s5pxx18/audio" name="android_hal_audio" groups="hal" remote="nexell" revision="pie-dev" />
-  <project path="hardware/nexell/s5pxx18/gatekeeper" name="android_hal_gatekeeper" groups="hal" remote="nexell" revision="pie-dev" />
-  <project path="hardware/nexell/s5pxx18/bootctrl" name="android_hal_bootctrl" groups="hal" remote="nexell" revision="pie-dev" />
-  <project path="hardware/nexell/s5pxx18/power" name="android_hal_power" groups="hal" remote="nexell" revision="pie-dev" />
-  <project path="hardware/nexell/s5pxx18/audiocontrol" name="android_hal_audiocontrol" groups="hal" remote="nexell" revision="pie-dev" />
-  <project path="hardware/nexell/s5pxx18/camera" name="android_hal_camera" groups="hal" remote="nexell" revision="pie-dev" />
-  <project path="hardware/nexell/s5pxx18/omx" name="android_hal_omx" groups="hal" remote="nexell" revision="nougat-dev" />
-  <project path="hardware/nexell/s5pxx18/usb" name="android_hal_usb" groups="hal" remote="nexell" revision="pie-dev" />
+  <project path="hardware/nexell/s5pxx18/gralloc" name="android_hal_gralloc" groups="hal" remote="nexell" revision="nexell_pie_r2" />
+  <project path="hardware/nexell/s5pxx18/lights" name="android_hal_lights" groups="hal" remote="nexell" revision="nexell_pie_r2" />
+  <project path="hardware/nexell/s5pxx18/hwc1-drm-nexell" name="android_hal_hwc" groups="hal" remote="nexell" revision="nexell_pie_r2" />
+  <project path="hardware/nexell/s5pxx18/ogl" name="android_hal_mali" groups="hal" remote="nexell" revision="nexell_pie_r2" />
+  <project path="hardware/nexell/s5pxx18/memtrack" name="android_hal_memtrack" groups="hal" remote="nexell" revision="nexell_pie_r2" />
+  <project path="hardware/nexell/s5pxx18/audio" name="android_hal_audio" groups="hal" remote="nexell" revision="nexell_pie_r2" />
+  <project path="hardware/nexell/s5pxx18/gatekeeper" name="android_hal_gatekeeper" groups="hal" remote="nexell" revision="nexell_pie_r2" />
+  <project path="hardware/nexell/s5pxx18/bootctrl" name="android_hal_bootctrl" groups="hal" remote="nexell" revision="nexell_pie_r2" />
+  <project path="hardware/nexell/s5pxx18/power" name="android_hal_power" groups="hal" remote="nexell" revision="nexell_pie_r2" />
+  <project path="hardware/nexell/s5pxx18/audiocontrol" name="android_hal_audiocontrol" groups="hal" remote="nexell" revision="nexell_pie_r2" />
+  <project path="hardware/nexell/s5pxx18/camera" name="android_hal_camera" groups="hal" remote="nexell" revision="nexell_pie_r2" />
+  <project path="hardware/nexell/s5pxx18/omx" name="android_hal_omx" groups="hal" remote="nexell" revision="nexell_pie_r2" />
+  <project path="hardware/nexell/s5pxx18/usb" name="android_hal_usb" groups="hal" remote="nexell" revision="nexell_pie_r2" />
   <!-- library -->
-  <project path="vendor/nexell/library/nx-scaler" name="linux_library_nx-scaler" groups="library" remote="nexell" revision="nexell" />
-  <project path="vendor/nexell/library/nx-deinterlacer" name="linux_library_nx-deinterlacer" groups="library" remote="nexell" revision="nexell" />
-  <project path="vendor/nexell/library/nx-video-api" name="linux_library_nx-video-api" groups="library" remote="nexell" revision="nexell" />
-  <project path="vendor/nexell/library/nx-csc" name="linux_library_nx-csc" groups="library" remote="nexell" revision="nexell" />
-  <project path="vendor/nexell/library/nx-v4l2" name="linux_library_nx-v4l2" groups="library" remote="nexell" revision="nexell" />
-  <project path="vendor/nexell/library/nx-renderer" name="linux_library_nx-renderer" groups="library" remote="nexell" revision="nexell" />
-  <project path="vendor/nexell/library/libnxjpeg" name="android_library_libnxjpeg" groups="library" remote="nexell" revision="nougat-dev" />
+  <project path="vendor/nexell/library/nx-scaler" name="linux_library_nx-scaler" groups="library" remote="nexell" revision="nexell_pie_r2" />
+  <project path="vendor/nexell/library/nx-deinterlacer" name="linux_library_nx-deinterlacer" groups="library" remote="nexell" revision="nexell_pie_r2" />
+  <project path="vendor/nexell/library/nx-video-api" name="linux_library_nx-video-api" groups="library" remote="nexell" revision="nexell_pie_r2" />
+  <project path="vendor/nexell/library/nx-csc" name="linux_library_nx-csc" groups="library" remote="nexell" revision="nexell_pie_r2" />
+  <project path="vendor/nexell/library/nx-v4l2" name="linux_library_nx-v4l2" groups="library" remote="nexell" revision="nexell_pie_r2" />
+  <project path="vendor/nexell/library/nx-renderer" name="linux_library_nx-renderer" groups="library" remote="nexell" revision="nexell_pie_r2" />
+  <project path="vendor/nexell/library/libnxjpeg" name="android_library_libnxjpeg" groups="library" remote="nexell" revision="nexell_pie_r2" />
   <!-- app -->
-  <project path="vendor/nexell/app/nx_quickrearcam" name="linux_apps_NxQuickRearCam" groups="app" remote="nexell" revision="master" />
-  <project path="vendor/nexell/app/svm_daemon" name="solution_svm_daemon" groups="app" remote="nexell" revision="master" />
-  <project path="vendor/nexell/app/nx_init" name="nx_init" groups="app" remote="nexell" revision="pie-dev" />
-  <project path="vendor/nexell/app/nx_backgear_service" name="android_apps_NxBackGearService" groups="app" remote="nexell" revision="master" />
-  <project path="vendor/nexell/app/nx_rearcam_app" name="android_apps_NxRearCam" groups="app" remote="nexell" revision="master" />
-  <project path="vendor/nexell/app/nx_svm_app" name="android_apps_NxSvm" groups="app" remote="nexell" revision="pie-dev" />
-  <project path="vendor/nexell/app/nx_svm_viewmode_editor" name="android_apps_NxSvmViewModeEditor" groups="app" remote="nexell" revision="pie-dev" />
-  <project path="vendor/nexell/app/nx_svm_demo" name="android_apps_NxSvmDemo" groups="app" remote="nexell" revision="pie-dev" />
-  <project path="vendor/nexell/app/nx_svm_autocalibration" name="android_apps_NxSvmAutoCalibration" groups="app" remote="nexell" revision="pie-dev" />
-  <project path="vendor/nexell/app/TSCalibration" name="android_apps_TSCalibration" groups="pdk" remote="nexell" revision="nougat-dev" />
+  <project path="vendor/nexell/app/nx_quickrearcam" name="linux_apps_NxQuickRearCam" groups="app" remote="nexell" revision="nexell_pie_r2" />
+  <project path="vendor/nexell/app/svm_daemon" name="solution_svm_daemon" groups="app" remote="nexell" revision="nexell_pie_r2" />
+  <project path="vendor/nexell/app/nx_init" name="nx_init" groups="app" remote="nexell" revision="nexell_pie_r2" />
+  <project path="vendor/nexell/app/nx_backgear_service" name="android_apps_NxBackGearService" groups="app" remote="nexell" revision="nexell_pie_r2" />
+  <project path="vendor/nexell/app/nx_rearcam_app" name="android_apps_NxRearCam" groups="app" remote="nexell" revision="nexell_pie_r2" />
+  <project path="vendor/nexell/app/nx_svm_app" name="android_apps_NxSvm" groups="app" remote="nexell" revision="nexell_pie_r2" />
+  <project path="vendor/nexell/app/nx_svm_viewmode_editor" name="android_apps_NxSvmViewModeEditor" groups="app" remote="nexell" revision="nexell_pie_r2" />
+  <project path="vendor/nexell/app/nx_svm_demo" name="android_apps_NxSvmDemo" groups="app" remote="nexell" revision="nexell_pie_r2" />
+  <project path="vendor/nexell/app/nx_svm_autocalibration" name="android_apps_NxSvmAutoCalibration" groups="app" remote="nexell" revision="nexell_pie_r2" />
+  <project path="vendor/nexell/app/TSCalibration" name="android_apps_TSCalibration" groups="pdk" remote="nexell" revision="nexell_pie_r2" />
 
   <!-- external -->
-  <project path="vendor/nexell/external/tslib" name="android_platform_external_tslib" groups="pdk" remote="nexell" revision="pie-dev" />
-  <project path="vendor/nexell/external/exfat" name="android_platform_external_exfat" groups="pdk" remote="nexell" revision="pie-dev" />
-  <project path="vendor/nexell/external/fuse" name="android_platform_external_fuse" groups="pdk" remote="nexell" revision="pie-dev" />
-  <project path="vendor/nexell/external/ntfs-3g" name="android_platform_external_ntfs-3g" groups="pdk" remote="nexell" revision="pie-dev" />
+  <project path="vendor/nexell/external/tslib" name="android_platform_external_tslib" groups="pdk" remote="nexell" revision="nexell_pie_r2" />
+  <project path="vendor/nexell/external/exfat" name="android_platform_external_exfat" groups="pdk" remote="nexell" revision="nexell_pie_r2" />
+  <project path="vendor/nexell/external/fuse" name="android_platform_external_fuse" groups="pdk" remote="nexell" revision="nexell_pie_r2" />
+  <project path="vendor/nexell/external/ntfs-3g" name="android_platform_external_ntfs-3g" groups="pdk" remote="nexell" revision="nexell_pie_r2" />
   <!--toolchain-->
-  <project path="vendor/nexell/toolchain/arm-eabi-4.8" name="toolchain_arm_eabi_4.8" groups="pdk" remote="nexell" revision="pie-dev" />
-  <project path="vendor/nexell/toolchain/gcc-linaro-4.9-2014.11-x86_64_arm-linux-gnueabihf" name="toolchain_linaro-2014.11" groups="pdk" remote="nexell" revision="pie-dev" />
-  <project path="vendor/nexell/toolchain/gcc-linaro-4.9-2015.05-x86_64_aarch64-linux-gnu" name="toolchain_linaro-2015.05" groups="pdk" remote="nexell" revision="pie-dev" />
+  <project path="vendor/nexell/toolchain/arm-eabi-4.8" name="toolchain_arm_eabi_4.8" groups="pdk" remote="nexell" revision="nexell_pie_r2" />
+  <project path="vendor/nexell/toolchain/gcc-linaro-4.9-2014.11-x86_64_arm-linux-gnueabihf" name="toolchain_linaro-2014.11" groups="pdk" remote="nexell" revision="nexell_pie_r2" />
+  <project path="vendor/nexell/toolchain/gcc-linaro-4.9-2015.05-x86_64_aarch64-linux-gnu" name="toolchain_linaro-2015.05" groups="pdk" remote="nexell" revision="nexell_pie_r2" />
   <!--tools-->
-  <project path="vendor/nexell/tools" name="vendor_tools" groups="pdk" remote="nexell" revision="pie-dev" />
+  <project path="vendor/nexell/tools" name="vendor_tools" groups="pdk" remote="nexell" revision="nexell_pie_r2" />
   <!--build-->
-  <project path="vendor/nexell/build" name="vendor_build" groups="pdk" remote="nexell" revision="pie-dev" />
+  <project path="vendor/nexell/build" name="vendor_build" groups="pdk" remote="nexell" revision="nexell_pie_r2" />
 
   <!-- board -->
-  <project path="device/nexell/con_svma" name="android_board_con_svma" groups="device" remote="nexell" revision="pie-dev" />
+  <project path="device/nexell/con_svma" name="android_board_con_svma" groups="device" remote="nexell" revision="nexell_pie_r2" />
 </manifest>
